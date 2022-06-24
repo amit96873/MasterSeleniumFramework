@@ -82,7 +82,7 @@ public class FlightPage extends BasePage {
     public FlightPage selectPax(String adults, String childs, String infants) throws InterruptedException {
         WebElement e1 = wetForElementTOClicable(selectpax);
         e1.click();
-        Thread.sleep(500);
+        Thread.sleep(5000);
             WebElement e2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + adults + "'])[1]")));
             e2.click();
             WebElement e3 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + childs + "'])[2]")));
