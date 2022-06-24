@@ -36,10 +36,8 @@ public class MyFirstTestCase extends BaseTest {
                         clickOnFlight().enterSource(flightSearchPageDataObject.getSource()).
                         enterDestination(flightSearchPageDataObject.getDestination()).
                         selectDate(flightSearchPageDataObject.getDate(),flightSearchPageDataObject.getMonthYear()).
-                                selectPreferredAirline(flightSearchPageDataObject.getPreferredAirlines()).
-                                selectPax(flightSearchPageDataObject.getAdults(),
-                                        flightSearchPageDataObject.getChilds(),
-                                        flightSearchPageDataObject.getInfants());
+                                selectPreferredAirline(flightSearchPageDataObject.getPreferredAirlines());
+                          
                         SearchResultPage searchResultPage = flightPage.clickOnSearchBtn();
                         Thread.sleep(6000);
                         Assert.assertEquals(searchResultPage.getTitle(),searchResultsPageDataObject.getTitle());
