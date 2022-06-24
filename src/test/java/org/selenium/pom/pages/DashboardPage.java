@@ -26,6 +26,7 @@ public class DashboardPage extends BasePage {
         return new HomePage(driver);
     }
     public boolean isLoaded(){
+
         return wait.until(ExpectedConditions.urlContains("/manage-user"));
     }
 
@@ -33,12 +34,6 @@ public class DashboardPage extends BasePage {
         WebElement e = wetForElementTOClicable(groupdropdoun);
         e.click();
         return this;
-//        wait.until(ExpectedConditions.elementToBeClickable(groupdropdoun)).click();
-//        WebElement e = wait.until(ExpectedConditions.elementToBeClickable(
-//                By.xpath("//li[text()='" + groupName + "']")));
-//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", e);
-//        e.click();
-//        return this;
     }
 
 }

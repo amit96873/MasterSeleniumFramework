@@ -28,8 +28,9 @@ protected WebDriver getDriver(){
     System.out.println("CURRENT THREAD"+ Thread.currentThread().getId()+","+"Driver = "+getDriver());
     }
     @AfterMethod
-    public void quitDriver(){
+    public void quitDriver() throws InterruptedException {
         System.out.println("CURRENT THREAD"+ Thread.currentThread().getId()+","+"Driver = "+getDriver());
+        Thread.sleep(1000);
         getDriver().quit();
     }
 }

@@ -29,7 +29,7 @@ public class ConfigLoader {
     public String getBaseUrl(){
         String prop = properties.getProperty("baseUrl");
         if(prop != null) return prop;
-        else throw new RuntimeException("property baseUrl is not specified in the stg_config.properties file");
+        else throw new RuntimeException("property base Url is not specified in the stg_config.properties file");
     }
 
     public String getUsername(){
