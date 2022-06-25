@@ -1,6 +1,7 @@
 package org.selenium.pom.pages;
 
 import com.fasterxml.jackson.databind.ser.Serializers;
+import io.qameta.allure.Step;
 import net.bytebuddy.agent.builder.AgentBuilder;
 import org.apache.tools.ant.taskdefs.optional.javah.Kaffeh;
 import org.checkerframework.checker.units.qual.K;
@@ -38,6 +39,8 @@ public class FlightPage extends BasePage {
         super(driver);
     }
 
+
+    @Step
     public FlightPage enterSource(String sourceName) throws InterruptedException {
         WebElement e = wetForElementTOVisible(origininputfield);
         e.click();
@@ -47,6 +50,7 @@ public class FlightPage extends BasePage {
         return this;
     }
 
+    @Step
     public FlightPage enterDestination(String destinationName) throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement e = wetForElementTOVisible(destinationinputfield);
@@ -57,7 +61,8 @@ public class FlightPage extends BasePage {
         return this;
     }
 
-    public FlightPage selectDate(String date, String MonthYear) throws InterruptedException {
+    @Step
+    public FlightPage selectOnwardsDate(String date, String MonthYear) throws InterruptedException {
 
         WebElement e = wetForElementTOVisible(departuredate);
         e.click();
@@ -79,10 +84,34 @@ public class FlightPage extends BasePage {
         return this;
     }
 
-    public FlightPage selectPax(String adults, String childs, String infants) throws InterruptedException {
+
+    @Step
+    public FlightPage selectReturnDate(String date, String MonthYear) throws InterruptedException {
+
+        WebElement e = wetForElementTOVisible(returndate);
+        e.click();
+
+
+        while (!driver.findElement(By.xpath("//div[@class='react-datepicker__current-month']")).getText().contains(MonthYear)){
+            WebElement element = wetForElementTOClicable(monthchangebtn);
+            element.click();
+        }
+
+        List<WebElement> al = driver.findElements(By.xpath("//div[@role='option']"));
+        for (int i=0;i<al.size();i++){
+            String value = al.get(i).getText();
+            if (value.equalsIgnoreCase(date)){
+                al.get(i).click();
+                break;
+            }
+        }
+        return this;
+    }
+    @Step
+    public FlightPage selectPaxWithAdultsChildsInfant(String adults, String childs, String infants) throws InterruptedException {
         WebElement e1 = wetForElementTOClicable(selectpax);
         e1.click();
-        Thread.sleep(5000);
+        Thread.sleep(500);
             WebElement e2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + adults + "'])[1]")));
             e2.click();
             WebElement e3 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + childs + "'])[2]")));
@@ -94,6 +123,31 @@ public class FlightPage extends BasePage {
         return this;
     }
 
+    public FlightPage selectAdultsPax(String adults) throws InterruptedException {
+        WebElement e1 = wetForElementTOClicable(selectpax);
+        e1.click();
+        Thread.sleep(500);
+        WebElement e2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + adults + "'])[1]")));
+        e2.click();
+        return this;
+    }
+    public FlightPage selectChildsPax(String childs){
+        WebElement e3 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + childs + "'])[2]")));
+        e3.click();
+        return this;
+    }
+    public FlightPage selectInfantsPax(String infants){
+        WebElement e4 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + infants + "'])[3]")));
+        e4.click();
+        return this;
+    }
+    public FlightPage clickonselectpaxDoneBtn(){
+        WebElement element5 = wetForElementTOClicable(paxdonebtn);
+        element5.click();
+        return this;
+    }
+    @Step
+
     public FlightPage selectPreferredAirline(String airline) throws InterruptedException {
         WebElement e = wetForElementTOClicable(selectPrefferedAirline);
         e.click();
@@ -103,12 +157,19 @@ public class FlightPage extends BasePage {
         element.sendKeys(Keys.ENTER);
         return this;
     }
+    @Step
 
     public SearchResultPage clickOnSearchBtn() {
         WebElement e = wetForElementTOClicable(searchBtn);
         e.click();
         return new SearchResultPage(driver);
     }
+
+   public FlightPage clickOnReturnBtn(){
+        WebElement e = wetForElementTOClicable(roundtripBtn);
+        e.click();
+        return this;
+   }
 
 
 

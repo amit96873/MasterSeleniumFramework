@@ -1,5 +1,6 @@
 package org.selenium.pom.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -20,15 +21,19 @@ public class DashboardPage extends BasePage {
         super(driver);
     }
 
+    @Step
     public HomePage clickOnLogoutBtn(){
         WebElement e = wetForElementTOClicable(logoutbtn);
         e.click();
         return new HomePage(driver);
     }
+
+    @Step
     public boolean isLoaded(){
 
         return wait.until(ExpectedConditions.urlContains("/manage-user"));
     }
+    @Step
 
     public DashboardPage selectGroup(){
         WebElement e = wetForElementTOClicable(groupdropdoun);

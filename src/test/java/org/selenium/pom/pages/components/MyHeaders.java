@@ -1,5 +1,6 @@
 package org.selenium.pom.pages.components;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -30,17 +31,20 @@ public class MyHeaders extends BasePage {
         super(driver);
     }
 
+
+    @Step
     public FlightPage clickOnFlight(){
         WebElement e = wetForElementTOClicable(flightLink);
         e.click();
         return new FlightPage(driver);
     }
-
+    @Step
     public HomePage clickOnLogout(){
         WebElement e = wetForElementTOClicable(logoutbtn);
         e.click();
         return new HomePage(driver);
     }
+    @Step
     public DashboardPage clickOnDashboard(){
         WebElement e = wetForElementTOClicable(dashboardLink);
         e.click();

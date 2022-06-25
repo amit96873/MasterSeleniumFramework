@@ -1,5 +1,6 @@
 package org.selenium.pom.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,12 +22,15 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
+    @Step
     public HomePage enterUserName(String username) {
         WebElement e = wetForElementTOVisible(usernameField);
         e.clear();
         e.sendKeys(username);
         return this;
     }
+
+    @Step
     public   HomePage enterPassword(String password){
         WebElement e = wetForElementTOVisible(passwordField);
         e.clear();
@@ -34,39 +38,53 @@ public class HomePage extends BasePage {
         return this;
 
     }
+
+    @Step
     public   DashboardPage clickOnLoginButton(){
         WebElement e = wetForElementTOClicable(loginBtn);
         e.click();
         return new DashboardPage(driver);
     }
+
+    @Step
     public String getTitle(){
         WebElement e = wetForElementTOVisible(homePageTitle);
         return e.getText();
     }
+    @Step
     public DashboardPage Login(String username, String password) {
         enterUserName(username).enterPassword(password).clickOnLoginButton();
         return new DashboardPage(driver);
     }
+    @Step
     public HomePage load(){
         load("/nav/");
         return this;
     }
+    @Step
    public HomePage setCredentials(LoginCredentials loginCredentials){
                 enterUserName(loginCredentials.getUsername()).
                 enterPassword(loginCredentials.getPassword());
                 return this;
    }
+    @Step
     public HomePage setUsername(LoginCredentials loginCredentials){
         enterUserName(loginCredentials.getUsername());
         return this;
     }
+
+    @Step
     public HomePage setPassword(LoginCredentials loginCredentials){
                 enterPassword(loginCredentials.getPassword());
         return this;
     }
+
+    @Step
     public Boolean isLoaded(){
         return  wait.until(ExpectedConditions.textToBe(homePageTitle,"Already using Technogram Solutions?"));
     }
+
+    @Step
     public DashboardPage login(User user){
         enterUserName(user.getUsername()).enterPassword(user.getPassword());
         HomePage homePage= new HomePage(driver);

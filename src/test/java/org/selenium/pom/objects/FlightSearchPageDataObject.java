@@ -9,11 +9,13 @@ public class FlightSearchPageDataObject {
     private String childs;
     private String infants;
     private String preferredAirlines;
+    private String returnDate;
+    private String returnMonthYear;
 
     public FlightSearchPageDataObject(){
 
     }
-    public FlightSearchPageDataObject(String source,String destination,String date,String monthYear,String adults, String childs, String infants, String preferredAirlines){
+    public FlightSearchPageDataObject(String source,String destination,String date,String monthYear,String adults, String childs, String infants, String preferredAirlines, String returnDate, String returnMonthYear){
         this.source=source;
         this.destination=destination;
         this.date=date;
@@ -86,6 +88,21 @@ public class FlightSearchPageDataObject {
 
     public void setPreferredAirlines(String preferredAirlines) {
         this.preferredAirlines = preferredAirlines;
+    }
+    public String getReturnDate() {
+        return returnDate;
+    }
+
+    public void setReturnDate(String returnDate) {
+        this.returnDate = returnDate;
+    }
+
+    public String getReturnMonthYear() {
+        return returnMonthYear;
+    }
+
+    public void setReturnMonthYear(String returnMonthYear) {
+        this.returnMonthYear = returnMonthYear;
     }
 
 

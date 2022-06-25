@@ -4,6 +4,7 @@ C:\MyProject\MasterSeleniumFramework\src\test\java\org\selenium\pom\pages\Dashbo
 C:\MyProject\MasterSeleniumFramework\src\test\java\org\selenium\pom\tests\MyFirstTestCase.java
 C:\MyProject\MasterSeleniumFramework\src\test\java\org\selenium\pom\base\BaseTest.java
 C:\MyProject\MasterSeleniumFramework\src\test\java\org\selenium\pom\objects\User.java
+C:\MyProject\MasterSeleniumFramework\src\test\java\org\selenium\pom\dataProvider\MyDataProvider.java
 C:\MyProject\MasterSeleniumFramework\src\test\java\org\selenium\pom\objects\LoginCredentials.java
 C:\MyProject\MasterSeleniumFramework\src\test\java\org\selenium\pom\objects\SearchResultsPageDataObject.java
 C:\MyProject\MasterSeleniumFramework\src\test\java\org\selenium\pom\utils\ConfigLoader.java
