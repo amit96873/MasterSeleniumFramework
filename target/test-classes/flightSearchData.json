@@ -6,45 +6,11 @@
   "monthYear": "August 2022",
   "returnDate": "27",
   "returnMonthYear": "August 2022",
-  "adults": "2",
-  "childs": "2",
+  "adults": "1",
+  "childs": "1",
   "infants": "1",
-  "preferredAirlines": "6e"
-},
-{
-"source": "del",
-"destination": "blr",
-"date": "29",
-"monthYear": "August 2022",
-  "returnDate": "30",
-  "returnMonthYear": "August 2022",
-"adults": "1",
-"childs": "1",
-"infants": "1",
-"preferredAirlines": "sg"
-},
-{
-"source": "BOM",
-"destination": "blr",
-"date": "28",
-"monthYear": "August 2022",
-  "returnDate": "29",
-  "returnMonthYear": "August 2022",
-"adults": "2",
-"childs": "1",
-"infants": "1",
-"preferredAirlines": "g8"
-},
-{
-"source": "del",
-"destination": "goi",
-"date": "20",
-"monthYear": "August 2022",
-  "returnDate": "26",
-  "returnMonthYear": "August 2022",
-"adults": "4",
-"childs": "2",
-"infants": "1",
-"preferredAirlines": "I5"
+  "preferredAirlines": "6e",
+  "title": "Show Incv",
+  "waitTime": "600"
 }
   ]

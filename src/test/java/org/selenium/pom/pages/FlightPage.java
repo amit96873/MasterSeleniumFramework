@@ -9,6 +9,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.selenium.pom.base.BasePage;
+import org.selenium.pom.utils.Log;
 
 import java.util.List;
 
@@ -35,38 +36,51 @@ public class FlightPage extends BasePage {
     private final By monthchangebtn = By.xpath("//button[text()='Next month']");
     private final By paxdonebtn = By.xpath("//a[text()='DONE']");
 
-    public FlightPage(WebDriver driver) {
+    public FlightPage(WebDriver driver)
+    {
         super(driver);
     }
 
 
     @Step
     public FlightPage enterSource(String sourceName) throws InterruptedException {
+        Log.info("trying to enter source");
         WebElement e = wetForElementTOVisible(origininputfield);
+        Log.info("clicking on source input fields-----------");
         e.click();
+        Log.info("clicked on source input fields-----------");
+        Log.info("Entering the data source as:- "+sourceName+" on source input fields-----------");
         e.sendKeys(sourceName);
-        Thread.sleep(500);
+        Log.info("Entered the data source as:- "+sourceName+" on source input fields-----------");
+        Thread.sleep(600);
         e.sendKeys(Keys.ENTER);
+        Log.info("clicked  on Enter----------");
         return this;
     }
 
     @Step
     public FlightPage enterDestination(String destinationName) throws InterruptedException {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
+        Log.info("trying to enter destination");
         WebElement e = wetForElementTOVisible(destinationinputfield);
+        Log.info("clicking on destination input fields-----------");
         e.click();
+        Log.info("clicked on destination input fields-----------");
+        Log.info("Entering the data destination as:- "+destinationName+" on destination input fields-----------");
         e.sendKeys(destinationName);
-        Thread.sleep(500);
+        Log.info("Entered the data destination as:- "+destinationName+" on destination input fields-----------");
+        Thread.sleep(600);
         e.sendKeys(Keys.ENTER);
+        Log.info("clicked on Enter Button-----------");
         return this;
     }
 
     @Step
     public FlightPage selectOnwardsDate(String date, String MonthYear) throws InterruptedException {
-
+        Log.info("trying to select departure Date");
         WebElement e = wetForElementTOVisible(departuredate);
+        Log.info("clicking on departure Date Calendar");
         e.click();
-
+        Log.info("clicked on departure Date Calendar");
 
         while (!driver.findElement(By.xpath("//div[@class='react-datepicker__current-month']")).getText().contains(MonthYear)){
             WebElement element = wetForElementTOClicable(monthchangebtn);
@@ -81,16 +95,18 @@ public class FlightPage extends BasePage {
                 break;
             }
         }
+        Log.info("have select the date as:-"+date+"-"+MonthYear);
         return this;
     }
 
 
     @Step
     public FlightPage selectReturnDate(String date, String MonthYear) throws InterruptedException {
-
+        Log.info("Trying to select Return Date");
         WebElement e = wetForElementTOVisible(returndate);
+        Log.info("clicking on Return Date Calendar");
         e.click();
-
+        Log.info("clicked on Return Date Calendar");
 
         while (!driver.findElement(By.xpath("//div[@class='react-datepicker__current-month']")).getText().contains(MonthYear)){
             WebElement element = wetForElementTOClicable(monthchangebtn);
@@ -105,69 +121,96 @@ public class FlightPage extends BasePage {
                 break;
             }
         }
+        Log.info("have select the date as:-"+date+"-"+MonthYear);
         return this;
     }
     @Step
-    public FlightPage selectPaxWithAdultsChildsInfant(String adults, String childs, String infants) throws InterruptedException {
+    public FlightPage selectPaxWithAdultsChildsInfant(String adults, String child, String infants) throws InterruptedException {
         WebElement e1 = wetForElementTOClicable(selectpax);
+        Log.info("trying to select pax");
+        Log.info("clicking on the select pax");
         e1.click();
-        Thread.sleep(500);
+        Log.info("clicked on the select pax field");
+        Thread.sleep(600);
             WebElement e2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + adults + "'])[1]")));
             e2.click();
-            WebElement e3 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + childs + "'])[2]")));
+            Log.info("have selected number of Adults is:-"+adults+"Adults");
+            WebElement e3 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + child + "'])[2]")));
             e3.click();
+        Log.info("have selected number of Child is:-"+child+"Child");
             WebElement e4 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + infants + "'])[3]")));
             e4.click();
+        Log.info("have selected number of Infants is:-"+infants+"Infants");
         WebElement element5 = wetForElementTOClicable(paxdonebtn);
         element5.click();
+        Log.info("The number of pax have selected is:-"+adults+"Adults,"+child+"Child,"+infants+"Infants");
         return this;
     }
-
+    @Step
     public FlightPage selectAdultsPax(String adults) throws InterruptedException {
+        Log.info("selecting number of Adult pax:-"+adults);
         WebElement e1 = wetForElementTOClicable(selectpax);
         e1.click();
-        Thread.sleep(500);
+        Thread.sleep(600);
         WebElement e2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + adults + "'])[1]")));
         e2.click();
+        Log.info("selected number of Adult pax:-"+adults);
         return this;
     }
-    public FlightPage selectChildsPax(String childs){
-        WebElement e3 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + childs + "'])[2]")));
+    @Step
+    public FlightPage selectChildPax(String child){
+        Log.info("selecting number of child pax:-"+child);
+        WebElement e3 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + child + "'])[2]")));
         e3.click();
+        Log.info("selected number of child pax:-"+child);
         return this;
     }
+    @Step
     public FlightPage selectInfantsPax(String infants){
+        Log.info("selecting number of infant pax:-"+infants);
         WebElement e4 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='" + infants + "'])[3]")));
         e4.click();
+        Log.info("selected number of infant pax:-"+infants);
         return this;
     }
-    public FlightPage clickonselectpaxDoneBtn(){
+    @Step
+    public FlightPage clickOnSelectPaxDoneBtn(){
+        Log.info("clicking on select pax done button...........");
         WebElement element5 = wetForElementTOClicable(paxdonebtn);
         element5.click();
+        Log.info("clicked on select pax done button");
         return this;
     }
     @Step
-
     public FlightPage selectPreferredAirline(String airline) throws InterruptedException {
+        Log.info("Trying to select preferred Airlines");
         WebElement e = wetForElementTOClicable(selectPrefferedAirline);
+        Log.info("clicking on preferred Airlines field");
         e.click();
+        Log.info("clicked on preferred Airlines field");
         WebElement element= wetForElementTOVisible(inputfieldPrefferedAirline);
         element.sendKeys(airline);
-        Thread.sleep(500);
+        Log.info("have selected preferred Airlines As:-"+airline+"Airline");
+        Thread.sleep(600);
         element.sendKeys(Keys.ENTER);
+        Log.info("click on Enter Button");
         return this;
     }
     @Step
-
     public SearchResultPage clickOnSearchBtn() {
         WebElement e = wetForElementTOClicable(searchBtn);
+        Log.info("clicking on Search Button of flight search page");
         e.click();
+        Log.info("clicked on Search Button of flight search page");
         return new SearchResultPage(driver);
     }
 
+    @Step
    public FlightPage clickOnReturnBtn(){
         WebElement e = wetForElementTOClicable(roundtripBtn);
+        Log.info("Clicking on RoundTrip Button");
         e.click();
+       Log.info("Clicked on RoundTrip Button");
         return this;
    }
 

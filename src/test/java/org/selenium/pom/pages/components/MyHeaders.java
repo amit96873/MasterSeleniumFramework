@@ -8,6 +8,8 @@ import org.selenium.pom.base.BasePage;
 import org.selenium.pom.pages.DashboardPage;
 import org.selenium.pom.pages.FlightPage;
 import org.selenium.pom.pages.HomePage;
+import org.selenium.pom.pages.ManageCartsPage;
+import org.selenium.pom.utils.Log;
 
 public class MyHeaders extends BasePage {
 
@@ -25,6 +27,8 @@ public class MyHeaders extends BasePage {
     private final By logoutbtn = By.xpath("//*[text()='Logout']");
     private final By logobtn = By.xpath("//img[@class='img-responsive companyLogo-size']");
     private final By userNamelogobtn =By.xpath("//span[@class='navbar-brand-name']");
+    private final By switchBackBtn = By.xpath("//*[text()='Switch Back']");
+    private final By manageCartBtn = By.xpath("//*[text()='Manage Carts']");
 
 
     public MyHeaders(WebDriver driver) {
@@ -34,21 +38,43 @@ public class MyHeaders extends BasePage {
 
     @Step
     public FlightPage clickOnFlight(){
+        Log.info("clicking on flight Button-----------");
         WebElement e = wetForElementTOClicable(flightLink);
         e.click();
+        Log.info("successfully clicked on flight Button-----------");
         return new FlightPage(driver);
     }
     @Step
     public HomePage clickOnLogout(){
+        Log.info("clicking on Logout Button-----------");
         WebElement e = wetForElementTOClicable(logoutbtn);
         e.click();
+        Log.info("Successfully clicked on Logout Button-----------");
         return new HomePage(driver);
     }
     @Step
     public DashboardPage clickOnDashboard(){
+        Log.info("clicking on dashboard Button-----------");
         WebElement e = wetForElementTOClicable(dashboardLink);
         e.click();
+        Log.info("successfully clicked on dashboard Button-----------");
         return new DashboardPage(driver);
+    }
+    @Step
+    public DashboardPage clickOnSwitchBackBtn(){
+        Log.info("clicking on Switch Back Btn..................");
+        WebElement e = wetForElementTOClicable(switchBackBtn);
+        e.click();
+        Log.info("clicked on switch back button and get back to dashboard page");
+        return new DashboardPage(driver);
+    }
+    @Step
+    public ManageCartsPage clickOnManageCart(){
+        Log.info("clicking on Manage Cart Left Nav Button Link.................");
+        WebElement e = wetForElementTOClicable(manageCartBtn);
+        e.click();
+        Log.info("clicked on Manage Cart Left Nav Button Link and get to Manage Cart Page");
+        return new ManageCartsPage(driver);
     }
 
 }
