@@ -95,6 +95,8 @@ public class PaxDetailsPage extends BasePage {
     private By proceedToReviewBtn = By.xpath("//i[@class='fa fa-angle-double-right proceed-button-positionHandle']");
     private By mobileNumberInputField = By.id("mobile_feild");
     private By emailInputField = By.id("email_feild");
+
+    private By skipProtectGroup = By.xpath("(//*[@class='protectGrp__radio--text'])[2]");
     public PaxDetailsPage(WebDriver driver) {
         super(driver);
     }
@@ -290,6 +292,15 @@ public class PaxDetailsPage extends BasePage {
         return new TermsAndConditionsPage(driver);
     }
 
+    @Step
+    public PaxDetailsPage clickOnSkipProtectGroupBtn(){
+        Log.info("clicking on skip button of protect group...");
+        WebElement e = wetForElementTOClicable(skipProtectGroup);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", e);
+        e.click();
+        Log.info("have clicked on skip protect group btn");
+        return this;
+    }
 
 
 }

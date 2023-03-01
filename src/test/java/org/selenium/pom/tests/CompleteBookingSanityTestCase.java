@@ -1,19 +1,15 @@
 package org.selenium.pom.tests;
-
 import io.qameta.allure.*;
 import org.selenium.pom.base.BaseTest;
 import org.selenium.pom.dataProvider.MyDataProvider;
 import org.selenium.pom.objects.CompleteBookingSanityDataObject;
-import org.selenium.pom.objects.SearchResultsPageDataObject;
 import org.selenium.pom.objects.User;
 import org.selenium.pom.pages.*;
 import org.selenium.pom.pages.ManageCartsPage;
 import org.selenium.pom.pages.components.MyHeaders;
 import org.selenium.pom.utils.ConfigLoader;
-import org.selenium.pom.utils.JacksonUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 @Epic("Complete Sanity of Booking")
 @Feature("Bookings, Amendments")

@@ -10,6 +10,7 @@ import org.selenium.pom.utils.Log;
 public class BookingSummaryPage extends BasePage {
     private final By clickingOnBookingId = By.xpath("//*[@class='abt-succedspan']");
     private final By bookingStatusText = By.xpath("(//*[text()='Cancelled'])[1]");
+    private final By bookingStatusTextOnBSummeryPage = By.xpath("//*[text()='Success']");
     public BookingSummaryPage(WebDriver driver) {
         super(driver);
     }
@@ -31,4 +32,14 @@ public class BookingSummaryPage extends BasePage {
         Log.info("got the status As "+bookingStatus+"");
         return bookingStatus;
     }
+    @Step
+    public String getBookingStatusForSuccessBooking(){
+
+        Log.info("getting the booking status of the Booking summery page");
+        WebElement e = wetForElementTOVisible(bookingStatusTextOnBSummeryPage);
+        String bookingStatus = e.getText();
+        Log.info("got the status As "+bookingStatus+"");
+        return bookingStatus;
+    }
+
 }

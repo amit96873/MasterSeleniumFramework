@@ -17,6 +17,7 @@ public class ReviewPage extends BasePage {
     private final By backBtn= By.xpath("//span[text()='BACK']");
     private final By popupContinueBtn = By.xpath("//button[text()='Continue']");
     private final By popupBackBtn = By.xpath("//button[text()='Back']");
+    private  final By popupTitle = By.xpath("//h1[text()='Confirm to proceed']");
 
 
     public ReviewPage(WebDriver driver) {
@@ -46,6 +47,26 @@ public class ReviewPage extends BasePage {
         WebElement e = wetForElementTOClicable(popupContinueBtn);
         e.click();
         Log.info("clicked on popup continue button.........");
+        return this;
+    }
+    @Step
+    public String getTitlePopupOfReviewPage(){
+
+        Log.info("getting the pop up status of the review page");
+        WebElement e = wetForElementTOVisible(popupTitle);
+        String popupTitle = e.getText();
+        Log.info("got the status As "+popupTitle+"");
+        return popupTitle;
+    }
+    @Step
+    public ReviewPage checkPopupAndClickOnContinue(){
+        WebElement e = wetForElementTOVisible(popupTitle);
+        String title = e.getText();
+        String s = "Confirm to proceed";
+        if(title.equalsIgnoreCase(s)){
+            WebElement e1 = wetForElementTOClicable(popupContinueBtn);
+            e1.click();
+        }
         return this;
     }
 }

@@ -1,0 +1,35 @@
+[
+  {
+    "userId":"599963",
+    "source": "del",
+    "destination": "bom",
+    "date": "15",
+    "monthYear": "August 2023",
+    "returnDate": "18",
+    "returnMonthYear": "August 2023",
+    "adults": "1",
+    "childs": "1",
+    "infants": "1",
+    "preferredAirlines": "6e",
+    "firstAdultTitle": "Mr",
+    "adult1FirstName": "monuytr",
+    "adult1LastName": "mishra",
+    "firstChildTitle": "Master",
+    "child1FirstName": "Dhanuvfgt",
+    "child1LastName": "mik",
+    "firstInfantTitle": "Ms",
+    "infant1FirstName": "tunugft",
+    "infant1LastName": "ndjhfi",
+    "infant1DOB": "14/12/2021",
+    "mobileNumber": "9848370141",
+    "email": "amit96873@gmail.com",
+    "amendmentsType": "Cancellation",
+    "paxCountToSelectForAmendments": "3",
+    "remarks": "i am raising the amendments",
+    "notes": "processing the Amendments",
+    "reason": "i am trying to cancel my booking",
+    "bookingStatus": " Cancelled",
+    "waitTime": "6000"
+
+  }
+]

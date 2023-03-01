@@ -1,12 +1,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="Suite1" verbose="1" thread-count="2" parallel="tests">
+<suite name="QA_Suite" verbose="1" thread-count="2" parallel="tests">
 
 
-    <test name="Chrome" thread-count="6" parallel="methods">
+    <test name="Chrome" thread-count="2" parallel="classes">
         <parameter name="browser" value="CHROME"/>
         <classes>
-            <class name="org.selenium.pom.tests.MyFirstTestCase" />
+            <class name="org.selenium.pom.tests.OnewayDirectTestCase" />
+            <class name="org.selenium.pom.tests.OnewayConnectingTestCase" />
+            <class name="org.selenium.pom.tests.RoundTripDirectTestCase" />
+            <class name="org.selenium.pom.tests.RoundTripConnectingTestCase" />
         </classes>
     </test>
 

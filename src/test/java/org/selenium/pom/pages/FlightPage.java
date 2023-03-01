@@ -101,14 +101,14 @@ public class FlightPage extends BasePage {
 
 
     @Step
-    public FlightPage selectReturnDate(String date, String MonthYear) throws InterruptedException {
+    public FlightPage selectReturnDate(String returnDate, String returnMonthYear) throws InterruptedException {
         Log.info("Trying to select Return Date");
         WebElement e = wetForElementTOVisible(returndate);
         Log.info("clicking on Return Date Calendar");
         e.click();
         Log.info("clicked on Return Date Calendar");
 
-        while (!driver.findElement(By.xpath("//div[@class='react-datepicker__current-month']")).getText().contains(MonthYear)){
+        while (!driver.findElement(By.xpath("//div[@class='react-datepicker__current-month']")).getText().contains(returnMonthYear)){
             WebElement element = wetForElementTOClicable(monthchangebtn);
             element.click();
         }
@@ -116,12 +116,12 @@ public class FlightPage extends BasePage {
         List<WebElement> al = driver.findElements(By.xpath("//div[@role='option']"));
         for (int i=0;i<al.size();i++){
             String value = al.get(i).getText();
-            if (value.equalsIgnoreCase(date)){
+            if (value.equalsIgnoreCase(returnDate)){
                 al.get(i).click();
                 break;
             }
         }
-        Log.info("have select the date as:-"+date+"-"+MonthYear);
+        Log.info("have select the date as:-"+returnDate+"-"+returnMonthYear);
         return this;
     }
     @Step
