@@ -13600,3 +13600,1169 @@
 2023-03-01 15:18:57 INFO  Log:20 - trying to click on confirm pay now button.........
 2023-03-01 15:18:58 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
 2023-03-01 15:19:04 INFO  Log:20 - getting the booking status of the Booking summery page
+2023-03-02 11:24:54 INFO  Log:20 - this is before method
+2023-03-02 11:25:03 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 11:25:08 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 11:25:08 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 11:25:08 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 11:25:08 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 11:25:08 INFO  Log:20 - Trying to Enter Password
+2023-03-02 11:25:08 INFO  Log:20 - Entered Password As 123456
+2023-03-02 11:25:08 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 11:25:09 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 11:25:09 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 11:25:11 INFO  Log:20 - Searching user as:-599963
+2023-03-02 11:25:13 INFO  Log:20 - get the user as :-599963
+2023-03-02 11:25:13 INFO  Log:20 - clicking on search button of user......
+2023-03-02 11:25:14 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 11:25:14 INFO  Log:20 - emulating user...............
+2023-03-02 11:25:15 INFO  Log:20 - emulated user...............
+2023-03-02 11:25:20 INFO  Log:20 - Clicking on MultiCity Button
+2023-03-02 11:25:21 INFO  Log:20 - Clicked on MultiCity Button
+2023-03-02 11:25:21 INFO  Log:20 - trying to enter source
+2023-03-02 11:25:21 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 11:25:21 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 11:25:21 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 11:25:21 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 11:25:22 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 11:25:22 INFO  Log:20 - trying to enter destination
+2023-03-02 11:25:22 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 11:25:22 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 11:25:22 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
+2023-03-02 11:25:22 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
+2023-03-02 11:25:23 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 11:25:23 INFO  Log:20 - trying to select departure Date
+2023-03-02 11:25:23 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 11:25:23 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 11:25:26 INFO  Log:20 - have select the date as:-15-August 2023
+2023-03-02 11:25:26 INFO  Log:20 - trying to enter multi city second source
+2023-03-02 11:25:26 INFO  Log:20 - clicking on multi city second source input fields-----------
+2023-03-02 11:25:26 INFO  Log:20 - clicked on multi city second source input fields-----------
+2023-03-02 11:25:26 INFO  Log:20 - Entering the data source as:- bom on multi city second source input fields-----------
+2023-03-02 11:25:26 INFO  Log:20 - Entered the data source as:- bom on multi city second source input fields-----------
+2023-03-02 11:25:27 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 11:25:27 INFO  Log:20 - trying to enter multi city second destination
+2023-03-02 11:25:27 INFO  Log:20 - clicking on multi city second destination input fields-----------
+2023-03-02 11:25:27 INFO  Log:20 - clicked on multi city second destination input fields-----------
+2023-03-02 11:25:27 INFO  Log:20 - Entering the data multi city second destination as:- blr on multi city second destination input fields-----------
+2023-03-02 11:25:27 INFO  Log:20 - Entered the data multi city second destination as:- blr on multi city second destination input fields-----------
+2023-03-02 11:25:28 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 11:25:28 INFO  Log:20 - Trying to select Multi City Second Date
+2023-03-02 11:25:28 INFO  Log:20 - clicking on Multi City Second  Date Calendar
+2023-03-02 11:25:28 INFO  Log:20 - clicked on Multi City Second  Date Calendar
+2023-03-02 11:25:29 INFO  Log:20 - have select the date as:-20-August 2023
+2023-03-02 11:25:29 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 11:25:29 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 11:25:29 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 11:25:29 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 11:25:30 INFO  Log:20 - click on Enter Button
+2023-03-02 11:25:30 INFO  Log:20 - trying to select pax
+2023-03-02 11:25:30 INFO  Log:20 - clicking on the select pax
+2023-03-02 11:25:30 INFO  Log:20 - clicked on the select pax field
+2023-03-02 11:25:31 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 11:25:31 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 11:25:31 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 11:25:31 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 11:25:31 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 11:25:31 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 11:25:37 INFO  Log:20 - getting current url..............
+2023-03-02 11:25:37 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight
+2023-03-02 11:25:37 INFO  Log:20 - adding source id in current url
+2023-03-02 11:25:37 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 11:25:37 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight&sId=5
+2023-03-02 11:25:52 INFO  Log:20 - clicking on stop count 0 .............
+2023-03-02 11:28:42 INFO  Log:20 - this is before method
+2023-03-02 11:28:48 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 11:28:52 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 11:28:52 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 11:28:52 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 11:28:52 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 11:28:52 INFO  Log:20 - Trying to Enter Password
+2023-03-02 11:28:52 INFO  Log:20 - Entered Password As 123456
+2023-03-02 11:28:52 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 11:28:52 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 11:28:52 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 11:28:54 INFO  Log:20 - Searching user as:-599963
+2023-03-02 11:28:56 INFO  Log:20 - get the user as :-599963
+2023-03-02 11:28:56 INFO  Log:20 - clicking on search button of user......
+2023-03-02 11:28:56 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 11:28:56 INFO  Log:20 - emulating user...............
+2023-03-02 11:28:57 INFO  Log:20 - emulated user...............
+2023-03-02 11:29:02 INFO  Log:20 - Clicking on MultiCity Button
+2023-03-02 11:29:02 INFO  Log:20 - Clicked on MultiCity Button
+2023-03-02 11:29:02 INFO  Log:20 - trying to enter source
+2023-03-02 11:29:02 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 11:29:02 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 11:29:02 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 11:29:03 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 11:29:03 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 11:29:03 INFO  Log:20 - trying to enter destination
+2023-03-02 11:29:03 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 11:29:03 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 11:29:03 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
+2023-03-02 11:29:03 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
+2023-03-02 11:29:04 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 11:29:04 INFO  Log:20 - trying to select departure Date
+2023-03-02 11:29:04 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 11:29:04 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 11:29:06 INFO  Log:20 - have select the date as:-15-August 2023
+2023-03-02 11:29:06 INFO  Log:20 - trying to enter multi city second source
+2023-03-02 11:29:06 INFO  Log:20 - clicking on multi city second source input fields-----------
+2023-03-02 11:29:06 INFO  Log:20 - clicked on multi city second source input fields-----------
+2023-03-02 11:29:06 INFO  Log:20 - Entering the data source as:- bom on multi city second source input fields-----------
+2023-03-02 11:29:06 INFO  Log:20 - Entered the data source as:- bom on multi city second source input fields-----------
+2023-03-02 11:29:07 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 11:29:07 INFO  Log:20 - trying to enter multi city second destination
+2023-03-02 11:29:07 INFO  Log:20 - clicking on multi city second destination input fields-----------
+2023-03-02 11:29:07 INFO  Log:20 - clicked on multi city second destination input fields-----------
+2023-03-02 11:29:07 INFO  Log:20 - Entering the data multi city second destination as:- blr on multi city second destination input fields-----------
+2023-03-02 11:29:07 INFO  Log:20 - Entered the data multi city second destination as:- blr on multi city second destination input fields-----------
+2023-03-02 11:29:08 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 11:29:08 INFO  Log:20 - Trying to select Multi City Second Date
+2023-03-02 11:29:08 INFO  Log:20 - clicking on Multi City Second  Date Calendar
+2023-03-02 11:29:08 INFO  Log:20 - clicked on Multi City Second  Date Calendar
+2023-03-02 11:29:08 INFO  Log:20 - have select the date as:-20-August 2023
+2023-03-02 11:29:08 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 11:29:08 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 11:29:09 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 11:29:09 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 11:29:10 INFO  Log:20 - click on Enter Button
+2023-03-02 11:29:10 INFO  Log:20 - trying to select pax
+2023-03-02 11:29:10 INFO  Log:20 - clicking on the select pax
+2023-03-02 11:29:10 INFO  Log:20 - clicked on the select pax field
+2023-03-02 11:29:10 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 11:29:10 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 11:29:11 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 11:29:11 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 11:29:11 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 11:29:11 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 11:29:17 INFO  Log:20 - getting current url..............
+2023-03-02 11:29:17 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?origin_1=BOM&destination_1=BLR&depDate_1=2023-08-20&origin_0=DEL&destination_0=BOM&depDate_0=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=2&prefAirCode=6E&pft=REGULAR
+2023-03-02 11:29:17 INFO  Log:20 - adding source id in current url
+2023-03-02 11:29:17 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 11:29:17 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?origin_1=BOM&destination_1=BLR&depDate_1=2023-08-20&origin_0=DEL&destination_0=BOM&depDate_0=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=2&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 11:29:32 INFO  Log:20 - clicking on stop count 0 .............
+2023-03-02 11:29:32 INFO  Log:20 - clicked on stop count 0 ............
+2023-03-02 11:29:38 INFO  Log:20 - clicking on book button..........
+2023-03-02 11:29:38 INFO  Log:20 - clicked on book button..........
+2023-03-02 11:29:51 INFO  Log:20 - trying to click on add passenger button.......
+2023-03-02 11:29:56 INFO  Log:20 - clicked on add passenger button.......
+2023-03-02 11:29:56 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 11:29:57 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 11:29:57 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 11:29:58 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 11:29:58 INFO  Log:20 - clicking on the title drop box for the first Adult.............
+2023-03-02 11:29:58 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
+2023-03-02 11:29:58 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
+2023-03-02 11:29:58 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
+2023-03-02 11:29:58 INFO  Log:20 - trying to enter Adult1 first name.....As:-umeshaqw
+2023-03-02 11:29:59 INFO  Log:20 - successfully entered Adult1 first name.....As:-umeshaqw
+2023-03-02 11:29:59 INFO  Log:20 - trying to enter Adult1 last name.....As:-mishra
+2023-03-02 11:29:59 INFO  Log:20 - successfully entered Adult1 last name.....As:-mishra
+2023-03-02 11:29:59 INFO  Log:20 - clicking on the title drop box for the first child.............
+2023-03-02 11:29:59 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
+2023-03-02 11:30:00 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
+2023-03-02 11:30:00 INFO  Log:20 - have successfully selected the first child title as:-Master
+2023-03-02 11:30:00 INFO  Log:20 - trying to enter child1 first name.....As:-umeshbdf
+2023-03-02 11:30:00 INFO  Log:20 - successfully entered child1 first name ....As:-umeshbdf
+2023-03-02 11:30:00 INFO  Log:20 - trying to enter child1 last name.....As:-mik
+2023-03-02 11:30:01 INFO  Log:20 - successfully entered child1 last name ....As:-mik
+2023-03-02 11:30:01 INFO  Log:20 - clicking on the title drop box for the first Infant.............
+2023-03-02 11:30:01 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
+2023-03-02 11:30:01 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
+2023-03-02 11:30:01 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
+2023-03-02 11:30:01 INFO  Log:20 - trying to enter infant1 first name.....As:-umeshcwsd
+2023-03-02 11:30:02 INFO  Log:20 - successfully entered infant1 first name ....As:-umeshcwsd
+2023-03-02 11:30:02 INFO  Log:20 - trying to enter infant1 last name.....As:-ndjhfi
+2023-03-02 11:30:02 INFO  Log:20 - successfully entered  infant1 last name.....As:-ndjhfi
+2023-03-02 11:30:02 INFO  Log:20 - trying to enter mobile number As:-9848370141
+2023-03-02 11:30:03 INFO  Log:20 - successfully entered mobile number as:-9848370141
+2023-03-02 11:30:03 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
+2023-03-02 11:30:03 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
+2023-03-02 11:30:03 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
+2023-03-02 11:30:03 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
+2023-03-02 11:30:03 INFO  Log:20 - clicking on skip button of protect group...
+2023-03-02 11:30:04 INFO  Log:20 - have clicked on skip protect group btn
+2023-03-02 11:30:04 INFO  Log:20 - trying to click on proceed button.............
+2023-03-02 11:30:04 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
+2023-03-02 11:30:04 INFO  Log:20 - clicking on proceed to pay button.........
+2023-03-02 11:30:05 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
+2023-03-02 11:30:05 INFO  Log:20 - trying to click on pay now button.........
+2023-03-02 11:30:06 INFO  Log:20 - successfully clicked on pay now button.........
+2023-03-02 11:30:06 INFO  Log:20 - trying to click on confirm pay now button.........
+2023-03-02 11:30:06 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
+2023-03-02 11:30:12 INFO  Log:20 - getting the booking status of the Booking summery page
+2023-03-02 11:46:06 INFO  Log:20 - this is before method
+2023-03-02 11:46:11 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 11:46:15 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 11:46:15 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 11:46:15 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 11:46:15 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 11:46:15 INFO  Log:20 - Trying to Enter Password
+2023-03-02 11:46:15 INFO  Log:20 - Entered Password As 123456
+2023-03-02 11:46:15 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 11:46:15 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 11:46:15 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 11:46:18 INFO  Log:20 - Searching user as:-599963
+2023-03-02 11:46:20 INFO  Log:20 - get the user as :-599963
+2023-03-02 11:46:20 INFO  Log:20 - clicking on search button of user......
+2023-03-02 11:46:20 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 11:46:20 INFO  Log:20 - emulating user...............
+2023-03-02 11:46:21 INFO  Log:20 - emulated user...............
+2023-03-02 11:46:26 INFO  Log:20 - Clicking on MultiCity Button
+2023-03-02 11:46:26 INFO  Log:20 - Clicked on MultiCity Button
+2023-03-02 11:46:26 INFO  Log:20 - trying to enter source
+2023-03-02 11:46:26 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 11:46:27 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 11:46:27 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 11:46:27 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 11:46:27 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 11:46:27 INFO  Log:20 - trying to enter destination
+2023-03-02 11:46:27 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 11:46:27 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 11:46:27 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
+2023-03-02 11:46:28 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
+2023-03-02 11:46:28 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 11:46:28 INFO  Log:20 - trying to select departure Date
+2023-03-02 11:46:28 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 11:46:29 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 11:46:30 INFO  Log:20 - have select the date as:-15-August 2023
+2023-03-02 11:46:30 INFO  Log:20 - trying to enter multi city second source
+2023-03-02 11:46:30 INFO  Log:20 - clicking on multi city second source input fields-----------
+2023-03-02 11:46:30 INFO  Log:20 - clicked on multi city second source input fields-----------
+2023-03-02 11:46:30 INFO  Log:20 - Entering the data source as:- bom on multi city second source input fields-----------
+2023-03-02 11:46:30 INFO  Log:20 - Entered the data source as:- bom on multi city second source input fields-----------
+2023-03-02 11:46:31 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 11:46:31 INFO  Log:20 - trying to enter multi city second destination
+2023-03-02 11:46:31 INFO  Log:20 - clicking on multi city second destination input fields-----------
+2023-03-02 11:46:31 INFO  Log:20 - clicked on multi city second destination input fields-----------
+2023-03-02 11:46:31 INFO  Log:20 - Entering the data multi city second destination as:- blr on multi city second destination input fields-----------
+2023-03-02 11:46:31 INFO  Log:20 - Entered the data multi city second destination as:- blr on multi city second destination input fields-----------
+2023-03-02 11:46:32 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 11:46:32 INFO  Log:20 - Trying to select Multi City Second Date
+2023-03-02 11:46:32 INFO  Log:20 - clicking on Multi City Second  Date Calendar
+2023-03-02 11:46:32 INFO  Log:20 - clicked on Multi City Second  Date Calendar
+2023-03-02 11:46:32 INFO  Log:20 - have select the date as:-21-August 2023
+2023-03-02 11:46:32 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 11:46:32 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 11:46:32 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 11:46:33 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 11:46:33 INFO  Log:20 - click on Enter Button
+2023-03-02 11:46:33 INFO  Log:20 - trying to select pax
+2023-03-02 11:46:33 INFO  Log:20 - clicking on the select pax
+2023-03-02 11:46:33 INFO  Log:20 - clicked on the select pax field
+2023-03-02 11:46:34 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 11:46:34 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 11:46:34 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 11:46:34 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 11:46:34 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 11:46:35 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 11:46:41 INFO  Log:20 - getting current url..............
+2023-03-02 11:46:41 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?origin_1=BOM&destination_1=BLR&depDate_1=2023-08-21&origin_0=DEL&destination_0=BOM&depDate_0=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=2&prefAirCode=6E&pft=REGULAR
+2023-03-02 11:46:41 INFO  Log:20 - adding source id in current url
+2023-03-02 11:46:41 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 11:46:41 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?origin_1=BOM&destination_1=BLR&depDate_1=2023-08-21&origin_0=DEL&destination_0=BOM&depDate_0=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=2&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 11:46:55 INFO  Log:20 - clicking on stop count 1 .............
+2023-03-02 11:46:56 INFO  Log:20 - clicked on stop count 1 ............
+2023-03-02 11:47:02 INFO  Log:20 - clicking on book button..........
+2023-03-02 11:47:02 INFO  Log:20 - clicked on book button..........
+2023-03-02 11:47:14 INFO  Log:20 - trying to click on add passenger button.......
+2023-03-02 11:47:20 INFO  Log:20 - clicked on add passenger button.......
+2023-03-02 11:47:20 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 11:47:21 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 11:47:21 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 11:47:21 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 11:47:21 INFO  Log:20 - clicking on the title drop box for the first Adult.............
+2023-03-02 11:47:21 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
+2023-03-02 11:47:21 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
+2023-03-02 11:47:21 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
+2023-03-02 11:47:21 INFO  Log:20 - trying to enter Adult1 first name.....As:-umeshaqw
+2023-03-02 11:47:22 INFO  Log:20 - successfully entered Adult1 first name.....As:-umeshaqw
+2023-03-02 11:47:22 INFO  Log:20 - trying to enter Adult1 last name.....As:-mishra
+2023-03-02 11:47:22 INFO  Log:20 - successfully entered Adult1 last name.....As:-mishra
+2023-03-02 11:47:22 INFO  Log:20 - clicking on the title drop box for the first child.............
+2023-03-02 11:47:22 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
+2023-03-02 11:47:23 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
+2023-03-02 11:47:23 INFO  Log:20 - have successfully selected the first child title as:-Master
+2023-03-02 11:47:23 INFO  Log:20 - trying to enter child1 first name.....As:-umeshbdf
+2023-03-02 11:47:23 INFO  Log:20 - successfully entered child1 first name ....As:-umeshbdf
+2023-03-02 11:47:23 INFO  Log:20 - trying to enter child1 last name.....As:-mik
+2023-03-02 11:47:24 INFO  Log:20 - successfully entered child1 last name ....As:-mik
+2023-03-02 11:47:24 INFO  Log:20 - clicking on the title drop box for the first Infant.............
+2023-03-02 11:47:24 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
+2023-03-02 11:47:24 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
+2023-03-02 11:47:24 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
+2023-03-02 11:47:24 INFO  Log:20 - trying to enter infant1 first name.....As:-umeshcwsd
+2023-03-02 11:47:25 INFO  Log:20 - successfully entered infant1 first name ....As:-umeshcwsd
+2023-03-02 11:47:25 INFO  Log:20 - trying to enter infant1 last name.....As:-ndjhfi
+2023-03-02 11:47:25 INFO  Log:20 - successfully entered  infant1 last name.....As:-ndjhfi
+2023-03-02 11:47:25 INFO  Log:20 - trying to enter mobile number As:-9848370141
+2023-03-02 11:47:26 INFO  Log:20 - successfully entered mobile number as:-9848370141
+2023-03-02 11:47:26 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
+2023-03-02 11:47:26 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
+2023-03-02 11:47:26 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
+2023-03-02 11:47:26 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
+2023-03-02 11:47:26 INFO  Log:20 - clicking on skip button of protect group...
+2023-03-02 11:47:27 INFO  Log:20 - have clicked on skip protect group btn
+2023-03-02 11:47:27 INFO  Log:20 - trying to click on proceed button.............
+2023-03-02 11:47:27 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
+2023-03-02 11:47:27 INFO  Log:20 - clicking on proceed to pay button.........
+2023-03-02 11:47:28 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
+2023-03-02 11:47:28 INFO  Log:20 - trying to click on pay now button.........
+2023-03-02 11:47:28 INFO  Log:20 - successfully clicked on pay now button.........
+2023-03-02 11:47:28 INFO  Log:20 - trying to click on confirm pay now button.........
+2023-03-02 11:47:29 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
+2023-03-02 11:47:35 INFO  Log:20 - getting the booking status of the Booking summery page
+2023-03-02 11:53:12 INFO  Log:20 - this is before method
+2023-03-02 11:53:19 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 11:53:21 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 11:53:21 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 11:53:21 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 11:53:21 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 11:53:21 INFO  Log:20 - Trying to Enter Password
+2023-03-02 11:53:21 INFO  Log:20 - Entered Password As 123456
+2023-03-02 11:53:21 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 11:53:21 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 11:53:21 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 11:53:24 INFO  Log:20 - Searching user as:-599963
+2023-03-02 11:53:25 INFO  Log:20 - get the user as :-599963
+2023-03-02 11:53:25 INFO  Log:20 - clicking on search button of user......
+2023-03-02 11:53:26 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 11:53:26 INFO  Log:20 - emulating user...............
+2023-03-02 11:53:26 INFO  Log:20 - emulated user...............
+2023-03-02 11:53:31 INFO  Log:20 - Clicking on MultiCity Button
+2023-03-02 11:53:32 INFO  Log:20 - Clicked on MultiCity Button
+2023-03-02 11:53:32 INFO  Log:20 - trying to enter source
+2023-03-02 11:53:32 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 11:53:32 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 11:53:32 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 11:53:32 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 11:53:33 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 11:53:33 INFO  Log:20 - trying to enter destination
+2023-03-02 11:53:33 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 11:53:33 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 11:53:33 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
+2023-03-02 11:53:33 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
+2023-03-02 11:53:34 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 11:53:34 INFO  Log:20 - trying to select departure Date
+2023-03-02 11:53:34 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 11:53:34 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 11:53:36 INFO  Log:20 - have select the date as:-15-August 2023
+2023-03-02 11:53:36 INFO  Log:20 - trying to enter multi city second source
+2023-03-02 11:53:36 INFO  Log:20 - clicking on multi city second source input fields-----------
+2023-03-02 11:53:36 INFO  Log:20 - clicked on multi city second source input fields-----------
+2023-03-02 11:53:36 INFO  Log:20 - Entering the data source as:- bom on multi city second source input fields-----------
+2023-03-02 11:53:36 INFO  Log:20 - Entered the data source as:- bom on multi city second source input fields-----------
+2023-03-02 11:53:37 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 11:53:37 INFO  Log:20 - trying to enter multi city second destination
+2023-03-02 11:53:37 INFO  Log:20 - clicking on multi city second destination input fields-----------
+2023-03-02 11:53:37 INFO  Log:20 - clicked on multi city second destination input fields-----------
+2023-03-02 11:53:37 INFO  Log:20 - Entering the data multi city second destination as:- blr on multi city second destination input fields-----------
+2023-03-02 11:53:37 INFO  Log:20 - Entered the data multi city second destination as:- blr on multi city second destination input fields-----------
+2023-03-02 11:53:37 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 11:53:37 INFO  Log:20 - Trying to select Multi City Second Date
+2023-03-02 11:53:37 INFO  Log:20 - clicking on Multi City Second  Date Calendar
+2023-03-02 11:53:38 INFO  Log:20 - clicked on Multi City Second  Date Calendar
+2023-03-02 11:53:38 INFO  Log:20 - have select the date as:-21-August 2023
+2023-03-02 11:53:38 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 11:53:38 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 11:53:38 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 11:53:38 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 11:53:39 INFO  Log:20 - click on Enter Button
+2023-03-02 11:53:39 INFO  Log:20 - trying to select pax
+2023-03-02 11:53:39 INFO  Log:20 - clicking on the select pax
+2023-03-02 11:53:39 INFO  Log:20 - clicked on the select pax field
+2023-03-02 11:53:40 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 11:53:40 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 11:53:40 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 11:53:40 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 11:53:40 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 11:53:40 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 11:53:46 INFO  Log:20 - getting current url..............
+2023-03-02 11:53:46 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?origin_1=BOM&destination_1=BLR&depDate_1=2023-08-21&origin_0=DEL&destination_0=BOM&depDate_0=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=2&prefAirCode=6E&pft=REGULAR
+2023-03-02 11:53:46 INFO  Log:20 - adding source id in current url
+2023-03-02 11:53:46 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 11:53:46 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?origin_1=BOM&destination_1=BLR&depDate_1=2023-08-21&origin_0=DEL&destination_0=BOM&depDate_0=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=2&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 11:54:00 INFO  Log:20 - clicking on stop count 1 .............
+2023-03-02 11:54:01 INFO  Log:20 - clicked on stop count 1 ............
+2023-03-02 11:54:07 INFO  Log:20 - selecting connected onwards flight......
+2023-03-02 11:54:07 INFO  Log:20 - selected onwards flight....
+2023-03-02 11:54:07 INFO  Log:20 - clicking on book button..........
+2023-03-02 11:54:07 INFO  Log:20 - clicked on book button..........
+2023-03-02 11:54:20 INFO  Log:20 - trying to click on add passenger button.......
+2023-03-02 11:54:25 INFO  Log:20 - clicked on add passenger button.......
+2023-03-02 11:54:25 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 11:54:26 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 11:54:26 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 11:54:27 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 11:54:27 INFO  Log:20 - clicking on the title drop box for the first Adult.............
+2023-03-02 11:54:27 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
+2023-03-02 11:54:27 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
+2023-03-02 11:54:27 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
+2023-03-02 11:54:27 INFO  Log:20 - trying to enter Adult1 first name.....As:-umeshaqwwe
+2023-03-02 11:54:28 INFO  Log:20 - successfully entered Adult1 first name.....As:-umeshaqwwe
+2023-03-02 11:54:28 INFO  Log:20 - trying to enter Adult1 last name.....As:-mishra
+2023-03-02 11:54:28 INFO  Log:20 - successfully entered Adult1 last name.....As:-mishra
+2023-03-02 11:54:28 INFO  Log:20 - clicking on the title drop box for the first child.............
+2023-03-02 11:54:28 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
+2023-03-02 11:54:29 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
+2023-03-02 11:54:29 INFO  Log:20 - have successfully selected the first child title as:-Master
+2023-03-02 11:54:29 INFO  Log:20 - trying to enter child1 first name.....As:-umeshbdferf
+2023-03-02 11:54:29 INFO  Log:20 - successfully entered child1 first name ....As:-umeshbdferf
+2023-03-02 11:54:29 INFO  Log:20 - trying to enter child1 last name.....As:-mik
+2023-03-02 11:54:30 INFO  Log:20 - successfully entered child1 last name ....As:-mik
+2023-03-02 11:54:30 INFO  Log:20 - clicking on the title drop box for the first Infant.............
+2023-03-02 11:54:30 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
+2023-03-02 11:54:30 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
+2023-03-02 11:54:30 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
+2023-03-02 11:54:30 INFO  Log:20 - trying to enter infant1 first name.....As:-umeshcwsdfrtg
+2023-03-02 11:54:31 INFO  Log:20 - successfully entered infant1 first name ....As:-umeshcwsdfrtg
+2023-03-02 11:54:31 INFO  Log:20 - trying to enter infant1 last name.....As:-ndjhfi
+2023-03-02 11:54:32 INFO  Log:20 - successfully entered  infant1 last name.....As:-ndjhfi
+2023-03-02 11:54:32 INFO  Log:20 - trying to enter mobile number As:-9848370141
+2023-03-02 11:54:32 INFO  Log:20 - successfully entered mobile number as:-9848370141
+2023-03-02 11:54:32 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
+2023-03-02 11:54:32 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
+2023-03-02 11:54:32 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
+2023-03-02 11:54:32 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
+2023-03-02 11:54:32 INFO  Log:20 - clicking on skip button of protect group...
+2023-03-02 11:54:33 INFO  Log:20 - have clicked on skip protect group btn
+2023-03-02 11:54:33 INFO  Log:20 - trying to click on proceed button.............
+2023-03-02 11:54:33 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
+2023-03-02 11:54:33 INFO  Log:20 - clicking on proceed to pay button.........
+2023-03-02 11:54:34 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
+2023-03-02 11:54:34 INFO  Log:20 - trying to click on pay now button.........
+2023-03-02 11:54:34 INFO  Log:20 - successfully clicked on pay now button.........
+2023-03-02 11:54:34 INFO  Log:20 - trying to click on confirm pay now button.........
+2023-03-02 11:54:35 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
+2023-03-02 11:54:41 INFO  Log:20 - getting the booking status of the Booking summery page
+2023-03-02 11:54:42 INFO  Log:20 - got the status As Success
+2023-03-02 12:01:27 INFO  Log:20 - this is before method
+2023-03-02 12:01:27 INFO  Log:20 - this is before method
+2023-03-02 12:01:33 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 12:01:33 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 12:01:38 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 12:01:38 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 12:01:38 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 12:01:38 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 12:01:38 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 12:01:38 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 12:01:39 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 12:01:39 INFO  Log:20 - Trying to Enter Password
+2023-03-02 12:01:40 INFO  Log:20 - Entered Password As 123456
+2023-03-02 12:01:40 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 12:01:40 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 12:01:40 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 12:01:41 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 12:01:41 INFO  Log:20 - Trying to Enter Password
+2023-03-02 12:01:41 INFO  Log:20 - Entered Password As 123456
+2023-03-02 12:01:41 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 12:01:41 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 12:01:41 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 12:01:44 INFO  Log:20 - Searching user as:-599963
+2023-03-02 12:01:45 INFO  Log:20 - Searching user as:-599963
+2023-03-02 12:01:46 INFO  Log:20 - get the user as :-599963
+2023-03-02 12:01:46 INFO  Log:20 - clicking on search button of user......
+2023-03-02 12:01:46 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 12:01:46 INFO  Log:20 - emulating user...............
+2023-03-02 12:01:47 INFO  Log:20 - get the user as :-599963
+2023-03-02 12:01:47 INFO  Log:20 - clicking on search button of user......
+2023-03-02 12:01:47 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 12:01:47 INFO  Log:20 - emulating user...............
+2023-03-02 12:01:48 INFO  Log:20 - emulated user...............
+2023-03-02 12:01:49 INFO  Log:20 - emulated user...............
+2023-03-02 12:01:53 INFO  Log:20 - trying to enter source
+2023-03-02 12:01:53 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 12:01:53 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 12:01:53 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 12:01:53 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 12:01:54 INFO  Log:20 - trying to enter source
+2023-03-02 12:01:54 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 12:01:54 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 12:01:54 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 12:01:54 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 12:01:54 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 12:01:54 INFO  Log:20 - trying to enter destination
+2023-03-02 12:01:54 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 12:01:54 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 12:01:54 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
+2023-03-02 12:01:54 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
+2023-03-02 12:01:55 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 12:01:55 INFO  Log:20 - trying to enter destination
+2023-03-02 12:01:55 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 12:01:55 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 12:01:55 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
+2023-03-02 12:01:55 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
+2023-03-02 12:01:55 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 12:01:55 INFO  Log:20 - trying to select departure Date
+2023-03-02 12:01:55 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 12:01:56 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 12:01:56 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 12:01:56 INFO  Log:20 - trying to select departure Date
+2023-03-02 12:01:56 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 12:01:57 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 12:01:58 INFO  Log:20 - have select the date as:-15-August 2023
+2023-03-02 12:01:58 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 12:01:58 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 12:01:58 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 12:01:58 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 12:01:59 INFO  Log:20 - have select the date as:-15-August 2023
+2023-03-02 12:01:59 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 12:01:59 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 12:01:59 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 12:01:59 INFO  Log:20 - click on Enter Button
+2023-03-02 12:01:59 INFO  Log:20 - trying to select pax
+2023-03-02 12:01:59 INFO  Log:20 - clicking on the select pax
+2023-03-02 12:01:59 INFO  Log:20 - clicked on the select pax field
+2023-03-02 12:01:59 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 12:02:00 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 12:02:00 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 12:02:00 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 12:02:00 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 12:02:00 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 12:02:00 INFO  Log:20 - click on Enter Button
+2023-03-02 12:02:01 INFO  Log:20 - trying to select pax
+2023-03-02 12:02:01 INFO  Log:20 - clicking on the select pax
+2023-03-02 12:02:01 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 12:02:01 INFO  Log:20 - clicked on the select pax field
+2023-03-02 12:02:01 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 12:02:02 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 12:02:02 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 12:02:02 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 12:02:02 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 12:02:04 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 12:02:07 INFO  Log:20 - getting current url..............
+2023-03-02 12:02:07 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR
+2023-03-02 12:02:07 INFO  Log:20 - adding source id in current url
+2023-03-02 12:02:07 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 12:02:07 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 12:02:10 INFO  Log:20 - getting current url..............
+2023-03-02 12:02:10 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR
+2023-03-02 12:02:10 INFO  Log:20 - adding source id in current url
+2023-03-02 12:02:10 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 12:02:10 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 12:02:24 INFO  Log:20 - clicking on stop count 0 .............
+2023-03-02 12:02:25 INFO  Log:20 - clicked on stop count 0 ............
+2023-03-02 12:02:26 INFO  Log:20 - clicking on stop count 1 .............
+2023-03-02 12:02:26 INFO  Log:20 - clicked on stop count 1 ............
+2023-03-02 12:02:31 INFO  Log:20 - clicking on book button..........
+2023-03-02 12:02:31 INFO  Log:20 - clicked on book button..........
+2023-03-02 12:02:32 INFO  Log:20 - clicking on book button..........
+2023-03-02 12:02:32 INFO  Log:20 - clicked on book button..........
+2023-03-02 12:02:43 INFO  Log:20 - trying to click on add passenger button.......
+2023-03-02 12:02:44 INFO  Log:20 - trying to click on add passenger button.......
+2023-03-02 12:02:50 INFO  Log:20 - clicked on add passenger button.......
+2023-03-02 12:02:50 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:02:52 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:02:52 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:02:52 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:02:52 INFO  Log:20 - clicking on the title drop box for the first Adult.............
+2023-03-02 12:02:52 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
+2023-03-02 12:02:52 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
+2023-03-02 12:02:52 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
+2023-03-02 12:02:52 INFO  Log:20 - trying to enter Adult1 first name.....As:-deepuopcfrws
+2023-03-02 12:02:53 INFO  Log:20 - successfully entered Adult1 first name.....As:-deepuopcfrws
+2023-03-02 12:02:53 INFO  Log:20 - trying to enter Adult1 last name.....As:-singh
+2023-03-02 12:02:54 INFO  Log:20 - successfully entered Adult1 last name.....As:-singh
+2023-03-02 12:02:54 INFO  Log:20 - clicking on the title drop box for the first child.............
+2023-03-02 12:02:54 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
+2023-03-02 12:02:54 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
+2023-03-02 12:02:55 INFO  Log:20 - have successfully selected the first child title as:-Master
+2023-03-02 12:02:55 INFO  Log:20 - trying to enter child1 first name.....As:-shivShankarergxdt
+2023-03-02 12:02:56 INFO  Log:20 - successfully entered child1 first name ....As:-shivShankarergxdt
+2023-03-02 12:02:56 INFO  Log:20 - trying to enter child1 last name.....As:-suhani
+2023-03-02 12:02:56 INFO  Log:20 - successfully entered child1 last name ....As:-suhani
+2023-03-02 12:02:56 INFO  Log:20 - clicking on the title drop box for the first Infant.............
+2023-03-02 12:02:57 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
+2023-03-02 12:02:57 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
+2023-03-02 12:02:58 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
+2023-03-02 12:02:58 INFO  Log:20 - trying to enter infant1 first name.....As:-dubahsiqawehy
+2023-03-02 12:02:59 INFO  Log:20 - successfully entered infant1 first name ....As:-dubahsiqawehy
+2023-03-02 12:02:59 INFO  Log:20 - trying to enter infant1 last name.....As:-pandu
+2023-03-02 12:02:59 INFO  Log:20 - successfully entered  infant1 last name.....As:-pandu
+2023-03-02 12:02:59 INFO  Log:20 - trying to enter mobile number As:-9848370141
+2023-03-02 12:02:59 INFO  Log:20 - successfully entered mobile number as:-9848370141
+2023-03-02 12:02:59 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
+2023-03-02 12:03:00 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
+2023-03-02 12:03:00 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
+2023-03-02 12:03:00 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
+2023-03-02 12:03:00 INFO  Log:20 - clicking on skip button of protect group...
+2023-03-02 12:03:01 INFO  Log:20 - have clicked on skip protect group btn
+2023-03-02 12:03:01 INFO  Log:20 - trying to click on proceed button.............
+2023-03-02 12:03:02 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
+2023-03-02 12:03:02 INFO  Log:20 - clicking on proceed to pay button.........
+2023-03-02 12:03:02 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
+2023-03-02 12:03:02 INFO  Log:20 - trying to click on pay now button.........
+2023-03-02 12:03:03 INFO  Log:20 - successfully clicked on pay now button.........
+2023-03-02 12:03:03 INFO  Log:20 - trying to click on confirm pay now button.........
+2023-03-02 12:03:04 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
+2023-03-02 12:03:10 INFO  Log:20 - getting the booking status of the Booking summery page
+2023-03-02 12:03:12 INFO  Log:20 - got the status As Success
+2023-03-02 12:03:12 INFO  Log:20 - this is before method
+2023-03-02 12:03:13 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 12:03:15 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 12:03:15 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 12:03:15 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 12:03:15 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 12:03:15 INFO  Log:20 - Trying to Enter Password
+2023-03-02 12:03:15 INFO  Log:20 - Entered Password As 123456
+2023-03-02 12:03:15 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 12:03:15 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 12:03:15 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 12:03:17 INFO  Log:20 - Searching user as:-599963
+2023-03-02 12:03:19 INFO  Log:20 - get the user as :-599963
+2023-03-02 12:03:19 INFO  Log:20 - clicking on search button of user......
+2023-03-02 12:03:19 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 12:03:19 INFO  Log:20 - emulating user...............
+2023-03-02 12:03:20 INFO  Log:20 - emulated user...............
+2023-03-02 12:03:25 INFO  Log:20 - trying to enter source
+2023-03-02 12:03:25 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 12:03:25 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 12:03:25 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 12:03:25 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 12:03:26 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 12:03:26 INFO  Log:20 - trying to enter destination
+2023-03-02 12:03:26 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 12:03:26 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 12:03:26 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
+2023-03-02 12:03:26 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
+2023-03-02 12:03:27 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 12:03:27 INFO  Log:20 - trying to select departure Date
+2023-03-02 12:03:27 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 12:03:27 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 12:03:29 INFO  Log:20 - have select the date as:-15-August 2023
+2023-03-02 12:03:29 INFO  Log:20 - Trying to select Return Date
+2023-03-02 12:03:29 INFO  Log:20 - clicking on Return Date Calendar
+2023-03-02 12:03:29 INFO  Log:20 - clicked on Return Date Calendar
+2023-03-02 12:03:29 INFO  Log:20 - this is before method
+2023-03-02 12:03:30 INFO  Log:20 - have select the date as:-18-August 2023
+2023-03-02 12:03:30 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 12:03:30 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 12:03:30 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 12:03:30 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 12:03:30 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 12:03:31 INFO  Log:20 - click on Enter Button
+2023-03-02 12:03:31 INFO  Log:20 - trying to select pax
+2023-03-02 12:03:31 INFO  Log:20 - clicking on the select pax
+2023-03-02 12:03:31 INFO  Log:20 - clicked on the select pax field
+2023-03-02 12:03:32 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 12:03:32 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 12:03:32 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 12:03:32 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 12:03:32 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 12:03:32 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 12:03:32 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 12:03:32 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 12:03:32 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 12:03:32 INFO  Log:20 - Trying to Enter Password
+2023-03-02 12:03:32 INFO  Log:20 - Entered Password As 123456
+2023-03-02 12:03:32 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 12:03:32 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 12:03:32 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 12:03:33 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 12:03:34 INFO  Log:20 - Searching user as:-599963
+2023-03-02 12:03:36 INFO  Log:20 - get the user as :-599963
+2023-03-02 12:03:36 INFO  Log:20 - clicking on search button of user......
+2023-03-02 12:03:37 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 12:03:37 INFO  Log:20 - emulating user...............
+2023-03-02 12:03:38 INFO  Log:20 - emulated user...............
+2023-03-02 12:03:39 INFO  Log:20 - getting current url..............
+2023-03-02 12:03:39 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ret=2023-08-18&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=1&prefAirCode=6E&pft=REGULAR
+2023-03-02 12:03:39 INFO  Log:20 - adding source id in current url
+2023-03-02 12:03:39 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 12:03:39 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ret=2023-08-18&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=1&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 12:03:43 INFO  Log:20 - trying to enter source
+2023-03-02 12:03:43 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 12:03:43 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 12:03:43 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 12:03:43 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 12:03:44 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 12:03:44 INFO  Log:20 - trying to enter destination
+2023-03-02 12:03:44 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 12:03:44 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 12:03:44 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
+2023-03-02 12:03:44 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
+2023-03-02 12:03:45 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 12:03:45 INFO  Log:20 - trying to select departure Date
+2023-03-02 12:03:45 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 12:03:46 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 12:03:47 INFO  Log:20 - have select the date as:-15-August 2023
+2023-03-02 12:03:47 INFO  Log:20 - Trying to select Return Date
+2023-03-02 12:03:47 INFO  Log:20 - clicking on Return Date Calendar
+2023-03-02 12:03:48 INFO  Log:20 - clicked on Return Date Calendar
+2023-03-02 12:03:48 INFO  Log:20 - have select the date as:-18-August 2023
+2023-03-02 12:03:48 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 12:03:48 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 12:03:48 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 12:03:48 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 12:03:49 INFO  Log:20 - click on Enter Button
+2023-03-02 12:03:50 INFO  Log:20 - trying to select pax
+2023-03-02 12:03:50 INFO  Log:20 - clicking on the select pax
+2023-03-02 12:03:50 INFO  Log:20 - clicked on the select pax field
+2023-03-02 12:03:50 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 12:03:50 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 12:03:51 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 12:03:51 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 12:03:51 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 12:03:51 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 12:03:55 INFO  Log:20 - clicking on stop count 0 .............
+2023-03-02 12:03:57 INFO  Log:20 - this is before method
+2023-03-02 12:03:57 INFO  Log:20 - getting current url..............
+2023-03-02 12:03:57 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ret=2023-08-18&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=1&prefAirCode=6E&pft=REGULAR
+2023-03-02 12:03:57 INFO  Log:20 - adding source id in current url
+2023-03-02 12:03:57 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 12:03:57 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ret=2023-08-18&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=1&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 12:03:58 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 12:04:02 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 12:04:02 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 12:04:02 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 12:04:02 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 12:04:02 INFO  Log:20 - Trying to Enter Password
+2023-03-02 12:04:02 INFO  Log:20 - Entered Password As 123456
+2023-03-02 12:04:02 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 12:04:02 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 12:04:02 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 12:04:05 INFO  Log:20 - Searching user as:-599963
+2023-03-02 12:04:07 INFO  Log:20 - get the user as :-599963
+2023-03-02 12:04:07 INFO  Log:20 - clicking on search button of user......
+2023-03-02 12:04:07 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 12:04:07 INFO  Log:20 - emulating user...............
+2023-03-02 12:04:11 INFO  Log:20 - emulated user...............
+2023-03-02 12:04:13 INFO  Log:20 - clicking on stop count 1 .............
+2023-03-02 12:04:16 INFO  Log:20 - this is before method
+2023-03-02 12:04:17 INFO  Log:20 - Clicking on MultiCity Button
+2023-03-02 12:04:17 INFO  Log:20 - Clicked on MultiCity Button
+2023-03-02 12:04:17 INFO  Log:20 - trying to enter source
+2023-03-02 12:04:17 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 12:04:18 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 12:04:18 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 12:04:18 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 12:04:18 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 12:04:19 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 12:04:19 INFO  Log:20 - trying to enter destination
+2023-03-02 12:04:19 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 12:04:19 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 12:04:19 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
+2023-03-02 12:04:19 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
+2023-03-02 12:04:20 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 12:04:20 INFO  Log:20 - trying to select departure Date
+2023-03-02 12:04:20 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 12:04:20 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 12:04:21 INFO  Log:20 - have select the date as:-15-August 2023
+2023-03-02 12:04:21 INFO  Log:20 - trying to enter multi city second source
+2023-03-02 12:04:21 INFO  Log:20 - clicking on multi city second source input fields-----------
+2023-03-02 12:04:21 INFO  Log:20 - clicked on multi city second source input fields-----------
+2023-03-02 12:04:21 INFO  Log:20 - Entering the data source as:- bom on multi city second source input fields-----------
+2023-03-02 12:04:22 INFO  Log:20 - Entered the data source as:- bom on multi city second source input fields-----------
+2023-03-02 12:04:22 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 12:04:22 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 12:04:22 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 12:04:22 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 12:04:22 INFO  Log:20 - Trying to Enter Password
+2023-03-02 12:04:22 INFO  Log:20 - Entered Password As 123456
+2023-03-02 12:04:22 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 12:04:22 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 12:04:22 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 12:04:22 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 12:04:22 INFO  Log:20 - trying to enter multi city second destination
+2023-03-02 12:04:23 INFO  Log:20 - clicking on multi city second destination input fields-----------
+2023-03-02 12:04:23 INFO  Log:20 - clicked on multi city second destination input fields-----------
+2023-03-02 12:04:23 INFO  Log:20 - Entering the data multi city second destination as:- blr on multi city second destination input fields-----------
+2023-03-02 12:04:23 INFO  Log:20 - Entered the data multi city second destination as:- blr on multi city second destination input fields-----------
+2023-03-02 12:04:24 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 12:04:24 INFO  Log:20 - Trying to select Multi City Second Date
+2023-03-02 12:04:24 INFO  Log:20 - clicking on Multi City Second  Date Calendar
+2023-03-02 12:04:24 INFO  Log:20 - clicked on Multi City Second  Date Calendar
+2023-03-02 12:04:25 INFO  Log:20 - have select the date as:-20-August 2023
+2023-03-02 12:04:25 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 12:04:25 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 12:04:25 INFO  Log:20 - Searching user as:-599963
+2023-03-02 12:04:25 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 12:04:26 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 12:04:27 INFO  Log:20 - get the user as :-599963
+2023-03-02 12:04:27 INFO  Log:20 - clicking on search button of user......
+2023-03-02 12:04:27 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 12:04:27 INFO  Log:20 - emulating user...............
+2023-03-02 12:04:28 INFO  Log:20 - click on Enter Button
+2023-03-02 12:04:28 INFO  Log:20 - trying to select pax
+2023-03-02 12:04:28 INFO  Log:20 - clicking on the select pax
+2023-03-02 12:04:28 INFO  Log:20 - clicked on the select pax field
+2023-03-02 12:04:29 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 12:04:29 INFO  Log:20 - emulated user...............
+2023-03-02 12:04:29 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 12:04:29 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 12:04:29 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 12:04:29 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 12:04:30 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 12:04:35 INFO  Log:20 - Clicking on MultiCity Button
+2023-03-02 12:04:35 INFO  Log:20 - Clicked on MultiCity Button
+2023-03-02 12:04:35 INFO  Log:20 - trying to enter source
+2023-03-02 12:04:35 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 12:04:35 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 12:04:35 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 12:04:35 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 12:04:36 INFO  Log:20 - getting current url..............
+2023-03-02 12:04:36 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?origin_1=BOM&destination_1=BLR&depDate_1=2023-08-20&origin_0=DEL&destination_0=BOM&depDate_0=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=2&prefAirCode=6E&pft=REGULAR
+2023-03-02 12:04:36 INFO  Log:20 - adding source id in current url
+2023-03-02 12:04:36 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 12:04:36 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?origin_1=BOM&destination_1=BLR&depDate_1=2023-08-20&origin_0=DEL&destination_0=BOM&depDate_0=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=2&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 12:04:36 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 12:04:36 INFO  Log:20 - trying to enter destination
+2023-03-02 12:04:36 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 12:04:36 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 12:04:36 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
+2023-03-02 12:04:36 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
+2023-03-02 12:04:37 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 12:04:37 INFO  Log:20 - trying to select departure Date
+2023-03-02 12:04:37 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 12:04:38 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 12:04:39 INFO  Log:20 - have select the date as:-15-August 2023
+2023-03-02 12:04:39 INFO  Log:20 - trying to enter multi city second source
+2023-03-02 12:04:39 INFO  Log:20 - clicking on multi city second source input fields-----------
+2023-03-02 12:04:39 INFO  Log:20 - clicked on multi city second source input fields-----------
+2023-03-02 12:04:39 INFO  Log:20 - Entering the data source as:- bom on multi city second source input fields-----------
+2023-03-02 12:04:39 INFO  Log:20 - Entered the data source as:- bom on multi city second source input fields-----------
+2023-03-02 12:04:40 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 12:04:40 INFO  Log:20 - trying to enter multi city second destination
+2023-03-02 12:04:40 INFO  Log:20 - clicking on multi city second destination input fields-----------
+2023-03-02 12:04:40 INFO  Log:20 - clicked on multi city second destination input fields-----------
+2023-03-02 12:04:40 INFO  Log:20 - Entering the data multi city second destination as:- blr on multi city second destination input fields-----------
+2023-03-02 12:04:40 INFO  Log:20 - Entered the data multi city second destination as:- blr on multi city second destination input fields-----------
+2023-03-02 12:04:41 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 12:04:41 INFO  Log:20 - Trying to select Multi City Second Date
+2023-03-02 12:04:41 INFO  Log:20 - clicking on Multi City Second  Date Calendar
+2023-03-02 12:04:42 INFO  Log:20 - clicked on Multi City Second  Date Calendar
+2023-03-02 12:04:43 INFO  Log:20 - have select the date as:-21-August 2023
+2023-03-02 12:04:43 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 12:04:43 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 12:04:43 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 12:04:44 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 12:04:46 INFO  Log:20 - click on Enter Button
+2023-03-02 12:04:46 INFO  Log:20 - trying to select pax
+2023-03-02 12:04:46 INFO  Log:20 - clicking on the select pax
+2023-03-02 12:04:46 INFO  Log:20 - clicked on the select pax field
+2023-03-02 12:04:47 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 12:04:47 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 12:04:47 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 12:04:48 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 12:04:48 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 12:04:48 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 12:04:52 INFO  Log:20 - clicking on stop count 0 .............
+2023-03-02 12:04:54 INFO  Log:20 - getting current url..............
+2023-03-02 12:04:54 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?origin_1=BOM&destination_1=BLR&depDate_1=2023-08-21&origin_0=DEL&destination_0=BOM&depDate_0=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=2&prefAirCode=6E&pft=REGULAR
+2023-03-02 12:04:54 INFO  Log:20 - adding source id in current url
+2023-03-02 12:04:54 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 12:04:54 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?origin_1=BOM&destination_1=BLR&depDate_1=2023-08-21&origin_0=DEL&destination_0=BOM&depDate_0=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=2&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 12:04:55 INFO  Log:20 - clicked on stop count 0 ............
+2023-03-02 12:05:01 INFO  Log:20 - clicking on book button..........
+2023-03-02 12:05:01 INFO  Log:20 - clicked on book button..........
+2023-03-02 12:05:09 INFO  Log:20 - clicking on stop count 1 .............
+2023-03-02 12:05:10 INFO  Log:20 - clicked on stop count 1 ............
+2023-03-02 12:05:14 INFO  Log:20 - trying to click on add passenger button.......
+2023-03-02 12:05:16 INFO  Log:20 - selecting connected onwards flight......
+2023-03-02 12:05:16 INFO  Log:20 - selected onwards flight....
+2023-03-02 12:05:16 INFO  Log:20 - clicking on book button..........
+2023-03-02 12:05:17 INFO  Log:20 - clicked on book button..........
+2023-03-02 12:05:19 INFO  Log:20 - clicked on add passenger button.......
+2023-03-02 12:05:19 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:05:21 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:05:21 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:05:21 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:05:21 INFO  Log:20 - clicking on the title drop box for the first Adult.............
+2023-03-02 12:05:21 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
+2023-03-02 12:05:21 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
+2023-03-02 12:05:21 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
+2023-03-02 12:05:21 INFO  Log:20 - trying to enter Adult1 first name.....As:-umeshaqwgt
+2023-03-02 12:05:22 INFO  Log:20 - successfully entered Adult1 first name.....As:-umeshaqwgt
+2023-03-02 12:05:22 INFO  Log:20 - trying to enter Adult1 last name.....As:-mishra
+2023-03-02 12:05:23 INFO  Log:20 - successfully entered Adult1 last name.....As:-mishra
+2023-03-02 12:05:23 INFO  Log:20 - clicking on the title drop box for the first child.............
+2023-03-02 12:05:23 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
+2023-03-02 12:05:23 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
+2023-03-02 12:05:24 INFO  Log:20 - have successfully selected the first child title as:-Master
+2023-03-02 12:05:24 INFO  Log:20 - trying to enter child1 first name.....As:-umeshbdfgf
+2023-03-02 12:05:24 INFO  Log:20 - successfully entered child1 first name ....As:-umeshbdfgf
+2023-03-02 12:05:24 INFO  Log:20 - trying to enter child1 last name.....As:-mik
+2023-03-02 12:05:25 INFO  Log:20 - successfully entered child1 last name ....As:-mik
+2023-03-02 12:05:25 INFO  Log:20 - clicking on the title drop box for the first Infant.............
+2023-03-02 12:05:25 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
+2023-03-02 12:05:25 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
+2023-03-02 12:05:25 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
+2023-03-02 12:05:25 INFO  Log:20 - trying to enter infant1 first name.....As:-umeshcwsdbg
+2023-03-02 12:05:26 INFO  Log:20 - successfully entered infant1 first name ....As:-umeshcwsdbg
+2023-03-02 12:05:26 INFO  Log:20 - trying to enter infant1 last name.....As:-ndjhfi
+2023-03-02 12:05:26 INFO  Log:20 - successfully entered  infant1 last name.....As:-ndjhfi
+2023-03-02 12:05:26 INFO  Log:20 - trying to enter mobile number As:-9848370141
+2023-03-02 12:05:27 INFO  Log:20 - successfully entered mobile number as:-9848370141
+2023-03-02 12:05:27 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
+2023-03-02 12:05:27 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
+2023-03-02 12:05:27 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
+2023-03-02 12:05:28 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
+2023-03-02 12:05:28 INFO  Log:20 - clicking on skip button of protect group...
+2023-03-02 12:05:28 INFO  Log:20 - have clicked on skip protect group btn
+2023-03-02 12:05:28 INFO  Log:20 - trying to click on proceed button.............
+2023-03-02 12:05:29 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
+2023-03-02 12:05:29 INFO  Log:20 - clicking on proceed to pay button.........
+2023-03-02 12:05:29 INFO  Log:20 - trying to click on add passenger button.......
+2023-03-02 12:05:29 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
+2023-03-02 12:05:29 INFO  Log:20 - trying to click on pay now button.........
+2023-03-02 12:05:30 INFO  Log:20 - successfully clicked on pay now button.........
+2023-03-02 12:05:30 INFO  Log:20 - trying to click on confirm pay now button.........
+2023-03-02 12:05:30 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
+2023-03-02 12:05:35 INFO  Log:20 - clicked on add passenger button.......
+2023-03-02 12:05:35 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:05:36 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:05:36 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:05:36 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:05:36 INFO  Log:20 - clicking on the title drop box for the first Adult.............
+2023-03-02 12:05:36 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
+2023-03-02 12:05:36 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
+2023-03-02 12:05:36 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
+2023-03-02 12:05:36 INFO  Log:20 - trying to enter Adult1 first name.....As:-umeshaqwwefr
+2023-03-02 12:05:36 INFO  Log:20 - getting the booking status of the Booking summery page
+2023-03-02 12:05:38 INFO  Log:20 - got the status As Success
+2023-03-02 12:05:38 INFO  Log:20 - successfully entered Adult1 first name.....As:-umeshaqwwefr
+2023-03-02 12:05:38 INFO  Log:20 - trying to enter Adult1 last name.....As:-mishra
+2023-03-02 12:05:38 INFO  Log:20 - successfully entered Adult1 last name.....As:-mishra
+2023-03-02 12:05:38 INFO  Log:20 - clicking on the title drop box for the first child.............
+2023-03-02 12:05:39 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
+2023-03-02 12:05:39 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
+2023-03-02 12:05:39 INFO  Log:20 - have successfully selected the first child title as:-Master
+2023-03-02 12:05:39 INFO  Log:20 - trying to enter child1 first name.....As:-umeshbdferftg
+2023-03-02 12:05:40 INFO  Log:20 - successfully entered child1 first name ....As:-umeshbdferftg
+2023-03-02 12:05:40 INFO  Log:20 - trying to enter child1 last name.....As:-mik
+2023-03-02 12:05:40 INFO  Log:20 - successfully entered child1 last name ....As:-mik
+2023-03-02 12:05:40 INFO  Log:20 - clicking on the title drop box for the first Infant.............
+2023-03-02 12:05:40 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
+2023-03-02 12:05:40 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
+2023-03-02 12:05:40 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
+2023-03-02 12:05:40 INFO  Log:20 - trying to enter infant1 first name.....As:-umeshcwsdfrtgre
+2023-03-02 12:05:41 INFO  Log:20 - successfully entered infant1 first name ....As:-umeshcwsdfrtgre
+2023-03-02 12:05:41 INFO  Log:20 - trying to enter infant1 last name.....As:-ndjhfi
+2023-03-02 12:05:42 INFO  Log:20 - successfully entered  infant1 last name.....As:-ndjhfi
+2023-03-02 12:05:42 INFO  Log:20 - trying to enter mobile number As:-9848370141
+2023-03-02 12:05:42 INFO  Log:20 - successfully entered mobile number as:-9848370141
+2023-03-02 12:05:42 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
+2023-03-02 12:05:42 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
+2023-03-02 12:05:42 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
+2023-03-02 12:05:43 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
+2023-03-02 12:05:43 INFO  Log:20 - clicking on skip button of protect group...
+2023-03-02 12:05:43 INFO  Log:20 - have clicked on skip protect group btn
+2023-03-02 12:05:43 INFO  Log:20 - trying to click on proceed button.............
+2023-03-02 12:05:44 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
+2023-03-02 12:05:44 INFO  Log:20 - clicking on proceed to pay button.........
+2023-03-02 12:05:44 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
+2023-03-02 12:05:44 INFO  Log:20 - trying to click on pay now button.........
+2023-03-02 12:05:45 INFO  Log:20 - successfully clicked on pay now button.........
+2023-03-02 12:05:45 INFO  Log:20 - trying to click on confirm pay now button.........
+2023-03-02 12:05:45 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
+2023-03-02 12:05:51 INFO  Log:20 - getting the booking status of the Booking summery page
+2023-03-02 12:05:52 INFO  Log:20 - got the status As Success
+2023-03-02 12:12:19 INFO  Log:20 - this is before method
+2023-03-02 12:12:24 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 12:12:26 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 12:12:26 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 12:12:26 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 12:12:26 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 12:12:26 INFO  Log:20 - Trying to Enter Password
+2023-03-02 12:12:26 INFO  Log:20 - Entered Password As 123456
+2023-03-02 12:12:26 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 12:12:26 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 12:12:26 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 12:12:28 INFO  Log:20 - Searching user as:-599963
+2023-03-02 12:12:30 INFO  Log:20 - get the user as :-599963
+2023-03-02 12:12:30 INFO  Log:20 - clicking on search button of user......
+2023-03-02 12:12:30 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 12:12:30 INFO  Log:20 - emulating user...............
+2023-03-02 12:12:31 INFO  Log:20 - emulated user...............
+2023-03-02 12:12:36 INFO  Log:20 - trying to enter source
+2023-03-02 12:12:36 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 12:12:36 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 12:12:36 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 12:12:36 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 12:12:37 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 12:12:37 INFO  Log:20 - trying to enter destination
+2023-03-02 12:12:37 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 12:12:37 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 12:12:37 INFO  Log:20 - Entering the data destination as:- blr on destination input fields-----------
+2023-03-02 12:12:37 INFO  Log:20 - Entered the data destination as:- blr on destination input fields-----------
+2023-03-02 12:12:38 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 12:12:38 INFO  Log:20 - trying to select departure Date
+2023-03-02 12:12:38 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 12:12:38 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 12:12:39 INFO  Log:20 - have select the date as:-15-August 2023
+2023-03-02 12:12:39 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 12:12:39 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 12:12:39 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 12:12:39 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 12:12:40 INFO  Log:20 - click on Enter Button
+2023-03-02 12:12:40 INFO  Log:20 - trying to select pax
+2023-03-02 12:12:40 INFO  Log:20 - clicking on the select pax
+2023-03-02 12:12:40 INFO  Log:20 - clicked on the select pax field
+2023-03-02 12:12:41 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 12:12:41 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 12:12:41 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 12:12:41 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 12:12:41 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 12:12:42 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 12:12:48 INFO  Log:20 - getting current url..............
+2023-03-02 12:12:48 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BLR&dep=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR
+2023-03-02 12:12:48 INFO  Log:20 - adding source id in current url
+2023-03-02 12:12:48 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 12:12:48 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BLR&dep=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 12:13:03 INFO  Log:20 - clicking on stop count 0 .............
+2023-03-02 12:13:03 INFO  Log:20 - clicked on stop count 0 ............
+2023-03-02 12:13:09 INFO  Log:20 - clicking on book button..........
+2023-03-02 12:13:09 INFO  Log:20 - clicked on book button..........
+2023-03-02 12:13:21 INFO  Log:20 - trying to click on add passenger button.......
+2023-03-02 12:13:27 INFO  Log:20 - clicked on add passenger button.......
+2023-03-02 12:13:27 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:13:28 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:13:28 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:13:28 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:13:28 INFO  Log:20 - clicking on the title drop box for the first Adult.............
+2023-03-02 12:13:29 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
+2023-03-02 12:13:29 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
+2023-03-02 12:13:29 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
+2023-03-02 12:13:29 INFO  Log:20 - trying to enter Adult1 first name.....As:-Soni
+2023-03-02 12:13:29 INFO  Log:20 - successfully entered Adult1 first name.....As:-Soni
+2023-03-02 12:13:29 INFO  Log:20 - trying to enter Adult1 last name.....As:-mishra
+2023-03-02 12:13:29 INFO  Log:20 - successfully entered Adult1 last name.....As:-mishra
+2023-03-02 12:13:29 INFO  Log:20 - clicking on the title drop box for the first child.............
+2023-03-02 12:13:30 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
+2023-03-02 12:13:30 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
+2023-03-02 12:13:30 INFO  Log:20 - have successfully selected the first child title as:-Master
+2023-03-02 12:13:30 INFO  Log:20 - trying to enter child1 first name.....As:-Moni
+2023-03-02 12:13:30 INFO  Log:20 - successfully entered child1 first name ....As:-Moni
+2023-03-02 12:13:30 INFO  Log:20 - trying to enter child1 last name.....As:-Singh
+2023-03-02 12:13:31 INFO  Log:20 - successfully entered child1 last name ....As:-Singh
+2023-03-02 12:13:31 INFO  Log:20 - clicking on the title drop box for the first Infant.............
+2023-03-02 12:13:31 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
+2023-03-02 12:13:31 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
+2023-03-02 12:13:31 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
+2023-03-02 12:13:31 INFO  Log:20 - trying to enter infant1 first name.....As:-Toni
+2023-03-02 12:13:32 INFO  Log:20 - successfully entered infant1 first name ....As:-Toni
+2023-03-02 12:13:32 INFO  Log:20 - trying to enter infant1 last name.....As:-Gupta
+2023-03-02 12:13:32 INFO  Log:20 - successfully entered  infant1 last name.....As:-Gupta
+2023-03-02 12:13:32 INFO  Log:20 - trying to enter mobile number As:-9848370141
+2023-03-02 12:13:32 INFO  Log:20 - successfully entered mobile number as:-9848370141
+2023-03-02 12:13:32 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
+2023-03-02 12:13:33 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
+2023-03-02 12:13:33 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
+2023-03-02 12:13:33 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
+2023-03-02 12:13:33 INFO  Log:20 - clicking on skip button of protect group...
+2023-03-02 12:13:33 INFO  Log:20 - have clicked on skip protect group btn
+2023-03-02 12:13:33 INFO  Log:20 - trying to click on proceed button.............
+2023-03-02 12:13:34 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
+2023-03-02 12:13:34 INFO  Log:20 - clicking on proceed to pay button.........
+2023-03-02 12:13:34 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
+2023-03-02 12:13:34 INFO  Log:20 - trying to click on pay now button.........
+2023-03-02 12:13:35 INFO  Log:20 - successfully clicked on pay now button.........
+2023-03-02 12:13:35 INFO  Log:20 - trying to click on confirm pay now button.........
+2023-03-02 12:13:36 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
+2023-03-02 12:13:42 INFO  Log:20 - getting the booking status of the Booking summery page
+2023-03-02 12:13:42 INFO  Log:20 - got the status As Success
+2023-03-02 12:13:43 INFO  Log:20 - this is before method
+2023-03-02 12:13:44 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 12:13:46 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 12:13:46 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 12:13:46 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 12:13:46 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 12:13:46 INFO  Log:20 - Trying to Enter Password
+2023-03-02 12:13:46 INFO  Log:20 - Entered Password As 123456
+2023-03-02 12:13:46 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 12:13:46 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 12:13:46 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 12:13:48 INFO  Log:20 - Searching user as:-599963
+2023-03-02 12:13:50 INFO  Log:20 - get the user as :-599963
+2023-03-02 12:13:50 INFO  Log:20 - clicking on search button of user......
+2023-03-02 12:13:50 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 12:13:50 INFO  Log:20 - emulating user...............
+2023-03-02 12:13:51 INFO  Log:20 - emulated user...............
+2023-03-02 12:13:56 INFO  Log:20 - trying to enter source
+2023-03-02 12:13:56 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 12:13:56 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 12:13:56 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 12:13:56 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 12:13:57 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 12:13:57 INFO  Log:20 - trying to enter destination
+2023-03-02 12:13:57 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 12:13:57 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 12:13:57 INFO  Log:20 - Entering the data destination as:- GOI on destination input fields-----------
+2023-03-02 12:13:57 INFO  Log:20 - Entered the data destination as:- GOI on destination input fields-----------
+2023-03-02 12:13:58 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 12:13:58 INFO  Log:20 - trying to select departure Date
+2023-03-02 12:13:58 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 12:13:58 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 12:13:59 INFO  Log:20 - have select the date as:-11-August 2023
+2023-03-02 12:13:59 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 12:13:59 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 12:13:59 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 12:13:59 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 12:14:00 INFO  Log:20 - click on Enter Button
+2023-03-02 12:14:00 INFO  Log:20 - trying to select pax
+2023-03-02 12:14:00 INFO  Log:20 - clicking on the select pax
+2023-03-02 12:14:00 INFO  Log:20 - clicked on the select pax field
+2023-03-02 12:14:01 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 12:14:01 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 12:14:01 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 12:14:01 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 12:14:01 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 12:14:01 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 12:14:07 INFO  Log:20 - getting current url..............
+2023-03-02 12:14:07 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=GOI&dep=2023-08-11&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR
+2023-03-02 12:14:07 INFO  Log:20 - adding source id in current url
+2023-03-02 12:14:07 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 12:14:07 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=GOI&dep=2023-08-11&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 12:14:22 INFO  Log:20 - clicking on stop count 0 .............
+2023-03-02 12:14:23 INFO  Log:20 - clicked on stop count 0 ............
+2023-03-02 12:14:29 INFO  Log:20 - clicking on book button..........
+2023-03-02 12:14:29 INFO  Log:20 - clicked on book button..........
+2023-03-02 12:14:41 INFO  Log:20 - trying to click on add passenger button.......
+2023-03-02 12:14:47 INFO  Log:20 - clicked on add passenger button.......
+2023-03-02 12:14:47 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:14:48 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:14:48 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:14:48 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:14:48 INFO  Log:20 - clicking on the title drop box for the first Adult.............
+2023-03-02 12:14:48 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
+2023-03-02 12:14:48 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
+2023-03-02 12:14:48 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
+2023-03-02 12:14:48 INFO  Log:20 - trying to enter Adult1 first name.....As:-Boni
+2023-03-02 12:14:49 INFO  Log:20 - successfully entered Adult1 first name.....As:-Boni
+2023-03-02 12:14:49 INFO  Log:20 - trying to enter Adult1 last name.....As:-mishra
+2023-03-02 12:14:49 INFO  Log:20 - successfully entered Adult1 last name.....As:-mishra
+2023-03-02 12:14:49 INFO  Log:20 - clicking on the title drop box for the first child.............
+2023-03-02 12:14:49 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
+2023-03-02 12:14:49 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
+2023-03-02 12:14:50 INFO  Log:20 - have successfully selected the first child title as:-Master
+2023-03-02 12:14:50 INFO  Log:20 - trying to enter child1 first name.....As:-Dhoni
+2023-03-02 12:14:50 INFO  Log:20 - successfully entered child1 first name ....As:-Dhoni
+2023-03-02 12:14:50 INFO  Log:20 - trying to enter child1 last name.....As:-Singh
+2023-03-02 12:14:50 INFO  Log:20 - successfully entered child1 last name ....As:-Singh
+2023-03-02 12:14:50 INFO  Log:20 - clicking on the title drop box for the first Infant.............
+2023-03-02 12:14:51 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
+2023-03-02 12:14:51 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
+2023-03-02 12:14:51 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
+2023-03-02 12:14:51 INFO  Log:20 - trying to enter infant1 first name.....As:-loni
+2023-03-02 12:14:51 INFO  Log:20 - successfully entered infant1 first name ....As:-loni
+2023-03-02 12:14:51 INFO  Log:20 - trying to enter infant1 last name.....As:-Panday
+2023-03-02 12:14:52 INFO  Log:20 - successfully entered  infant1 last name.....As:-Panday
+2023-03-02 12:14:52 INFO  Log:20 - trying to enter mobile number As:-9848370141
+2023-03-02 12:14:52 INFO  Log:20 - successfully entered mobile number as:-9848370141
+2023-03-02 12:14:52 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
+2023-03-02 12:14:52 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
+2023-03-02 12:14:52 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
+2023-03-02 12:14:53 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
+2023-03-02 12:14:53 INFO  Log:20 - clicking on skip button of protect group...
+2023-03-02 12:14:53 INFO  Log:20 - have clicked on skip protect group btn
+2023-03-02 12:14:53 INFO  Log:20 - trying to click on proceed button.............
+2023-03-02 12:14:54 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
+2023-03-02 12:14:54 INFO  Log:20 - clicking on proceed to pay button.........
+2023-03-02 12:14:54 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
+2023-03-02 12:14:54 INFO  Log:20 - trying to click on pay now button.........
+2023-03-02 12:14:55 INFO  Log:20 - successfully clicked on pay now button.........
+2023-03-02 12:14:55 INFO  Log:20 - trying to click on confirm pay now button.........
+2023-03-02 12:14:55 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
+2023-03-02 12:15:01 INFO  Log:20 - getting the booking status of the Booking summery page
+2023-03-02 12:15:02 INFO  Log:20 - got the status As Success

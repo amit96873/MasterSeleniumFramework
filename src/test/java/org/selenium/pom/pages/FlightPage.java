@@ -20,6 +20,9 @@ public class FlightPage extends BasePage {
     private final By multicityBtn = By.xpath("//span[text()='MULTI CITY']");
     private final By departuredate = By.xpath("//input[@name='departure']");
     private final By returndate = By.xpath("//input[@name='returnRef']");
+    private final By MultiCityDepartureDateSecond = By.xpath("//input[@name='dep_1']");
+    private final By MultiCityDepartureDateThird = By.xpath("//input[@name='dep_2']");
+
     private final By selectpax = By.xpath("//input[@class='form-control form-control-positionHandle']");
     private final By searchBtn = By.xpath("//button[text()='Search']");
     private final By selectPrefferedAirline = By.xpath("//span[text()='Select Preferred Airline']");
@@ -33,6 +36,9 @@ public class FlightPage extends BasePage {
     private final By viewLatSearch = By.xpath("//p[text()='View your last search']");
     private final By origininputfield = By.xpath("//input[@id='react-select-2-input']");
     private final By destinationinputfield = By.xpath("//input[@id='react-select-3-input']");
+    private final By originSecondMultiCityInputField = By.xpath("//input[@id='react-select-5-input']");
+    private final By destinationSecondMultiCityInputField = By.xpath("//input[@id='react-select-6-input']");
+
     private final By monthchangebtn = By.xpath("//button[text()='Next month']");
     private final By paxdonebtn = By.xpath("//a[text()='DONE']");
 
@@ -68,6 +74,38 @@ public class FlightPage extends BasePage {
         Log.info("Entering the data destination as:- "+destinationName+" on destination input fields-----------");
         e.sendKeys(destinationName);
         Log.info("Entered the data destination as:- "+destinationName+" on destination input fields-----------");
+        Thread.sleep(600);
+        e.sendKeys(Keys.ENTER);
+        Log.info("clicked on Enter Button-----------");
+        return this;
+    }
+
+    @Step
+    public FlightPage enterMultiCitySecondSource(String multiCitySecondSourceName) throws InterruptedException {
+        Log.info("trying to enter multi city second source");
+        WebElement e = wetForElementTOVisible(originSecondMultiCityInputField);
+        Log.info("clicking on multi city second source input fields-----------");
+        e.click();
+        Log.info("clicked on multi city second source input fields-----------");
+        Log.info("Entering the data source as:- "+multiCitySecondSourceName+" on multi city second source input fields-----------");
+        e.sendKeys(multiCitySecondSourceName);
+        Log.info("Entered the data source as:- "+multiCitySecondSourceName+" on multi city second source input fields-----------");
+        Thread.sleep(600);
+        e.sendKeys(Keys.ENTER);
+        Log.info("clicked  on Enter----------");
+        return this;
+    }
+
+    @Step
+    public FlightPage enterMultiCitySecondDestination(String multiCitySecondDestinationName) throws InterruptedException {
+        Log.info("trying to enter multi city second destination");
+        WebElement e = wetForElementTOVisible(destinationSecondMultiCityInputField);
+        Log.info("clicking on multi city second destination input fields-----------");
+        e.click();
+        Log.info("clicked on multi city second destination input fields-----------");
+        Log.info("Entering the data multi city second destination as:- "+multiCitySecondDestinationName+" on multi city second destination input fields-----------");
+        e.sendKeys(multiCitySecondDestinationName);
+        Log.info("Entered the data multi city second destination as:- "+multiCitySecondDestinationName+" on multi city second destination input fields-----------");
         Thread.sleep(600);
         e.sendKeys(Keys.ENTER);
         Log.info("clicked on Enter Button-----------");
@@ -124,6 +162,57 @@ public class FlightPage extends BasePage {
         Log.info("have select the date as:-"+returnDate+"-"+returnMonthYear);
         return this;
     }
+
+    @Step
+    public FlightPage selectMultiCityDepartureDateSecond(String multiCityDepartureDateSecond, String multiCityDepartureMonthYearSecond) throws InterruptedException {
+        Log.info("Trying to select Multi City Second Date");
+        WebElement e = wetForElementTOVisible(MultiCityDepartureDateSecond);
+        Log.info("clicking on Multi City Second  Date Calendar");
+        e.click();
+        Log.info("clicked on Multi City Second  Date Calendar");
+
+        while (!driver.findElement(By.xpath("//div[@class='react-datepicker__current-month']")).getText().contains(multiCityDepartureMonthYearSecond)){
+            WebElement element = wetForElementTOClicable(monthchangebtn);
+            element.click();
+        }
+
+        List<WebElement> al = driver.findElements(By.xpath("//div[@role='option']"));
+        for (int i=0;i<al.size();i++){
+            String value = al.get(i).getText();
+            if (value.equalsIgnoreCase(multiCityDepartureDateSecond)){
+                al.get(i).click();
+                break;
+            }
+        }
+        Log.info("have select the date as:-"+multiCityDepartureDateSecond+"-"+multiCityDepartureMonthYearSecond);
+        return this;
+    }
+
+    @Step
+    public FlightPage selectMultiCityDepartureDateThird(String multiCityDepartureDateThird, String multiCityDepartureMonthYearThird) throws InterruptedException {
+        Log.info("Trying to select Multi City Third Date");
+        WebElement e = wetForElementTOVisible(MultiCityDepartureDateThird);
+        Log.info("clicking on Multi City Third  Date Calendar");
+        e.click();
+        Log.info("clicked on Multi City Third  Date Calendar");
+
+        while (!driver.findElement(By.xpath("//div[@class='react-datepicker__current-month']")).getText().contains(multiCityDepartureMonthYearThird)){
+            WebElement element = wetForElementTOClicable(monthchangebtn);
+            element.click();
+        }
+
+        List<WebElement> al = driver.findElements(By.xpath("//div[@role='option']"));
+        for (int i=0;i<al.size();i++){
+            String value = al.get(i).getText();
+            if (value.equalsIgnoreCase(multiCityDepartureDateThird)){
+                al.get(i).click();
+                break;
+            }
+        }
+        Log.info("have select the date as:-"+multiCityDepartureDateThird+"-"+multiCityDepartureMonthYearThird);
+        return this;
+    }
+
     @Step
     public FlightPage selectPaxWithAdultsChildsInfant(String adults, String child, String infants) throws InterruptedException {
         WebElement e1 = wetForElementTOClicable(selectpax);
@@ -213,6 +302,16 @@ public class FlightPage extends BasePage {
        Log.info("Clicked on RoundTrip Button");
         return this;
    }
+
+    @Step
+    public FlightPage clickOnMultiCityBtn(){
+        WebElement e = wetForElementTOClicable(multicityBtn);
+        Log.info("Clicking on MultiCity Button");
+        e.click();
+        Log.info("Clicked on MultiCity Button");
+        return this;
+    }
+
 
 
 

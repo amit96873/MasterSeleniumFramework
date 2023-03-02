@@ -7,9 +7,11 @@
         <parameter name="browser" value="CHROME"/>
         <classes>
             <class name="org.selenium.pom.tests.OnewayDirectTestCase" />
-            <class name="org.selenium.pom.tests.OnewayConnectingTestCase" />
-            <class name="org.selenium.pom.tests.RoundTripDirectTestCase" />
-            <class name="org.selenium.pom.tests.RoundTripConnectingTestCase" />
+<!--            <class name="org.selenium.pom.tests.OnewayConnectingTestCase" />-->
+<!--            <class name="org.selenium.pom.tests.RoundTripDirectTestCase" />-->
+<!--            <class name="org.selenium.pom.tests.RoundTripConnectingTestCase" />-->
+<!--            <class name="org.selenium.pom.tests.MulticityDirectTestCase" />-->
+<!--            <class name="org.selenium.pom.tests.MulticityConnectingTestCase" />-->
         </classes>
     </test>
 

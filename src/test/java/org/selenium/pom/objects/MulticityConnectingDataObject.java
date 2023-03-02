@@ -7,8 +7,14 @@ public class MulticityConnectingDataObject {
     private String userId;
     private String source;
     private String destination;
+    private String multiCitySecondSourceName;
+    private String multiCitySecondDestinationName;
     private String date;
     private String monthYear;
+    private String multiCityDepartureDateSecond;
+    private String multiCityDepartureMonthYearSecond;
+    private String multiCityDepartureDateThird;
+    private String multiCityDepartureMonthYearThird;
     private String adults;
     private String childs;
     private String infants;
@@ -42,39 +48,51 @@ public class MulticityConnectingDataObject {
 
     }
     public MulticityConnectingDataObject(String userId,
-                            String source,
-                            String destination,
-                            String date,
-                            String monthYear,
-                            String adults,
-                            String childs,
-                            String infants,
-                            String preferredAirlines,
-                            String returnDate,
-                            String returnMonthYear,
-                            String adult1FirstName,
-                            String adult1LastName,
-                            String child1FirstName,
-                            String child1LastName,
-                            String infant1FirstName,
-                            String infant1LastName,
-                            String infant1DOB,
-                            String mobileNumber,
-                            String email,
-                            String amendmentsType,
-                            int paxCountToSelectForAmendments,
-                            String remarks,
-                            String notes,
-                            String reason,
-                            String bookingStatus,
-                            long waitTime,
-                            String firstAdultTitle,
-                            String firstChildTitle,
-                            String firstInfantTitle){
+                                     String source,
+                                     String destination,
+                                     String multiCitySecondSourceName,
+                                     String multiCitySecondDestinationName,
+                                     String date,
+                                     String monthYear,
+                                     String multiCityDepartureDateSecond,
+                                     String multiCityDepartureMonthYearSecond,
+                                     String multiCityDepartureDateThird,
+                                     String multiCityDepartureMonthYearThird,
+                                     String adults,
+                                     String childs,
+                                     String infants,
+                                     String preferredAirlines,
+                                     String returnDate,
+                                     String returnMonthYear,
+                                     String adult1FirstName,
+                                     String adult1LastName,
+                                     String child1FirstName,
+                                     String child1LastName,
+                                     String infant1FirstName,
+                                     String infant1LastName,
+                                     String infant1DOB,
+                                     String mobileNumber,
+                                     String email,
+                                     String amendmentsType,
+                                     int paxCountToSelectForAmendments,
+                                     String remarks,
+                                     String notes,
+                                     String reason,
+                                     String bookingStatus,
+                                     long waitTime,
+                                     String firstAdultTitle,
+                                     String firstChildTitle,
+                                     String firstInfantTitle){
         this.source=source;
         this.destination=destination;
+        this.multiCitySecondSourceName=multiCitySecondSourceName;
+        this.multiCitySecondDestinationName = multiCitySecondDestinationName;
         this.date=date;
         this.monthYear=monthYear;
+        this.multiCityDepartureDateSecond = multiCityDepartureDateSecond;
+        this.multiCityDepartureMonthYearSecond = multiCityDepartureMonthYearSecond;
+        this.multiCityDepartureDateThird = multiCityDepartureDateThird;
+        this.multiCityDepartureMonthYearThird = multiCityDepartureMonthYearThird;
         this.adults = adults;
         this.childs = childs;
         this.infants = infants;
@@ -120,6 +138,22 @@ public class MulticityConnectingDataObject {
     public void setDestination(String destination) {
         this.destination = destination;
     }
+    public String getMultiCitySecondSourceName() {
+        return multiCitySecondSourceName;
+    }
+
+    public void setMultiCitySecondSourceName(String multiCitySecondSourceName) {
+        this.multiCitySecondSourceName = multiCitySecondSourceName;
+    }
+
+    public String getMultiCitySecondDestinationName() {
+        return multiCitySecondDestinationName;
+    }
+
+    public void setMultiCitySecondDestinationName(String multiCitySecondDestinationName) {
+        this.multiCitySecondDestinationName = multiCitySecondDestinationName;
+    }
+
 
     public String getDate() {
         return date;
@@ -137,6 +171,40 @@ public class MulticityConnectingDataObject {
         this.monthYear = monthYear;
     }
 
+
+    public String getMultiCityDepartureDateSecond() {
+        return multiCityDepartureDateSecond;
+    }
+
+    public void setMultiCityDepartureDateSecond(String multiCityDepartureDateSecond) {
+        this.multiCityDepartureDateSecond = multiCityDepartureDateSecond;
+    }
+
+    public String getMultiCityDepartureDateThird() {
+        return multiCityDepartureDateThird;
+    }
+
+    public void setMultiCityDepartureDateThird(String multiCityDepartureDateThird) {
+        this.multiCityDepartureDateThird = multiCityDepartureDateThird;
+    }
+
+    public String getMultiCityDepartureMonthYearThird() {
+        return multiCityDepartureMonthYearThird;
+    }
+
+    public void setMultiCityDepartureMonthYearThird(String multiCityDepartureMonthYearThird) {
+        this.multiCityDepartureMonthYearThird = multiCityDepartureMonthYearThird;
+    }
+
+
+
+    public String getMultiCityDepartureMonthYearSecond() {
+        return multiCityDepartureMonthYearSecond;
+    }
+
+    public void setMultiCityDepartureMonthYearSecond(String multiCityDepartureMonthYearSecond) {
+        this.multiCityDepartureMonthYearSecond = multiCityDepartureMonthYearSecond;
+    }
 
     public String getAdults() {
         return adults;
@@ -348,5 +416,6 @@ public class MulticityConnectingDataObject {
 
 
 }
+
 
 

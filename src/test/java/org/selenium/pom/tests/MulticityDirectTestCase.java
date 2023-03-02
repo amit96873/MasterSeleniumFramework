@@ -45,18 +45,25 @@ public class MulticityDirectTestCase extends BaseTest {
                 load().login(user);
         dashboardPage.isLoaded();
         dashboardPage.enterUserId(multicityDirectDataObject.getUserId()).clickOnUserSearchBtn();
-        //----------------------------------Oneway direct booking----------------------//
-        flightPage = new DashboardPage(getDriver()).clickOnEmulateUser()
+        flightPage = new DashboardPage(getDriver()).clickOnEmulateUser().clickOnMultiCityBtn()
                 .enterSource(multicityDirectDataObject.getSource()).
                 enterDestination(multicityDirectDataObject.getDestination()).
-                selectOnwardsDate(multicityDirectDataObject.getDate(), multicityDirectDataObject.getMonthYear()).
-                selectPreferredAirline(multicityDirectDataObject.getPreferredAirlines()).
+                selectOnwardsDate(multicityDirectDataObject.getDate(), multicityDirectDataObject.getMonthYear())
+                        .enterMultiCitySecondSource(multicityDirectDataObject.getMultiCitySecondSourceName())
+                .enterMultiCitySecondDestination(multicityDirectDataObject.getMultiCitySecondDestinationName())
+                .selectMultiCityDepartureDateSecond(multicityDirectDataObject.getMultiCityDepartureDateSecond(),multicityDirectDataObject.getMultiCityDepartureMonthYearSecond())
+        .selectPreferredAirline(multicityDirectDataObject.getPreferredAirlines()).
                 selectPaxWithAdultsChildsInfant(multicityDirectDataObject.getAdults(), multicityDirectDataObject.getChilds(), multicityDirectDataObject.getInfants());
         searchResultPage = flightPage.clickOnSearchBtn();
+        Thread.sleep(multicityDirectDataObject.getWaitTime());
+        searchResultPage = searchResultPage.searchBySourceId();
+        Thread.sleep(multicityDirectDataObject.getWaitTime());
         Thread.sleep(multicityDirectDataObject.getWaitTime());
         searchResultPage = new SearchResultPage(getDriver()).clickOnStopZero();
         Thread.sleep(multicityDirectDataObject.getWaitTime());
         reviewPage = new SearchResultPage(getDriver()).clickOnBookBtn();
+        Thread.sleep(multicityDirectDataObject.getWaitTime());
+        reviewPage = new ReviewPage(getDriver()).checkPopupAndClickOnContinue();
         Thread.sleep(multicityDirectDataObject.getWaitTime());
         paxDetailsPage = new ReviewPage(getDriver()).clickOnAddPassangerBtn()
                 .clickOnExpandPaxInputFields().
@@ -72,12 +79,13 @@ public class MulticityDirectTestCase extends BaseTest {
                 .enterInfant1LastName(multicityDirectDataObject.getInfant1LastName())
                 .enterMobileNumber(multicityDirectDataObject.getMobileNumber())
                 .enterInfant1DOB(multicityDirectDataObject.getInfant1DOB())
-                .enterEmail(multicityDirectDataObject.getEmail());
+                .enterEmail(multicityDirectDataObject.getEmail())
+                .clickOnSkipProtectGroupBtn();
         termsAndConditionsPage = new PaxDetailsPage(getDriver()).clickOnProceedToReviewBtn();
-        paymentPage = new TermsAndConditionsPage(getDriver()).clickOnProceedToPayBtn().clickOnTermsAndConditionsCheckBox().clickOnPayNowBtn();
+        paymentPage = new TermsAndConditionsPage(getDriver()).clickOnProceedToPayBtn().clickOnPayNowBtn();
         bookingSummaryPage = new PaymentPage(getDriver()).clickOnConfirmPayNowBtn();
         Thread.sleep(multicityDirectDataObject.getWaitTime());
-        Assert.assertEquals(bookingSummaryPage.getBookingStatus(),"Success");
+        Assert.assertEquals(bookingSummaryPage.getBookingStatusForSuccessBooking(),"Success");
     }
 }
 

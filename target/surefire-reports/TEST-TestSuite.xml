@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="308.122" tests="4" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="166.588" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="webdriver.chrome.driver" value="Drivers\chromedriver\win32\110.0.5481.77\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire13845367862218701081\surefirebooter17737673173559365595.jar C:\Users\hp\AppData\Local\Temp\surefire13845367862218701081 2023-03-01T15-14-36_700-jvmRun1 surefire3226289708670242651tmp surefire_013478847666988192799tmp"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire16892067205388649736\surefirebooter3334117629353792732.jar C:\Users\hp\AppData\Local\Temp\surefire16892067205388649736 2023-03-02T12-12-15_376-jvmRun1 surefire12769513027127550611tmp surefire_04939983170950118037tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\MyProject\MasterSeleniumFramework\target\test-classes;C:\MyProject\MasterSeleniumFramework\target\classes;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0\selenium-java-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0\selenium-api-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0\selenium-chrome-driver-4.0.0.jar;C:\Users\hp\.m2\repository\com\google\auto\service\auto-service-annotations\1.0\auto-service-annotations-1.0.jar;C:\Users\hp\.m2\repository\com\google\auto\service\auto-service\1.0\auto-service-1.0.jar;C:\Users\hp\.m2\repository\com\google\auto\auto-common\1.0\auto-common-1.0.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hp\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0\selenium-chromium-driver-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0\selenium-json-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0\selenium-devtools-v85-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v93\4.0.0\selenium-devtools-v93-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.0.0\selenium-devtools-v94-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.0.0\selenium-devtools-v95-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0\selenium-edge-driver-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0\selenium-firefox-driver-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0\selenium-firefox-xpi-driver-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0\selenium-ie-driver-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0\selenium-opera-driver-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0\selenium-remote-driver-4.0.0.jar;C:\Users\hp\.m2\repository\io\netty\netty-buffer\4.1.68.Final\netty-buffer-4.1.68.Final.jar;C:\Users\hp\.m2\repository\io\netty\netty-codec-http\4.1.67.Final\netty-codec-http-4.1.67.Final.jar;C:\Users\hp\.m2\repository\io\netty\netty-codec\4.1.67.Final\netty-codec-4.1.67.Final.jar;C:\Users\hp\.m2\repository\io\netty\netty-handler\4.1.67.Final\netty-handler-4.1.67.Final.jar;C:\Users\hp\.m2\repository\io\netty\netty-common\4.1.68.Final\netty-common-4.1.68.Final.jar;C:\Users\hp\.m2\repository\io\netty\netty-transport-native-epoll\4.1.67.Final\netty-transport-native-epoll-4.1.67.Final.jar;C:\Users\hp\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.67.Final\netty-transport-native-kqueue-4.1.67.Final.jar;C:\Users\hp\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.67.Final\netty-transport-native-unix-common-4.1.67.Final.jar;C:\Users\hp\.m2\repository\io\netty\netty-transport\4.1.68.Final\netty-transport-4.1.68.Final.jar;C:\Users\hp\.m2\repository\io\netty\netty-resolver\4.1.68.Final\netty-resolver-4.1.68.Final.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api\1.6.0\opentelemetry-api-1.6.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-context\1.6.0\opentelemetry-context-1.6.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.6.0\opentelemetry-exporter-logging-1.6.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.6.0-alpha\opentelemetry-sdk-metrics-1.6.0-alpha.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.6.0\opentelemetry-sdk-common-1.6.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.6.0\opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.6.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.6.0\opentelemetry-sdk-trace-1.6.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.6.0-alpha\opentelemetry-api-metrics-1.6.0-alpha.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.6.0\opentelemetry-sdk-1.6.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.6.0-alpha\opentelemetry-semconv-1.6.0-alpha.jar;C:\Users\hp\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.11.19\byte-buddy-1.11.19.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hp\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\hp\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\hp\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\hp\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\hp\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\hp\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\hp\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\hp\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\hp\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0\selenium-http-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0\selenium-safari-driver-4.0.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0\selenium-support-4.0.0.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\hp\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\hp\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\hp\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\hp\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\hp\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\hp\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\hp\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\hp\.m2\repository\io\github\bonigarcia\webdrivermanager\5.2.0\webdrivermanager-5.2.0.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\hp\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\hp\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\hp\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\hp\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\hp\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\hp\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\hp\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\hp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\hp\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\hp\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\hp\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\hp\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\hp\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\hp\.m2\repository\org\jsoup\jsoup\1.15.1\jsoup-1.15.1.jar;C:\Users\hp\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\hp\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\hp\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\hp\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-testng\2.18.1\allure-testng-2.18.1.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-java-commons\2.18.1\allure-java-commons-2.18.1.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-model\2.18.1\allure-model-2.18.1.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-test-filter\2.18.1\allure-test-filter-2.18.1.jar;C:\Users\hp\.m2\repository\org\aspectj\aspectjweaver\1.9.9.1\aspectjweaver-1.9.9.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\hp\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hp\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hp\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hp\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire13845367862218701081\surefirebooter17737673173559365595.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire16892067205388649736\surefirebooter3334117629353792732.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -57,11 +57,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="onewayDirectCompleteSanityTest[org.selenium.pom.objects.OnewayDirectDataObject@672c9e6e](1)" classname="org.selenium.pom.tests.OnewayDirectTestCase" time="101.997">
+  <testcase name="onewayDirectCompleteSanityTest[org.selenium.pom.objects.OnewayDirectDataObject@5bf142e6](1)" classname="org.selenium.pom.tests.OnewayDirectTestCase" time="78.254">
     <system-out><![CDATA[log4j: reset attribute= "false".
 log4j: Threshold ="null".
-log4j: reset attribute= "false".
-log4j: Threshold ="null".
 log4j: Level value for root is  [debug].
 log4j: root level set to DEBUG
 log4j: Class name: [org.apache.log4j.ConsoleAppender]
@@ -76,221 +74,132 @@ log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{
 log4j: setFile called: Logs/log4j.log, true
 log4j: setFile ended
 log4j: Adding appender named [fileAppender] to category [root].
-log4j: Level value for root is  [debug].
-log4j: root level set to DEBUG
-log4j: Class name: [org.apache.log4j.ConsoleAppender]
-log4j: Setting property [target] to [System.out].
-log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
-log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
-log4j: Adding appender named [console] to category [root].
-log4j: Class name: [org.apache.log4j.RollingFileAppender]
-log4j: Setting property [file] to [Logs/log4j.log].
-log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
-log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
-log4j: setFile called: Logs/log4j.log, true
-log4j: setFile ended
-log4j: Adding appender named [fileAppender] to category [root].
-2023-03-01 15:14:41 INFO  Log:20 - this is before method
-2023-03-01 15:14:41 INFO  Log:20 - this is before method
-CURRENT THREAD18,Driver = ChromeDriver: chrome on WINDOWS (f11a9e0c6f80b9c406a98adfa836bbef)
-CURRENT THREAD19,Driver = ChromeDriver: chrome on WINDOWS (49f8d26bd4e9a1309cc7e6f30030077e)
-2023-03-01 15:14:48 INFO  Log:20 - checking by URL the home page loaded or not........
-2023-03-01 15:14:48 INFO  Log:20 - checking by URL the home page loaded or not........
-2023-03-01 15:14:54 INFO  Log:20 - Home page is loaded successfully
-2023-03-01 15:14:54 INFO  Log:20 - login by using login method and reading the value from properties file 
-2023-03-01 15:14:54 INFO  Log:20 - Trying to Enter UserName
-2023-03-01 15:14:54 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
-2023-03-01 15:14:54 INFO  Log:20 - Trying to Enter Password
-2023-03-01 15:14:54 INFO  Log:20 - Entered Password As 123456
-2023-03-01 15:14:54 INFO  Log:20 - clicking on Login Button...................
-2023-03-01 15:14:54 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
-2023-03-01 15:14:54 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
-2023-03-01 15:14:55 INFO  Log:20 - Home page is loaded successfully
-2023-03-01 15:14:55 INFO  Log:20 - login by using login method and reading the value from properties file 
-2023-03-01 15:14:55 INFO  Log:20 - Trying to Enter UserName
-2023-03-01 15:14:56 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
-2023-03-01 15:14:56 INFO  Log:20 - Trying to Enter Password
-2023-03-01 15:14:56 INFO  Log:20 - Entered Password As 123456
-2023-03-01 15:14:56 INFO  Log:20 - clicking on Login Button...................
-2023-03-01 15:14:56 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
-2023-03-01 15:14:56 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
-2023-03-01 15:14:57 INFO  Log:20 - Searching user as:-599963
-2023-03-01 15:14:59 INFO  Log:20 - get the user as :-599963
-2023-03-01 15:14:59 INFO  Log:20 - clicking on search button of user......
-2023-03-01 15:14:59 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
-2023-03-01 15:14:59 INFO  Log:20 - emulating user...............
-2023-03-01 15:15:00 INFO  Log:20 - emulated user...............
-2023-03-01 15:15:02 INFO  Log:20 - Searching user as:-599963
-2023-03-01 15:15:04 INFO  Log:20 - get the user as :-599963
-2023-03-01 15:15:04 INFO  Log:20 - clicking on search button of user......
-2023-03-01 15:15:04 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
-2023-03-01 15:15:04 INFO  Log:20 - emulating user...............
-2023-03-01 15:15:05 INFO  Log:20 - emulated user...............
-2023-03-01 15:15:05 INFO  Log:20 - trying to enter source
-2023-03-01 15:15:06 INFO  Log:20 - clicking on source input fields-----------
-2023-03-01 15:15:06 INFO  Log:20 - clicked on source input fields-----------
-2023-03-01 15:15:06 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
-2023-03-01 15:15:07 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
-2023-03-01 15:15:08 INFO  Log:20 - clicked  on Enter----------
-2023-03-01 15:15:08 INFO  Log:20 - trying to enter destination
-2023-03-01 15:15:08 INFO  Log:20 - clicking on destination input fields-----------
-2023-03-01 15:15:08 INFO  Log:20 - clicked on destination input fields-----------
-2023-03-01 15:15:08 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
-2023-03-01 15:15:09 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
-2023-03-01 15:15:09 INFO  Log:20 - clicked on Enter Button-----------
-2023-03-01 15:15:09 INFO  Log:20 - trying to select departure Date
-2023-03-01 15:15:10 INFO  Log:20 - clicking on departure Date Calendar
-2023-03-01 15:15:10 INFO  Log:20 - trying to enter source
-2023-03-01 15:15:10 INFO  Log:20 - clicked on departure Date Calendar
-2023-03-01 15:15:10 INFO  Log:20 - clicking on source input fields-----------
-2023-03-01 15:15:10 INFO  Log:20 - clicked on source input fields-----------
-2023-03-01 15:15:10 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
-2023-03-01 15:15:10 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
-2023-03-01 15:15:11 INFO  Log:20 - clicked  on Enter----------
-2023-03-01 15:15:11 INFO  Log:20 - trying to enter destination
-2023-03-01 15:15:11 INFO  Log:20 - clicking on destination input fields-----------
-2023-03-01 15:15:11 INFO  Log:20 - clicked on destination input fields-----------
-2023-03-01 15:15:11 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
-2023-03-01 15:15:11 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
-2023-03-01 15:15:12 INFO  Log:20 - have select the date as:-15-August 2023
-2023-03-01 15:15:12 INFO  Log:20 - Trying to select preferred Airlines
-2023-03-01 15:15:12 INFO  Log:20 - clicking on preferred Airlines field
-2023-03-01 15:15:12 INFO  Log:20 - clicked on Enter Button-----------
-2023-03-01 15:15:12 INFO  Log:20 - trying to select departure Date
-2023-03-01 15:15:12 INFO  Log:20 - clicking on departure Date Calendar
-2023-03-01 15:15:12 INFO  Log:20 - clicked on preferred Airlines field
-2023-03-01 15:15:13 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
-2023-03-01 15:15:13 INFO  Log:20 - clicked on departure Date Calendar
-2023-03-01 15:15:14 INFO  Log:20 - click on Enter Button
-2023-03-01 15:15:14 INFO  Log:20 - trying to select pax
-2023-03-01 15:15:14 INFO  Log:20 - clicking on the select pax
-2023-03-01 15:15:14 INFO  Log:20 - clicked on the select pax field
-2023-03-01 15:15:15 INFO  Log:20 - have select the date as:-15-August 2023
-2023-03-01 15:15:15 INFO  Log:20 - Trying to select preferred Airlines
-2023-03-01 15:15:15 INFO  Log:20 - clicking on preferred Airlines field
-2023-03-01 15:15:15 INFO  Log:20 - clicked on preferred Airlines field
-2023-03-01 15:15:15 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
-2023-03-01 15:15:16 INFO  Log:20 - click on Enter Button
-2023-03-01 15:15:16 INFO  Log:20 - trying to select pax
-2023-03-01 15:15:16 INFO  Log:20 - clicking on the select pax
-2023-03-01 15:15:16 INFO  Log:20 - clicked on the select pax field
-2023-03-01 15:15:16 INFO  Log:20 - have selected number of Adults is:-1Adults
-2023-03-01 15:15:17 INFO  Log:20 - have selected number of Child is:-1Child
-2023-03-01 15:15:21 INFO  Log:20 - have selected number of Infants is:-1Infants
-2023-03-01 15:15:22 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
-2023-03-01 15:15:22 INFO  Log:20 - clicking on Search Button of flight search page
-2023-03-01 15:15:22 INFO  Log:20 - clicked on Search Button of flight search page
-2023-03-01 15:15:28 INFO  Log:20 - getting current url..............
-2023-03-01 15:15:28 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR
-2023-03-01 15:15:28 INFO  Log:20 - adding source id in current url
-2023-03-01 15:15:28 INFO  Log:20 - have added source id in current url as:-&sId=5
-2023-03-01 15:15:28 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR&sId=5
-2023-03-01 15:15:41 INFO  Log:20 - have selected number of Adults is:-1Adults
-2023-03-01 15:15:42 INFO  Log:20 - have selected number of Child is:-1Child
-2023-03-01 15:15:42 INFO  Log:20 - have selected number of Infants is:-1Infants
-2023-03-01 15:15:42 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
-2023-03-01 15:15:42 INFO  Log:20 - clicking on Search Button of flight search page
-2023-03-01 15:15:42 INFO  Log:20 - clicked on Search Button of flight search page
-2023-03-01 15:15:43 INFO  Log:20 - clicking on stop count 0 .............
-2023-03-01 15:15:47 INFO  Log:20 - clicked on stop count 0 ............
-2023-03-01 15:15:48 INFO  Log:20 - getting current url..............
-2023-03-01 15:15:48 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR
-2023-03-01 15:15:48 INFO  Log:20 - adding source id in current url
-2023-03-01 15:15:48 INFO  Log:20 - have added source id in current url as:-&sId=5
-2023-03-01 15:15:48 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR&sId=5
-2023-03-01 15:15:53 INFO  Log:20 - clicking on book button..........
-2023-03-01 15:15:53 INFO  Log:20 - clicked on book button..........
-2023-03-01 15:16:04 INFO  Log:20 - clicking on stop count 1 .............
-2023-03-01 15:16:04 INFO  Log:20 - clicked on stop count 1 ............
-2023-03-01 15:16:06 INFO  Log:20 - trying to click on add passenger button.......
-2023-03-01 15:16:10 INFO  Log:20 - clicking on book button..........
-2023-03-01 15:16:10 INFO  Log:20 - clicked on book button..........
-2023-03-01 15:16:12 INFO  Log:20 - clicked on add passenger button.......
-2023-03-01 15:16:12 INFO  Log:20 - clicking on expand button of pax input fields
-2023-03-01 15:16:13 INFO  Log:20 - clicked on expand button of pax input fields
-2023-03-01 15:16:13 INFO  Log:20 - clicking on expand button of pax input fields
-2023-03-01 15:16:13 INFO  Log:20 - clicked on expand button of pax input fields
-2023-03-01 15:16:13 INFO  Log:20 - clicking on the title drop box for the first Adult.............
-2023-03-01 15:16:14 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
-2023-03-01 15:16:14 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
-2023-03-01 15:16:14 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
-2023-03-01 15:16:14 INFO  Log:20 - trying to enter Adult1 first name.....As:-monuytr
-2023-03-01 15:16:15 INFO  Log:20 - successfully entered Adult1 first name.....As:-monuytr
-2023-03-01 15:16:15 INFO  Log:20 - trying to enter Adult1 last name.....As:-mishra
-2023-03-01 15:16:15 INFO  Log:20 - successfully entered Adult1 last name.....As:-mishra
-2023-03-01 15:16:15 INFO  Log:20 - clicking on the title drop box for the first child.............
-2023-03-01 15:16:16 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
-2023-03-01 15:16:16 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
-2023-03-01 15:16:16 INFO  Log:20 - have successfully selected the first child title as:-Master
-2023-03-01 15:16:16 INFO  Log:20 - trying to enter child1 first name.....As:-Dhanuvfgt
-2023-03-01 15:16:17 INFO  Log:20 - successfully entered child1 first name ....As:-Dhanuvfgt
-2023-03-01 15:16:17 INFO  Log:20 - trying to enter child1 last name.....As:-mik
-2023-03-01 15:16:17 INFO  Log:20 - successfully entered child1 last name ....As:-mik
-2023-03-01 15:16:17 INFO  Log:20 - clicking on the title drop box for the first Infant.............
-2023-03-01 15:16:18 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
-2023-03-01 15:16:18 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
-2023-03-01 15:16:18 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
-2023-03-01 15:16:18 INFO  Log:20 - trying to enter infant1 first name.....As:-tunugft
-2023-03-01 15:16:19 INFO  Log:20 - successfully entered infant1 first name ....As:-tunugft
-2023-03-01 15:16:19 INFO  Log:20 - trying to enter infant1 last name.....As:-ndjhfi
-2023-03-01 15:16:19 INFO  Log:20 - successfully entered  infant1 last name.....As:-ndjhfi
-2023-03-01 15:16:19 INFO  Log:20 - trying to enter mobile number As:-9848370141
-2023-03-01 15:16:19 INFO  Log:20 - successfully entered mobile number as:-9848370141
-2023-03-01 15:16:19 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
-2023-03-01 15:16:20 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
-2023-03-01 15:16:20 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
-2023-03-01 15:16:21 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
-2023-03-01 15:16:21 INFO  Log:20 - clicking on skip button of protect group...
-2023-03-01 15:16:21 INFO  Log:20 - have clicked on skip protect group btn
-2023-03-01 15:16:21 INFO  Log:20 - trying to click on proceed button.............
-2023-03-01 15:16:22 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
-2023-03-01 15:16:22 INFO  Log:20 - clicking on proceed to pay button.........
-2023-03-01 15:16:23 INFO  Log:20 - trying to click on add passenger button.......
-2023-03-01 15:16:23 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
-2023-03-01 15:16:23 INFO  Log:20 - trying to click on pay now button.........
-2023-03-01 15:16:23 INFO  Log:20 - successfully clicked on pay now button.........
-2023-03-01 15:16:23 INFO  Log:20 - trying to click on confirm pay now button.........
-2023-03-01 15:16:24 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
-2023-03-01 15:16:29 INFO  Log:20 - clicked on add passenger button.......
-2023-03-01 15:16:29 INFO  Log:20 - clicking on expand button of pax input fields
-2023-03-01 15:16:30 INFO  Log:20 - getting the booking status of the Booking summery page
-2023-03-01 15:16:30 INFO  Log:20 - got the status As Success
+2023-03-02 12:12:19 INFO  Log:20 - this is before method
+CURRENT THREAD18,Driver = ChromeDriver: chrome on WINDOWS (91bfb65b494c078882cea4c505e8518b)
+2023-03-02 12:12:24 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 12:12:26 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 12:12:26 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 12:12:26 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 12:12:26 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 12:12:26 INFO  Log:20 - Trying to Enter Password
+2023-03-02 12:12:26 INFO  Log:20 - Entered Password As 123456
+2023-03-02 12:12:26 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 12:12:26 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 12:12:26 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 12:12:28 INFO  Log:20 - Searching user as:-599963
+2023-03-02 12:12:30 INFO  Log:20 - get the user as :-599963
+2023-03-02 12:12:30 INFO  Log:20 - clicking on search button of user......
+2023-03-02 12:12:30 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 12:12:30 INFO  Log:20 - emulating user...............
+2023-03-02 12:12:31 INFO  Log:20 - emulated user...............
+2023-03-02 12:12:36 INFO  Log:20 - trying to enter source
+2023-03-02 12:12:36 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 12:12:36 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 12:12:36 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 12:12:36 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 12:12:37 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 12:12:37 INFO  Log:20 - trying to enter destination
+2023-03-02 12:12:37 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 12:12:37 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 12:12:37 INFO  Log:20 - Entering the data destination as:- blr on destination input fields-----------
+2023-03-02 12:12:37 INFO  Log:20 - Entered the data destination as:- blr on destination input fields-----------
+2023-03-02 12:12:38 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 12:12:38 INFO  Log:20 - trying to select departure Date
+2023-03-02 12:12:38 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 12:12:38 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 12:12:39 INFO  Log:20 - have select the date as:-15-August 2023
+2023-03-02 12:12:39 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 12:12:39 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 12:12:39 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 12:12:39 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 12:12:40 INFO  Log:20 - click on Enter Button
+2023-03-02 12:12:40 INFO  Log:20 - trying to select pax
+2023-03-02 12:12:40 INFO  Log:20 - clicking on the select pax
+2023-03-02 12:12:40 INFO  Log:20 - clicked on the select pax field
+2023-03-02 12:12:41 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 12:12:41 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 12:12:41 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 12:12:41 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 12:12:41 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 12:12:42 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 12:12:48 INFO  Log:20 - getting current url..............
+2023-03-02 12:12:48 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BLR&dep=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR
+2023-03-02 12:12:48 INFO  Log:20 - adding source id in current url
+2023-03-02 12:12:48 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 12:12:48 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BLR&dep=2023-08-15&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 12:13:03 INFO  Log:20 - clicking on stop count 0 .............
+2023-03-02 12:13:03 INFO  Log:20 - clicked on stop count 0 ............
+2023-03-02 12:13:09 INFO  Log:20 - clicking on book button..........
+2023-03-02 12:13:09 INFO  Log:20 - clicked on book button..........
+2023-03-02 12:13:21 INFO  Log:20 - trying to click on add passenger button.......
+2023-03-02 12:13:27 INFO  Log:20 - clicked on add passenger button.......
+2023-03-02 12:13:27 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:13:28 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:13:28 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:13:28 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:13:28 INFO  Log:20 - clicking on the title drop box for the first Adult.............
+2023-03-02 12:13:29 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
+2023-03-02 12:13:29 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
+2023-03-02 12:13:29 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
+2023-03-02 12:13:29 INFO  Log:20 - trying to enter Adult1 first name.....As:-Soni
+2023-03-02 12:13:29 INFO  Log:20 - successfully entered Adult1 first name.....As:-Soni
+2023-03-02 12:13:29 INFO  Log:20 - trying to enter Adult1 last name.....As:-mishra
+2023-03-02 12:13:29 INFO  Log:20 - successfully entered Adult1 last name.....As:-mishra
+2023-03-02 12:13:29 INFO  Log:20 - clicking on the title drop box for the first child.............
+2023-03-02 12:13:30 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
+2023-03-02 12:13:30 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
+2023-03-02 12:13:30 INFO  Log:20 - have successfully selected the first child title as:-Master
+2023-03-02 12:13:30 INFO  Log:20 - trying to enter child1 first name.....As:-Moni
+2023-03-02 12:13:30 INFO  Log:20 - successfully entered child1 first name ....As:-Moni
+2023-03-02 12:13:30 INFO  Log:20 - trying to enter child1 last name.....As:-Singh
+2023-03-02 12:13:31 INFO  Log:20 - successfully entered child1 last name ....As:-Singh
+2023-03-02 12:13:31 INFO  Log:20 - clicking on the title drop box for the first Infant.............
+2023-03-02 12:13:31 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
+2023-03-02 12:13:31 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
+2023-03-02 12:13:31 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
+2023-03-02 12:13:31 INFO  Log:20 - trying to enter infant1 first name.....As:-Toni
+2023-03-02 12:13:32 INFO  Log:20 - successfully entered infant1 first name ....As:-Toni
+2023-03-02 12:13:32 INFO  Log:20 - trying to enter infant1 last name.....As:-Gupta
+2023-03-02 12:13:32 INFO  Log:20 - successfully entered  infant1 last name.....As:-Gupta
+2023-03-02 12:13:32 INFO  Log:20 - trying to enter mobile number As:-9848370141
+2023-03-02 12:13:32 INFO  Log:20 - successfully entered mobile number as:-9848370141
+2023-03-02 12:13:32 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
+2023-03-02 12:13:33 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
+2023-03-02 12:13:33 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
+2023-03-02 12:13:33 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
+2023-03-02 12:13:33 INFO  Log:20 - clicking on skip button of protect group...
+2023-03-02 12:13:33 INFO  Log:20 - have clicked on skip protect group btn
+2023-03-02 12:13:33 INFO  Log:20 - trying to click on proceed button.............
+2023-03-02 12:13:34 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
+2023-03-02 12:13:34 INFO  Log:20 - clicking on proceed to pay button.........
+2023-03-02 12:13:34 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
+2023-03-02 12:13:34 INFO  Log:20 - trying to click on pay now button.........
+2023-03-02 12:13:35 INFO  Log:20 - successfully clicked on pay now button.........
+2023-03-02 12:13:35 INFO  Log:20 - trying to click on confirm pay now button.........
+2023-03-02 12:13:36 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
+2023-03-02 12:13:42 INFO  Log:20 - getting the booking status of the Booking summery page
+2023-03-02 12:13:42 INFO  Log:20 - got the status As Success
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 53353
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 52521
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 52481
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-ChromeDriver was started successfully.
-[1677663886.680][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-[1677663886.943][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Mar 01, 2023 3:14:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677739343.253][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 02, 2023 12:12:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Mar 01, 2023 3:14:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Mar 01, 2023 3:14:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 02, 2023 12:12:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
-Mar 01, 2023 3:14:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 02, 2023 12:12:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 110.
-Mar 01, 2023 3:14:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 01, 2023 3:14:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
-Mar 01, 2023 3:14:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Unable to find CDP implementation matching 110.
-Mar 01, 2023 3:14:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 02, 2023 12:12:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="onewayConnectingCompleteSanityTest[org.selenium.pom.objects.OnewayConnectingDataObject@573e45ab](1)" classname="org.selenium.pom.tests.OnewayConnectingTestCase" time="22.348">
-    <system-out><![CDATA[CURRENT THREAD18,Driver = ChromeDriver: chrome on WINDOWS (f11a9e0c6f80b9c406a98adfa836bbef)
-2023-03-01 15:16:31 INFO  Log:20 - clicked on expand button of pax input fields
-2023-03-01 15:16:31 INFO  Log:20 - clicking on expand button of pax input fields
+  <testcase name="onewayDirectCompleteSanityTest[org.selenium.pom.objects.OnewayDirectDataObject@1eac1c05](2)" classname="org.selenium.pom.tests.OnewayDirectTestCase" time="78.022">
+    <system-out><![CDATA[CURRENT THREAD18,Driver = ChromeDriver: chrome on WINDOWS (91bfb65b494c078882cea4c505e8518b)
 log4j: System property is :null
 log4j: Standard DocumentBuilderFactory search succeded.
 log4j: DocumentBuilderFactory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
@@ -311,294 +220,125 @@ log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{
 log4j: setFile called: Logs/log4j.log, true
 log4j: setFile ended
 log4j: Adding appender named [fileAppender] to category [root].
-2023-03-01 15:16:31 INFO  Log:20 - this is before method
-2023-03-01 15:16:31 INFO  Log:20 - clicked on expand button of pax input fields
-2023-03-01 15:16:31 INFO  Log:20 - clicking on the title drop box for the first Adult.............
-2023-03-01 15:16:32 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
-2023-03-01 15:16:32 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
-CURRENT THREAD18,Driver = ChromeDriver: chrome on WINDOWS (c73fc74f02d4c11a46c57ed038f71e63)
-2023-03-01 15:16:32 INFO  Log:20 - checking by URL the home page loaded or not........
-2023-03-01 15:16:32 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
-2023-03-01 15:16:32 INFO  Log:20 - trying to enter Adult1 first name.....As:-deepuopcfr
-2023-03-01 15:16:34 INFO  Log:20 - successfully entered Adult1 first name.....As:-deepuopcfr
-2023-03-01 15:16:34 INFO  Log:20 - trying to enter Adult1 last name.....As:-singh
-2023-03-01 15:16:34 INFO  Log:20 - successfully entered Adult1 last name.....As:-singh
-2023-03-01 15:16:34 INFO  Log:20 - clicking on the title drop box for the first child.............
-2023-03-01 15:16:35 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
-2023-03-01 15:16:35 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
-2023-03-01 15:16:35 INFO  Log:20 - have successfully selected the first child title as:-Master
-2023-03-01 15:16:35 INFO  Log:20 - trying to enter child1 first name.....As:-shivShankarergt
-2023-03-01 15:16:36 INFO  Log:20 - Home page is loaded successfully
-2023-03-01 15:16:36 INFO  Log:20 - login by using login method and reading the value from properties file 
-2023-03-01 15:16:36 INFO  Log:20 - Trying to Enter UserName
-2023-03-01 15:16:36 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
-2023-03-01 15:16:36 INFO  Log:20 - Trying to Enter Password
-2023-03-01 15:16:36 INFO  Log:20 - Entered Password As 123456
-2023-03-01 15:16:36 INFO  Log:20 - clicking on Login Button...................
-2023-03-01 15:16:36 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
-2023-03-01 15:16:36 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
-2023-03-01 15:16:37 INFO  Log:20 - successfully entered child1 first name ....As:-shivShankarergt
-2023-03-01 15:16:37 INFO  Log:20 - trying to enter child1 last name.....As:-suhani
-2023-03-01 15:16:38 INFO  Log:20 - successfully entered child1 last name ....As:-suhani
-2023-03-01 15:16:38 INFO  Log:20 - clicking on the title drop box for the first Infant.............
-2023-03-01 15:16:39 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
-2023-03-01 15:16:39 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
-2023-03-01 15:16:39 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
-2023-03-01 15:16:39 INFO  Log:20 - trying to enter infant1 first name.....As:-dubahsiwehy
-2023-03-01 15:16:40 INFO  Log:20 - successfully entered infant1 first name ....As:-dubahsiwehy
-2023-03-01 15:16:40 INFO  Log:20 - trying to enter infant1 last name.....As:-pandu
-2023-03-01 15:16:41 INFO  Log:20 - successfully entered  infant1 last name.....As:-pandu
-2023-03-01 15:16:41 INFO  Log:20 - trying to enter mobile number As:-9848370141
-2023-03-01 15:16:41 INFO  Log:20 - successfully entered mobile number as:-9848370141
-2023-03-01 15:16:41 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
-2023-03-01 15:16:42 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
-2023-03-01 15:16:42 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
-2023-03-01 15:16:43 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
-2023-03-01 15:16:43 INFO  Log:20 - clicking on skip button of protect group...
-2023-03-01 15:16:44 INFO  Log:20 - have clicked on skip protect group btn
-2023-03-01 15:16:44 INFO  Log:20 - trying to click on proceed button.............
-2023-03-01 15:16:44 INFO  Log:20 - Searching user as:-599963
-2023-03-01 15:16:45 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
-2023-03-01 15:16:45 INFO  Log:20 - clicking on proceed to pay button.........
-2023-03-01 15:16:46 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
-2023-03-01 15:16:46 INFO  Log:20 - trying to click on pay now button.........
-2023-03-01 15:16:46 INFO  Log:20 - get the user as :-599963
-2023-03-01 15:16:46 INFO  Log:20 - clicking on search button of user......
-2023-03-01 15:16:46 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
-2023-03-01 15:16:46 INFO  Log:20 - emulating user...............
-2023-03-01 15:16:47 INFO  Log:20 - successfully clicked on pay now button.........
-2023-03-01 15:16:47 INFO  Log:20 - trying to click on confirm pay now button.........
-2023-03-01 15:16:47 INFO  Log:20 - emulated user...............
-2023-03-01 15:16:48 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
-2023-03-01 15:16:52 INFO  Log:20 - trying to enter source
-2023-03-01 15:16:52 INFO  Log:20 - clicking on source input fields-----------
-2023-03-01 15:16:53 INFO  Log:20 - clicked on source input fields-----------
-2023-03-01 15:16:53 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
-2023-03-01 15:16:53 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
-2023-03-01 15:16:54 INFO  Log:20 - clicked  on Enter----------
-2023-03-01 15:16:54 INFO  Log:20 - trying to enter destination
-2023-03-01 15:16:54 INFO  Log:20 - clicking on destination input fields-----------
-2023-03-01 15:16:54 INFO  Log:20 - clicked on destination input fields-----------
-2023-03-01 15:16:54 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
-2023-03-01 15:16:54 INFO  Log:20 - getting the booking status of the Booking summery page
-2023-03-01 15:16:54 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
-2023-03-01 15:16:55 INFO  Log:20 - clicked on Enter Button-----------
-2023-03-01 15:16:55 INFO  Log:20 - trying to select departure Date
-2023-03-01 15:16:55 INFO  Log:20 - clicking on departure Date Calendar
-2023-03-01 15:16:55 INFO  Log:20 - got the status As Success
+2023-03-02 12:13:43 INFO  Log:20 - this is before method
+CURRENT THREAD18,Driver = ChromeDriver: chrome on WINDOWS (503729e98fbb12a14a2ba1f374b78bd0)
+2023-03-02 12:13:44 INFO  Log:20 - checking by URL the home page loaded or not........
+2023-03-02 12:13:46 INFO  Log:20 - Home page is loaded successfully
+2023-03-02 12:13:46 INFO  Log:20 - login by using login method and reading the value from properties file 
+2023-03-02 12:13:46 INFO  Log:20 - Trying to Enter UserName
+2023-03-02 12:13:46 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
+2023-03-02 12:13:46 INFO  Log:20 - Trying to Enter Password
+2023-03-02 12:13:46 INFO  Log:20 - Entered Password As 123456
+2023-03-02 12:13:46 INFO  Log:20 - clicking on Login Button...................
+2023-03-02 12:13:46 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
+2023-03-02 12:13:46 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
+2023-03-02 12:13:48 INFO  Log:20 - Searching user as:-599963
+2023-03-02 12:13:50 INFO  Log:20 - get the user as :-599963
+2023-03-02 12:13:50 INFO  Log:20 - clicking on search button of user......
+2023-03-02 12:13:50 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
+2023-03-02 12:13:50 INFO  Log:20 - emulating user...............
+2023-03-02 12:13:51 INFO  Log:20 - emulated user...............
+2023-03-02 12:13:56 INFO  Log:20 - trying to enter source
+2023-03-02 12:13:56 INFO  Log:20 - clicking on source input fields-----------
+2023-03-02 12:13:56 INFO  Log:20 - clicked on source input fields-----------
+2023-03-02 12:13:56 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
+2023-03-02 12:13:56 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
+2023-03-02 12:13:57 INFO  Log:20 - clicked  on Enter----------
+2023-03-02 12:13:57 INFO  Log:20 - trying to enter destination
+2023-03-02 12:13:57 INFO  Log:20 - clicking on destination input fields-----------
+2023-03-02 12:13:57 INFO  Log:20 - clicked on destination input fields-----------
+2023-03-02 12:13:57 INFO  Log:20 - Entering the data destination as:- GOI on destination input fields-----------
+2023-03-02 12:13:57 INFO  Log:20 - Entered the data destination as:- GOI on destination input fields-----------
+2023-03-02 12:13:58 INFO  Log:20 - clicked on Enter Button-----------
+2023-03-02 12:13:58 INFO  Log:20 - trying to select departure Date
+2023-03-02 12:13:58 INFO  Log:20 - clicking on departure Date Calendar
+2023-03-02 12:13:58 INFO  Log:20 - clicked on departure Date Calendar
+2023-03-02 12:13:59 INFO  Log:20 - have select the date as:-11-August 2023
+2023-03-02 12:13:59 INFO  Log:20 - Trying to select preferred Airlines
+2023-03-02 12:13:59 INFO  Log:20 - clicking on preferred Airlines field
+2023-03-02 12:13:59 INFO  Log:20 - clicked on preferred Airlines field
+2023-03-02 12:13:59 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
+2023-03-02 12:14:00 INFO  Log:20 - click on Enter Button
+2023-03-02 12:14:00 INFO  Log:20 - trying to select pax
+2023-03-02 12:14:00 INFO  Log:20 - clicking on the select pax
+2023-03-02 12:14:00 INFO  Log:20 - clicked on the select pax field
+2023-03-02 12:14:01 INFO  Log:20 - have selected number of Adults is:-1Adults
+2023-03-02 12:14:01 INFO  Log:20 - have selected number of Child is:-1Child
+2023-03-02 12:14:01 INFO  Log:20 - have selected number of Infants is:-1Infants
+2023-03-02 12:14:01 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
+2023-03-02 12:14:01 INFO  Log:20 - clicking on Search Button of flight search page
+2023-03-02 12:14:01 INFO  Log:20 - clicked on Search Button of flight search page
+2023-03-02 12:14:07 INFO  Log:20 - getting current url..............
+2023-03-02 12:14:07 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=GOI&dep=2023-08-11&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR
+2023-03-02 12:14:07 INFO  Log:20 - adding source id in current url
+2023-03-02 12:14:07 INFO  Log:20 - have added source id in current url as:-&sId=5
+2023-03-02 12:14:07 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=GOI&dep=2023-08-11&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=0&prefAirCode=6E&pft=REGULAR&sId=5
+2023-03-02 12:14:22 INFO  Log:20 - clicking on stop count 0 .............
+2023-03-02 12:14:23 INFO  Log:20 - clicked on stop count 0 ............
+2023-03-02 12:14:29 INFO  Log:20 - clicking on book button..........
+2023-03-02 12:14:29 INFO  Log:20 - clicked on book button..........
+2023-03-02 12:14:41 INFO  Log:20 - trying to click on add passenger button.......
+2023-03-02 12:14:47 INFO  Log:20 - clicked on add passenger button.......
+2023-03-02 12:14:47 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:14:48 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:14:48 INFO  Log:20 - clicking on expand button of pax input fields
+2023-03-02 12:14:48 INFO  Log:20 - clicked on expand button of pax input fields
+2023-03-02 12:14:48 INFO  Log:20 - clicking on the title drop box for the first Adult.............
+2023-03-02 12:14:48 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
+2023-03-02 12:14:48 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
+2023-03-02 12:14:48 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
+2023-03-02 12:14:48 INFO  Log:20 - trying to enter Adult1 first name.....As:-Boni
+2023-03-02 12:14:49 INFO  Log:20 - successfully entered Adult1 first name.....As:-Boni
+2023-03-02 12:14:49 INFO  Log:20 - trying to enter Adult1 last name.....As:-mishra
+2023-03-02 12:14:49 INFO  Log:20 - successfully entered Adult1 last name.....As:-mishra
+2023-03-02 12:14:49 INFO  Log:20 - clicking on the title drop box for the first child.............
+2023-03-02 12:14:49 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
+2023-03-02 12:14:49 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
+2023-03-02 12:14:50 INFO  Log:20 - have successfully selected the first child title as:-Master
+2023-03-02 12:14:50 INFO  Log:20 - trying to enter child1 first name.....As:-Dhoni
+2023-03-02 12:14:50 INFO  Log:20 - successfully entered child1 first name ....As:-Dhoni
+2023-03-02 12:14:50 INFO  Log:20 - trying to enter child1 last name.....As:-Singh
+2023-03-02 12:14:50 INFO  Log:20 - successfully entered child1 last name ....As:-Singh
+2023-03-02 12:14:50 INFO  Log:20 - clicking on the title drop box for the first Infant.............
+2023-03-02 12:14:51 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
+2023-03-02 12:14:51 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
+2023-03-02 12:14:51 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
+2023-03-02 12:14:51 INFO  Log:20 - trying to enter infant1 first name.....As:-loni
+2023-03-02 12:14:51 INFO  Log:20 - successfully entered infant1 first name ....As:-loni
+2023-03-02 12:14:51 INFO  Log:20 - trying to enter infant1 last name.....As:-Panday
+2023-03-02 12:14:52 INFO  Log:20 - successfully entered  infant1 last name.....As:-Panday
+2023-03-02 12:14:52 INFO  Log:20 - trying to enter mobile number As:-9848370141
+2023-03-02 12:14:52 INFO  Log:20 - successfully entered mobile number as:-9848370141
+2023-03-02 12:14:52 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
+2023-03-02 12:14:52 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
+2023-03-02 12:14:52 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
+2023-03-02 12:14:53 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
+2023-03-02 12:14:53 INFO  Log:20 - clicking on skip button of protect group...
+2023-03-02 12:14:53 INFO  Log:20 - have clicked on skip protect group btn
+2023-03-02 12:14:53 INFO  Log:20 - trying to click on proceed button.............
+2023-03-02 12:14:54 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
+2023-03-02 12:14:54 INFO  Log:20 - clicking on proceed to pay button.........
+2023-03-02 12:14:54 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
+2023-03-02 12:14:54 INFO  Log:20 - trying to click on pay now button.........
+2023-03-02 12:14:55 INFO  Log:20 - successfully clicked on pay now button.........
+2023-03-02 12:14:55 INFO  Log:20 - trying to click on confirm pay now button.........
+2023-03-02 12:14:55 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
+2023-03-02 12:15:01 INFO  Log:20 - getting the booking status of the Booking summery page
+2023-03-02 12:15:02 INFO  Log:20 - got the status As Success
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 58652
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 59094
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677663992.687][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Mar 01, 2023 3:16:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677739424.063][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 02, 2023 12:13:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Mar 01, 2023 3:16:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 02, 2023 12:13:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
-Mar 01, 2023 3:16:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 02, 2023 12:13:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 110.
-Mar 01, 2023 3:16:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 02, 2023 12:13:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
-  </testcase>
-  <testcase name="roundTripDirectCompleteSanityTest[org.selenium.pom.objects.RoundTripDirectDataObject@307b738d](1)" classname="org.selenium.pom.tests.RoundTripDirectTestCase" time="35.904">
-    <failure message="element click intercepted: Element &lt;a href=&quot;javascript:void(...);&quot; class=&quot;stop-flights&quot;&gt;0&lt;/a&gt; is not clickable at point (166, 416). Other element would receive the click: &lt;div class=&quot;animated-background-all animated-background-psoitionHandle&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=110.0.5481.178)&#10;Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;&#10;System info: host: &apos;LAPTOP-AJOTTULQ&apos;, ip: &apos;192.168.0.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c73fc74f02d4c11a46c57ed038f71e63, clickElement {id=478db2bd-8d86-44c8-9c27-23bc7d9b5195}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54250/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (c73fc74f02d4c11a46c57ed038f71e63)] -&gt; xpath: //ul//li//a[@class=&apos;stop-flights&apos; and  text() = &quot;0&quot;]]&#10;Session ID: c73fc74f02d4c11a46c57ed038f71e63" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <a href="javascript:void(...);" class="stop-flights">0</a> is not clickable at point (166, 416). Other element would receive the click: <div class="animated-background-all animated-background-psoitionHandle">...</div>
-  (Session info: chrome=110.0.5481.178)
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-AJOTTULQ', ip: '192.168.0.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c73fc74f02d4c11a46c57ed038f71e63, clickElement {id=478db2bd-8d86-44c8-9c27-23bc7d9b5195}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54250/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (c73fc74f02d4c11a46c57ed038f71e63)] -> xpath: //ul//li//a[@class='stop-flights' and  text() = "0"]]
-Session ID: c73fc74f02d4c11a46c57ed038f71e63
-	at org.selenium.pom.tests.RoundTripDirectTestCase.roundTripDirectCompleteSanityTest(RoundTripDirectTestCase.java:62)
-]]></failure>
-    <system-out><![CDATA[CURRENT THREAD19,Driver = ChromeDriver: chrome on WINDOWS (49f8d26bd4e9a1309cc7e6f30030077e)
-2023-03-01 15:16:55 INFO  Log:20 - clicked on departure Date Calendar
-log4j: System property is :null
-log4j: Standard DocumentBuilderFactory search succeded.
-log4j: DocumentBuilderFactory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
-log4j: debug attribute= "true".
-log4j: reset attribute= "false".
-log4j: Threshold ="null".
-log4j: Level value for root is  [debug].
-log4j: root level set to DEBUG
-log4j: Class name: [org.apache.log4j.ConsoleAppender]
-log4j: Setting property [target] to [System.out].
-log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
-log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
-log4j: Adding appender named [console] to category [root].
-log4j: Class name: [org.apache.log4j.RollingFileAppender]
-log4j: Setting property [file] to [Logs/log4j.log].
-log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
-log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
-log4j: setFile called: Logs/log4j.log, true
-log4j: setFile ended
-log4j: Adding appender named [fileAppender] to category [root].
-2023-03-01 15:16:56 INFO  Log:20 - this is before method
-CURRENT THREAD19,Driver = ChromeDriver: chrome on WINDOWS (23d48baa3bfafcb2c4e9f825713ea2f4)
-2023-03-01 15:16:57 INFO  Log:20 - checking by URL the home page loaded or not........
-2023-03-01 15:16:58 INFO  Log:20 - have select the date as:-15-August 2023
-2023-03-01 15:16:58 INFO  Log:20 - Trying to select Return Date
-2023-03-01 15:16:58 INFO  Log:20 - clicking on Return Date Calendar
-2023-03-01 15:16:58 INFO  Log:20 - clicked on Return Date Calendar
-2023-03-01 15:16:59 INFO  Log:20 - have select the date as:-18-August 2023
-2023-03-01 15:16:59 INFO  Log:20 - Trying to select preferred Airlines
-2023-03-01 15:16:59 INFO  Log:20 - clicking on preferred Airlines field
-2023-03-01 15:16:59 INFO  Log:20 - clicked on preferred Airlines field
-2023-03-01 15:16:59 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
-2023-03-01 15:17:00 INFO  Log:20 - click on Enter Button
-2023-03-01 15:17:01 INFO  Log:20 - trying to select pax
-2023-03-01 15:17:01 INFO  Log:20 - clicking on the select pax
-2023-03-01 15:17:01 INFO  Log:20 - clicked on the select pax field
-2023-03-01 15:17:01 INFO  Log:20 - have selected number of Adults is:-1Adults
-2023-03-01 15:17:02 INFO  Log:20 - have selected number of Child is:-1Child
-2023-03-01 15:17:02 INFO  Log:20 - have selected number of Infants is:-1Infants
-2023-03-01 15:17:02 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
-2023-03-01 15:17:02 INFO  Log:20 - clicking on Search Button of flight search page
-2023-03-01 15:17:02 INFO  Log:20 - clicked on Search Button of flight search page
-2023-03-01 15:17:08 INFO  Log:20 - getting current url..............
-2023-03-01 15:17:11 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ret=2023-08-18&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=1&pft=REGULAR
-2023-03-01 15:17:11 INFO  Log:20 - adding source id in current url
-2023-03-01 15:17:11 INFO  Log:20 - have added source id in current url as:-&sId=5
-2023-03-01 15:17:11 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ret=2023-08-18&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=1&pft=REGULAR&sId=5
-2023-03-01 15:17:11 INFO  Log:20 - Home page is loaded successfully
-2023-03-01 15:17:11 INFO  Log:20 - login by using login method and reading the value from properties file 
-2023-03-01 15:17:11 INFO  Log:20 - Trying to Enter UserName
-2023-03-01 15:17:12 INFO  Log:20 - Entered UserName As amit.kumar@technogramsolutions.com
-2023-03-01 15:17:12 INFO  Log:20 - Trying to Enter Password
-2023-03-01 15:17:12 INFO  Log:20 - Entered Password As 123456
-2023-03-01 15:17:12 INFO  Log:20 - clicking on Login Button...................
-2023-03-01 15:17:12 INFO  Log:20 - clicked on Login Button and get back to the Dashboard Page
-2023-03-01 15:17:12 INFO  Log:20 - checking by url is dashboard page is loaded or not-----------
-2023-03-01 15:17:22 INFO  Log:20 - Searching user as:-599963
-2023-03-01 15:17:24 INFO  Log:20 - get the user as :-599963
-2023-03-01 15:17:24 INFO  Log:20 - clicking on search button of user......
-2023-03-01 15:17:24 INFO  Log:20 - clicked on search button of manage user form and get the user details on the dashboard page
-2023-03-01 15:17:24 INFO  Log:20 - emulating user...............
-2023-03-01 15:17:26 INFO  Log:20 - emulated user...............
-2023-03-01 15:17:31 INFO  Log:20 - trying to enter source
-2023-03-01 15:17:31 INFO  Log:20 - clicking on stop count 0 .............
-2023-03-01 15:17:31 INFO  Log:20 - clicking on source input fields-----------
-2023-03-01 15:17:31 INFO  Log:20 - clicked on source input fields-----------
-2023-03-01 15:17:31 INFO  Log:20 - Entering the data source as:- del on source input fields-----------
-2023-03-01 15:17:32 INFO  Log:20 - Entered the data source as:- del on source input fields-----------
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 63831
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1677664017.426][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Mar 01, 2023 3:16:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Mar 01, 2023 3:16:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
-Mar 01, 2023 3:16:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Unable to find CDP implementation matching 110.
-Mar 01, 2023 3:16:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="roundTripConnectingCompleteSanityTest[org.selenium.pom.objects.RoundTripConnectingDataObject@2c630a5b](1)" classname="org.selenium.pom.tests.RoundTripConnectingTestCase" time="167.296">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: (//*[text()=&apos;Cancelled&apos;])[1] (tried for 40 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;&#10;System info: host: &apos;LAPTOP-AJOTTULQ&apos;, ip: &apos;192.168.0.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54371/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 23d48baa3bfafcb2c4e9f825713ea2f4" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.xpath: (//*[text()='Cancelled'])[1] (tried for 40 second(s) with 500 milliseconds interval)
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-AJOTTULQ', ip: '192.168.0.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54371/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 23d48baa3bfafcb2c4e9f825713ea2f4
-	at org.selenium.pom.tests.RoundTripConnectingTestCase.roundTripConnectingCompleteSanityTest(RoundTripConnectingTestCase.java:88)
-]]></failure>
-    <system-out><![CDATA[CURRENT THREAD18,Driver = ChromeDriver: chrome on WINDOWS (c73fc74f02d4c11a46c57ed038f71e63)
-2023-03-01 15:17:33 INFO  Log:20 - clicked  on Enter----------
-2023-03-01 15:17:33 INFO  Log:20 - trying to enter destination
-2023-03-01 15:17:33 INFO  Log:20 - clicking on destination input fields-----------
-2023-03-01 15:17:33 INFO  Log:20 - clicked on destination input fields-----------
-2023-03-01 15:17:33 INFO  Log:20 - Entering the data destination as:- bom on destination input fields-----------
-2023-03-01 15:17:33 INFO  Log:20 - Entered the data destination as:- bom on destination input fields-----------
-2023-03-01 15:17:34 INFO  Log:20 - clicked on Enter Button-----------
-2023-03-01 15:17:34 INFO  Log:20 - trying to select departure Date
-2023-03-01 15:17:34 INFO  Log:20 - clicking on departure Date Calendar
-2023-03-01 15:17:35 INFO  Log:20 - clicked on departure Date Calendar
-2023-03-01 15:17:36 INFO  Log:20 - have select the date as:-15-August 2023
-2023-03-01 15:17:36 INFO  Log:20 - Trying to select Return Date
-2023-03-01 15:17:36 INFO  Log:20 - clicking on Return Date Calendar
-2023-03-01 15:17:36 INFO  Log:20 - clicked on Return Date Calendar
-2023-03-01 15:17:37 INFO  Log:20 - have select the date as:-18-August 2023
-2023-03-01 15:17:37 INFO  Log:20 - Trying to select preferred Airlines
-2023-03-01 15:17:37 INFO  Log:20 - clicking on preferred Airlines field
-2023-03-01 15:17:37 INFO  Log:20 - clicked on preferred Airlines field
-2023-03-01 15:17:38 INFO  Log:20 - have selected preferred Airlines As:-6eAirline
-2023-03-01 15:17:39 INFO  Log:20 - click on Enter Button
-2023-03-01 15:17:39 INFO  Log:20 - trying to select pax
-2023-03-01 15:17:39 INFO  Log:20 - clicking on the select pax
-2023-03-01 15:17:39 INFO  Log:20 - clicked on the select pax field
-2023-03-01 15:17:39 INFO  Log:20 - have selected number of Adults is:-1Adults
-2023-03-01 15:17:40 INFO  Log:20 - have selected number of Child is:-1Child
-2023-03-01 15:17:40 INFO  Log:20 - have selected number of Infants is:-1Infants
-2023-03-01 15:17:40 INFO  Log:20 - The number of pax have selected is:-1Adults,1Child,1Infants
-2023-03-01 15:17:40 INFO  Log:20 - clicking on Search Button of flight search page
-2023-03-01 15:17:40 INFO  Log:20 - clicked on Search Button of flight search page
-2023-03-01 15:17:46 INFO  Log:20 - getting current url..............
-2023-03-01 15:17:46 INFO  Log:20 - have received current url as:-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ret=2023-08-18&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=1&prefAirCode=6E&pft=REGULAR
-2023-03-01 15:17:46 INFO  Log:20 - adding source id in current url
-2023-03-01 15:17:46 INFO  Log:20 - have added source id in current url as:-&sId=5
-2023-03-01 15:17:46 INFO  Log:20 - now current new url is :-https://qa.technogramsolutions.com/flight/list/?from=DEL&to=BOM&dep=2023-08-15&ret=2023-08-18&ADT=1&CHD=1&INF=1&pClass=Economy&tripType=1&prefAirCode=6E&pft=REGULAR&sId=5
-2023-03-01 15:18:01 INFO  Log:20 - clicking on stop count 1 .............
-2023-03-01 15:18:21 INFO  Log:20 - clicked on stop count 1 ............
-2023-03-01 15:18:27 INFO  Log:20 - selecting connected onwards flight......
-2023-03-01 15:18:28 INFO  Log:20 - selected onwards flight....
-2023-03-01 15:18:28 INFO  Log:20 - clicking on book button..........
-2023-03-01 15:18:28 INFO  Log:20 - clicked on book button..........
-2023-03-01 15:18:40 INFO  Log:20 - trying to click on add passenger button.......
-2023-03-01 15:18:46 INFO  Log:20 - clicked on add passenger button.......
-2023-03-01 15:18:46 INFO  Log:20 - clicking on expand button of pax input fields
-2023-03-01 15:18:47 INFO  Log:20 - clicked on expand button of pax input fields
-2023-03-01 15:18:47 INFO  Log:20 - clicking on expand button of pax input fields
-2023-03-01 15:18:48 INFO  Log:20 - clicked on expand button of pax input fields
-2023-03-01 15:18:48 INFO  Log:20 - clicking on the title drop box for the first Adult.............
-2023-03-01 15:18:48 INFO  Log:20 - clicked on the title drop box for the first Adult and now trying to select the title as Mr
-2023-03-01 15:18:48 INFO  Log:20 - in drop down Trying to select the first Adult title As:-Mr
-2023-03-01 15:18:48 INFO  Log:20 - have successfully selected the first Adult title as:-Mr
-2023-03-01 15:18:48 INFO  Log:20 - trying to enter Adult1 first name.....As:-umartg
-2023-03-01 15:18:49 INFO  Log:20 - successfully entered Adult1 first name.....As:-umartg
-2023-03-01 15:18:49 INFO  Log:20 - trying to enter Adult1 last name.....As:-mishra
-2023-03-01 15:18:50 INFO  Log:20 - successfully entered Adult1 last name.....As:-mishra
-2023-03-01 15:18:50 INFO  Log:20 - clicking on the title drop box for the first child.............
-2023-03-01 15:18:50 INFO  Log:20 - clicked on the title drop box for the first Child and now trying to select the title as Master
-2023-03-01 15:18:50 INFO  Log:20 - in dropdown Trying to select the first child title As:-Master
-2023-03-01 15:18:50 INFO  Log:20 - have successfully selected the first child title as:-Master
-2023-03-01 15:18:50 INFO  Log:20 - trying to enter child1 first name.....As:-patijrfgd
-2023-03-01 15:18:51 INFO  Log:20 - successfully entered child1 first name ....As:-patijrfgd
-2023-03-01 15:18:51 INFO  Log:20 - trying to enter child1 last name.....As:-mik
-2023-03-01 15:18:51 INFO  Log:20 - successfully entered child1 last name ....As:-mik
-2023-03-01 15:18:51 INFO  Log:20 - clicking on the title drop box for the first Infant.............
-2023-03-01 15:18:52 INFO  Log:20 - clicked on the title drop box for the first Infant and now trying to select the title as Ms
-2023-03-01 15:18:52 INFO  Log:20 - in dropdown Trying to select the first Infant title As:-Ms
-2023-03-01 15:18:52 INFO  Log:20 - have successfully selected the first Infant title as:-Ms
-2023-03-01 15:18:52 INFO  Log:20 - trying to enter infant1 first name.....As:-devityughtry
-2023-03-01 15:18:53 INFO  Log:20 - successfully entered infant1 first name ....As:-devityughtry
-2023-03-01 15:18:53 INFO  Log:20 - trying to enter infant1 last name.....As:-ndjhfi
-2023-03-01 15:18:54 INFO  Log:20 - successfully entered  infant1 last name.....As:-ndjhfi
-2023-03-01 15:18:54 INFO  Log:20 - trying to enter mobile number As:-9848370141
-2023-03-01 15:18:54 INFO  Log:20 - successfully entered mobile number as:-9848370141
-2023-03-01 15:18:54 INFO  Log:20 - trying to enter infant1 dob as:-14/12/2021
-2023-03-01 15:18:54 INFO  Log:20 - successfully entered the infant1 dob as:-14/12/2021
-2023-03-01 15:18:54 INFO  Log:20 - trying to enter email id as:-amit96873@gmail.com
-2023-03-01 15:18:55 INFO  Log:20 - successfully entered email id as:- amit96873@gmail.com
-2023-03-01 15:18:55 INFO  Log:20 - clicking on skip button of protect group...
-2023-03-01 15:18:55 INFO  Log:20 - have clicked on skip protect group btn
-2023-03-01 15:18:55 INFO  Log:20 - trying to click on proceed button.............
-2023-03-01 15:18:56 INFO  Log:20 - successfully clicked on proceed button and get in to the Terms and condition page
-2023-03-01 15:18:56 INFO  Log:20 - clicking on proceed to pay button.........
-2023-03-01 15:18:57 INFO  Log:20 - clicked on proceed to pay button and get in to the Payment page
-2023-03-01 15:18:57 INFO  Log:20 - trying to click on pay now button.........
-2023-03-01 15:18:57 INFO  Log:20 - successfully clicked on pay now button.........
-2023-03-01 15:18:57 INFO  Log:20 - trying to click on confirm pay now button.........
-2023-03-01 15:18:58 INFO  Log:20 - successfully clicked on confirm pay now button and get in to the booking summery page.........
-2023-03-01 15:19:04 INFO  Log:20 - getting the booking status of the Booking summery page
-]]></system-out>
   </testcase>
 </testsuite>
