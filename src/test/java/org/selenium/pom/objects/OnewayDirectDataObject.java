@@ -13,6 +13,8 @@ public class OnewayDirectDataObject {
     private String preferredAirlines;
     private String returnDate;
     private String returnMonthYear;
+
+    private String sId;
     private String firstAdultTitle;
     private String adult1FirstName;
     private String adult1LastName;
@@ -32,6 +34,7 @@ public class OnewayDirectDataObject {
     private String reason;
     private String bookingStatus;
     private long waitTime;
+    private  String statusOfBooking;
 
 
 
@@ -50,6 +53,7 @@ public class OnewayDirectDataObject {
                                       String preferredAirlines,
                                       String returnDate,
                                       String returnMonthYear,
+                                      String sId,
                                       String adult1FirstName,
                                       String adult1LastName,
                                       String child1FirstName,
@@ -68,7 +72,8 @@ public class OnewayDirectDataObject {
                                       long waitTime,
                                       String firstAdultTitle,
                                       String firstChildTitle,
-                                      String firstInfantTitle){
+                                      String firstInfantTitle,
+                                      String statusOfBooking){
         this.source=source;
         this.destination=destination;
         this.date=date;
@@ -79,6 +84,7 @@ public class OnewayDirectDataObject {
         this.preferredAirlines = preferredAirlines;
         this.returnDate = returnDate;
         this.returnMonthYear = returnMonthYear;
+        this.sId = sId;
         this.adult1FirstName = adult1FirstName;
         this.adult1LastName = adult1LastName;
         this.child1FirstName = child1FirstName;
@@ -98,6 +104,7 @@ public class OnewayDirectDataObject {
         this.firstAdultTitle = firstAdultTitle;
         this.firstChildTitle = firstChildTitle;
         this.firstInfantTitle = firstInfantTitle;
+        this.statusOfBooking = statusOfBooking;
     }
 
 
@@ -343,7 +350,21 @@ public class OnewayDirectDataObject {
     public void setFirstInfantTitle(String firstInfantTitle) {
         this.firstInfantTitle = firstInfantTitle;
     }
+    public String getsId() {
+        return sId;
+    }
 
+    public void setsId(String sId) {
+        this.sId = sId;
+    }
+
+    public String getStatusOfBooking() {
+        return statusOfBooking;
+    }
+
+    public void setStatusOfBooking(String statusOfBooking) {
+        this.statusOfBooking = statusOfBooking;
+    }
 
 }
 

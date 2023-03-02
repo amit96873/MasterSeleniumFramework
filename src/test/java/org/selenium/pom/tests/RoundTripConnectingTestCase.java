@@ -55,7 +55,7 @@ public class RoundTripConnectingTestCase extends BaseTest {
                 selectPaxWithAdultsChildsInfant(roundTripConnectingDataObject.getAdults(), roundTripConnectingDataObject.getChilds(), roundTripConnectingDataObject.getInfants());
         searchResultPage = flightPage.clickOnSearchBtn();
         Thread.sleep(roundTripConnectingDataObject.getWaitTime());
-        searchResultPage = searchResultPage.searchBySourceId();
+        searchResultPage = searchResultPage.searchBySourceId(roundTripConnectingDataObject.getsId());
         Thread.sleep(roundTripConnectingDataObject.getWaitTime());
         Thread.sleep(roundTripConnectingDataObject.getWaitTime());
         searchResultPage = new SearchResultPage(getDriver()).clickOnStopOne();
@@ -85,7 +85,7 @@ public class RoundTripConnectingTestCase extends BaseTest {
         paymentPage = new TermsAndConditionsPage(getDriver()).clickOnProceedToPayBtn().clickOnPayNowBtn();
         bookingSummaryPage = new PaymentPage(getDriver()).clickOnConfirmPayNowBtn();
         Thread.sleep(roundTripConnectingDataObject.getWaitTime());
-        Assert.assertEquals(bookingSummaryPage.getBookingStatusForSuccessBooking(),"Success");
+        Assert.assertEquals(bookingSummaryPage.getBookingStatusForSuccessBooking(),roundTripConnectingDataObject.getStatusOfBooking());
     }
 }
 

@@ -56,7 +56,7 @@ public class LocalTestCase extends BaseTest {
                 selectPaxWithAdultsChildsInfant(completeBookingSanityDataObject.getAdults(), completeBookingSanityDataObject.getChilds(), completeBookingSanityDataObject.getInfants());
         searchResultPage = flightPage.clickOnSearchBtn();
         Thread.sleep(completeBookingSanityDataObject.getWaitTime());
-        searchResultPage = searchResultPage.searchBySourceId();
+        searchResultPage = searchResultPage.searchBySourceId("&sId=5");
         Thread.sleep(completeBookingSanityDataObject.getWaitTime());
         searchResultPage = new SearchResultPage(getDriver()).clickOnStopOne();
         Thread.sleep(completeBookingSanityDataObject.getWaitTime());

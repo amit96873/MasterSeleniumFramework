@@ -56,7 +56,7 @@ public class MulticityConnectingTestCase extends BaseTest {
                 selectPaxWithAdultsChildsInfant(multicityConnectingDataObject.getAdults(), multicityConnectingDataObject.getChilds(), multicityConnectingDataObject.getInfants());
         searchResultPage = flightPage.clickOnSearchBtn();
         Thread.sleep(multicityConnectingDataObject.getWaitTime());
-        searchResultPage = searchResultPage.searchBySourceId();
+        searchResultPage = searchResultPage.searchBySourceId(multicityConnectingDataObject.getsId());
         Thread.sleep(multicityConnectingDataObject.getWaitTime());
         Thread.sleep(multicityConnectingDataObject.getWaitTime());
         searchResultPage = new SearchResultPage(getDriver()).clickOnStopOne();
@@ -86,7 +86,7 @@ public class MulticityConnectingTestCase extends BaseTest {
         paymentPage = new TermsAndConditionsPage(getDriver()).clickOnProceedToPayBtn().clickOnPayNowBtn();
         bookingSummaryPage = new PaymentPage(getDriver()).clickOnConfirmPayNowBtn();
         Thread.sleep(multicityConnectingDataObject.getWaitTime());
-        Assert.assertEquals(bookingSummaryPage.getBookingStatusForSuccessBooking(),"Success");
+        Assert.assertEquals(bookingSummaryPage.getBookingStatusForSuccessBooking(),multicityConnectingDataObject.getStatusOfBooking());
     }
 }
 

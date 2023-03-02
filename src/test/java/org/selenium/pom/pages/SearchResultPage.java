@@ -70,14 +70,13 @@ public class SearchResultPage extends BasePage {
         return this;
     }
     @Step
-    public  SearchResultPage searchBySourceId(){
+    public  SearchResultPage searchBySourceId(String sId){
         Log.info("getting current url..............");
         String url = driver.getCurrentUrl();
         Log.info("have received current url as:-"+url);
         Log.info("adding source id in current url");
-        String sid = "&sId=5";
-        Log.info("have added source id in current url as:-"+sid);
-        String newUrl = url+sid;
+        String newUrl = url+sId;
+        Log.info("have added source id in current url as:-"+sId);
         Log.info("now current new url is :-"+newUrl);
         driver.get(newUrl);
         return this;

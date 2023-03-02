@@ -56,7 +56,7 @@ public class MulticityDirectTestCase extends BaseTest {
                 selectPaxWithAdultsChildsInfant(multicityDirectDataObject.getAdults(), multicityDirectDataObject.getChilds(), multicityDirectDataObject.getInfants());
         searchResultPage = flightPage.clickOnSearchBtn();
         Thread.sleep(multicityDirectDataObject.getWaitTime());
-        searchResultPage = searchResultPage.searchBySourceId();
+        searchResultPage = searchResultPage.searchBySourceId(multicityDirectDataObject.getsId());
         Thread.sleep(multicityDirectDataObject.getWaitTime());
         Thread.sleep(multicityDirectDataObject.getWaitTime());
         searchResultPage = new SearchResultPage(getDriver()).clickOnStopZero();
@@ -85,7 +85,7 @@ public class MulticityDirectTestCase extends BaseTest {
         paymentPage = new TermsAndConditionsPage(getDriver()).clickOnProceedToPayBtn().clickOnPayNowBtn();
         bookingSummaryPage = new PaymentPage(getDriver()).clickOnConfirmPayNowBtn();
         Thread.sleep(multicityDirectDataObject.getWaitTime());
-        Assert.assertEquals(bookingSummaryPage.getBookingStatusForSuccessBooking(),"Success");
+        Assert.assertEquals(bookingSummaryPage.getBookingStatusForSuccessBooking(),multicityDirectDataObject.getStatusOfBooking());
     }
 }
 

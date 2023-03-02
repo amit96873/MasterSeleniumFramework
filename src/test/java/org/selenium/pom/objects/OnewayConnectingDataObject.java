@@ -12,6 +12,7 @@ public class OnewayConnectingDataObject {
     private String preferredAirlines;
     private String returnDate;
     private String returnMonthYear;
+    private String sId;
     private String firstAdultTitle;
     private String adult1FirstName;
     private String adult1LastName;
@@ -31,6 +32,7 @@ public class OnewayConnectingDataObject {
     private String reason;
     private String bookingStatus;
     private long waitTime;
+    private  String statusOfBooking;
 
 
 
@@ -43,6 +45,7 @@ public class OnewayConnectingDataObject {
                                      String destination,
                                      String date,
                                      String monthYear,
+                                     String sId,
                                      String adults,
                                      String childs,
                                      String infants,
@@ -67,11 +70,13 @@ public class OnewayConnectingDataObject {
                                      long waitTime,
                                      String firstAdultTitle,
                                      String firstChildTitle,
-                                     String firstInfantTitle){
+                                     String firstInfantTitle,
+                                      String statusOfBooking){
         this.source=source;
         this.destination=destination;
         this.date=date;
         this.monthYear=monthYear;
+        this.sId = sId;
         this.adults = adults;
         this.childs = childs;
         this.infants = infants;
@@ -97,6 +102,7 @@ public class OnewayConnectingDataObject {
         this.firstAdultTitle = firstAdultTitle;
         this.firstChildTitle = firstChildTitle;
         this.firstInfantTitle = firstInfantTitle;
+        this.statusOfBooking = statusOfBooking;
     }
 
 
@@ -342,6 +348,23 @@ public class OnewayConnectingDataObject {
     public void setFirstInfantTitle(String firstInfantTitle) {
         this.firstInfantTitle = firstInfantTitle;
     }
+
+    public String getsId() {
+        return sId;
+    }
+
+    public void setsId(String sId) {
+        this.sId = sId;
+    }
+
+    public String getStatusOfBooking() {
+        return statusOfBooking;
+    }
+
+    public void setStatusOfBooking(String statusOfBooking) {
+        this.statusOfBooking = statusOfBooking;
+    }
+
 
 
 }

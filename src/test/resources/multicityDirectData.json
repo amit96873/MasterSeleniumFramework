@@ -13,6 +13,7 @@
     "multiCityDepartureMonthYearSecond": "August 2023",
     "multiCityDepartureDateThird": "25",
     "multiCityDepartureMonthYearThird": "August 2023",
+    "sId": "&sId=5",
     "adults": "1",
     "childs": "1",
     "infants": "1",
@@ -35,7 +36,8 @@
     "notes": "processing the Amendments",
     "reason": "i am trying to cancel my booking",
     "bookingStatus": " Cancelled",
-    "waitTime": "6000"
+    "waitTime": "6000",
+    "statusOfBooking":"Success"
 
   }
 ]

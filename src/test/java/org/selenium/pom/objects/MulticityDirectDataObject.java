@@ -12,6 +12,8 @@ public class MulticityDirectDataObject {
     private String multiCityDepartureMonthYearSecond;
     private String multiCityDepartureDateThird;
     private String multiCityDepartureMonthYearThird;
+
+    private String sId;
     private String adults;
     private String childs;
     private String infants;
@@ -37,7 +39,7 @@ public class MulticityDirectDataObject {
     private String reason;
     private String bookingStatus;
     private long waitTime;
-
+    private  String statusOfBooking;
 
 
 
@@ -55,6 +57,7 @@ public class MulticityDirectDataObject {
                                          String multiCityDepartureMonthYearSecond,
                                          String multiCityDepartureDateThird,
                                          String multiCityDepartureMonthYearThird,
+                                         String sId,
                                          String adults,
                                          String childs,
                                          String infants,
@@ -79,7 +82,8 @@ public class MulticityDirectDataObject {
                                          long waitTime,
                                          String firstAdultTitle,
                                          String firstChildTitle,
-                                         String firstInfantTitle){
+                                         String firstInfantTitle,
+                                     String statusOfBooking){
         this.source=source;
         this.destination=destination;
         this.multiCitySecondSourceName=multiCitySecondSourceName;
@@ -90,6 +94,7 @@ public class MulticityDirectDataObject {
         this.multiCityDepartureMonthYearSecond = multiCityDepartureMonthYearSecond;
         this.multiCityDepartureDateThird = multiCityDepartureDateThird;
         this.multiCityDepartureMonthYearThird = multiCityDepartureMonthYearThird;
+        this.sId = sId;
         this.adults = adults;
         this.childs = childs;
         this.infants = infants;
@@ -115,6 +120,7 @@ public class MulticityDirectDataObject {
         this.firstAdultTitle = firstAdultTitle;
         this.firstChildTitle = firstChildTitle;
         this.firstInfantTitle = firstInfantTitle;
+        this.statusOfBooking = statusOfBooking;
     }
 
 
@@ -411,7 +417,20 @@ public class MulticityDirectDataObject {
         this.firstInfantTitle = firstInfantTitle;
     }
 
+    public String getsId() {
+        return sId;
+    }
 
+    public void setsId(String sId) {
+        this.sId = sId;
+    }
+    public String getStatusOfBooking() {
+        return statusOfBooking;
+    }
+
+    public void setStatusOfBooking(String statusOfBooking) {
+        this.statusOfBooking = statusOfBooking;
+    }
 }
 
 

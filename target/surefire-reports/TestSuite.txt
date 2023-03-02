@@ -1,4 +1,41 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 166.588 s - in TestSuite
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 225.751 s <<< FAILURE! - in TestSuite
+org.selenium.pom.tests.OnewayDirectTestCase.onewayDirectCompleteSanityTest[org.selenium.pom.objects.OnewayDirectDataObject@10ccaebf](1)  Time elapsed: 82.379 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //ul//li//a[@class='stop-flights' and  text() = "0"] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-AJOTTULQ', ip: '192.168.0.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:52540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52540/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7111e412e928c3c6b8ad2f02df268dc4
+	at org.selenium.pom.tests.OnewayDirectTestCase.onewayDirectCompleteSanityTest(OnewayDirectTestCase.java:59)
+
+org.selenium.pom.tests.OnewayDirectTestCase.onewayDirectCompleteSanityTest[org.selenium.pom.objects.OnewayDirectDataObject@58a32671](2)  Time elapsed: 130.639 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "/manage-user". Current url: "https://qa.technogramsolutions.com/nav/" (tried for 40 second(s) with 500 milliseconds interval)
+	at org.selenium.pom.tests.OnewayDirectTestCase.onewayDirectCompleteSanityTest(OnewayDirectTestCase.java:46)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-AJOTTULQ', ip: '192.168.0.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1af6b75b5ab3f3890da6e3f0fc8b2104, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53054/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1af6b75b5ab3f3890da6e3f0fc8b2104
+	at org.selenium.pom.tests.OnewayDirectTestCase.onewayDirectCompleteSanityTest(OnewayDirectTestCase.java:46)
+
+org.selenium.pom.tests.OnewayDirectTestCase.quitDriver[CHROME, [TestResult name=onewayDirectCompleteSanityTest status=FAILURE method=OnewayDirectTestCase.onewayDirectCompleteSanityTest(org.selenium.pom.objects.OnewayDirectDataObject)[pri:0, instance:org.selenium.pom.tests.OnewayDirectTestCase@4a699efa] output={null}]](0)  Time elapsed: 130.654 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-AJOTTULQ', ip: '192.168.0.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1af6b75b5ab3f3890da6e3f0fc8b2104, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53054/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1af6b75b5ab3f3890da6e3f0fc8b2104
+

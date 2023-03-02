@@ -53,7 +53,7 @@ public class OnewayConnectingTestCase extends BaseTest {
                 selectPaxWithAdultsChildsInfant(onewayConnectingDataObject.getAdults(), onewayConnectingDataObject.getChilds(), onewayConnectingDataObject.getInfants());
         searchResultPage = flightPage.clickOnSearchBtn();
         Thread.sleep(onewayConnectingDataObject.getWaitTime());
-        searchResultPage = searchResultPage.searchBySourceId();
+        searchResultPage = searchResultPage.searchBySourceId(onewayConnectingDataObject.getsId());
         Thread.sleep(onewayConnectingDataObject.getWaitTime());
         Thread.sleep(onewayConnectingDataObject.getWaitTime());
         searchResultPage = new SearchResultPage(getDriver()).clickOnStopOne();
@@ -82,7 +82,7 @@ public class OnewayConnectingTestCase extends BaseTest {
         paymentPage = new TermsAndConditionsPage(getDriver()).clickOnProceedToPayBtn().clickOnPayNowBtn();
         bookingSummaryPage = new PaymentPage(getDriver()).clickOnConfirmPayNowBtn();
         Thread.sleep(onewayConnectingDataObject.getWaitTime());
-        Assert.assertEquals(bookingSummaryPage.getBookingStatusForSuccessBooking(),"Success");
+        Assert.assertEquals(bookingSummaryPage.getBookingStatusForSuccessBooking(),onewayConnectingDataObject.getStatusOfBooking());
     }
 }
 

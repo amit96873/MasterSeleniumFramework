@@ -14,6 +14,7 @@ public class RoundTripDirectDataObject {
     private String preferredAirlines;
     private String returnDate;
     private String returnMonthYear;
+    private String sId;
     private String firstAdultTitle;
     private String adult1FirstName;
     private String adult1LastName;
@@ -33,6 +34,7 @@ public class RoundTripDirectDataObject {
     private String reason;
     private String bookingStatus;
     private long waitTime;
+    private  String statusOfBooking;
 
 
 
@@ -45,6 +47,7 @@ public class RoundTripDirectDataObject {
                                          String destination,
                                          String date,
                                          String monthYear,
+                                         String sId,
                                          String adults,
                                          String childs,
                                          String infants,
@@ -69,11 +72,13 @@ public class RoundTripDirectDataObject {
                                          long waitTime,
                                          String firstAdultTitle,
                                          String firstChildTitle,
-                                         String firstInfantTitle){
+                                         String firstInfantTitle,
+                                         String statusOfBooking){
         this.source=source;
         this.destination=destination;
         this.date=date;
         this.monthYear=monthYear;
+        this.sId = sId;
         this.adults = adults;
         this.childs = childs;
         this.infants = infants;
@@ -99,6 +104,7 @@ public class RoundTripDirectDataObject {
         this.firstAdultTitle = firstAdultTitle;
         this.firstChildTitle = firstChildTitle;
         this.firstInfantTitle = firstInfantTitle;
+        this.bookingStatus = bookingStatus;
     }
 
 
@@ -344,6 +350,22 @@ public class RoundTripDirectDataObject {
     public void setFirstInfantTitle(String firstInfantTitle) {
         this.firstInfantTitle = firstInfantTitle;
     }
+
+    public String getsId() {
+        return sId;
+    }
+
+    public void setsId(String sId) {
+        this.sId = sId;
+    }
+    public String getStatusOfBooking() {
+        return statusOfBooking;
+    }
+
+    public void setStatusOfBooking(String statusOfBooking) {
+        this.statusOfBooking = statusOfBooking;
+    }
+
 
 
 }

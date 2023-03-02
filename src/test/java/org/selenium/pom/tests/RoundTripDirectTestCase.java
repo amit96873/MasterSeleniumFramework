@@ -56,7 +56,7 @@ public class RoundTripDirectTestCase extends BaseTest {
                 selectPaxWithAdultsChildsInfant(roundTripDirectDataObject.getAdults(), roundTripDirectDataObject.getChilds(), roundTripDirectDataObject.getInfants());
         searchResultPage = flightPage.clickOnSearchBtn();
         Thread.sleep(roundTripDirectDataObject.getWaitTime());
-        searchResultPage = searchResultPage.searchBySourceId();
+        searchResultPage = searchResultPage.searchBySourceId(roundTripDirectDataObject.getsId());
         Thread.sleep(roundTripDirectDataObject.getWaitTime());
         Thread.sleep(roundTripDirectDataObject.getWaitTime());
         searchResultPage = new SearchResultPage(getDriver()).clickOnStopZero();
@@ -85,7 +85,7 @@ public class RoundTripDirectTestCase extends BaseTest {
         paymentPage = new TermsAndConditionsPage(getDriver()).clickOnProceedToPayBtn().clickOnPayNowBtn();
         bookingSummaryPage = new PaymentPage(getDriver()).clickOnConfirmPayNowBtn();
         Thread.sleep(roundTripDirectDataObject.getWaitTime());
-        Assert.assertEquals(bookingSummaryPage.getBookingStatus(),"Success");
+        Assert.assertEquals(bookingSummaryPage.getBookingStatus(),roundTripDirectDataObject.getStatusOfBooking());
     }
 }
 

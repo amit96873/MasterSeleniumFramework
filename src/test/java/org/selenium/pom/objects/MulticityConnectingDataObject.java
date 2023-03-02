@@ -15,6 +15,10 @@ public class MulticityConnectingDataObject {
     private String multiCityDepartureMonthYearSecond;
     private String multiCityDepartureDateThird;
     private String multiCityDepartureMonthYearThird;
+
+
+
+    private String sId;
     private String adults;
     private String childs;
     private String infants;
@@ -40,6 +44,7 @@ public class MulticityConnectingDataObject {
     private String reason;
     private String bookingStatus;
     private long waitTime;
+    private  String statusOfBooking;
 
 
 
@@ -58,6 +63,7 @@ public class MulticityConnectingDataObject {
                                      String multiCityDepartureMonthYearSecond,
                                      String multiCityDepartureDateThird,
                                      String multiCityDepartureMonthYearThird,
+                                     String sId,
                                      String adults,
                                      String childs,
                                      String infants,
@@ -82,7 +88,8 @@ public class MulticityConnectingDataObject {
                                      long waitTime,
                                      String firstAdultTitle,
                                      String firstChildTitle,
-                                     String firstInfantTitle){
+                                     String firstInfantTitle,
+                                         String statusOfBooking){
         this.source=source;
         this.destination=destination;
         this.multiCitySecondSourceName=multiCitySecondSourceName;
@@ -93,6 +100,7 @@ public class MulticityConnectingDataObject {
         this.multiCityDepartureMonthYearSecond = multiCityDepartureMonthYearSecond;
         this.multiCityDepartureDateThird = multiCityDepartureDateThird;
         this.multiCityDepartureMonthYearThird = multiCityDepartureMonthYearThird;
+        this.sId=sId;
         this.adults = adults;
         this.childs = childs;
         this.infants = infants;
@@ -118,6 +126,7 @@ public class MulticityConnectingDataObject {
         this.firstAdultTitle = firstAdultTitle;
         this.firstChildTitle = firstChildTitle;
         this.firstInfantTitle = firstInfantTitle;
+        this.statusOfBooking = statusOfBooking;
     }
 
 
@@ -413,7 +422,20 @@ public class MulticityConnectingDataObject {
     public void setFirstInfantTitle(String firstInfantTitle) {
         this.firstInfantTitle = firstInfantTitle;
     }
+    public String getsId() {
+        return sId;
+    }
 
+    public void setsId(String sId) {
+        this.sId = sId;
+    }
+    public String getStatusOfBooking() {
+        return statusOfBooking;
+    }
+
+    public void setStatusOfBooking(String statusOfBooking) {
+        this.statusOfBooking = statusOfBooking;
+    }
 
 }
 

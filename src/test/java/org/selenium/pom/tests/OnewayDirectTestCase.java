@@ -53,7 +53,7 @@ public class OnewayDirectTestCase extends BaseTest {
                 selectPaxWithAdultsChildsInfant(onewayDirectDataObject.getAdults(), onewayDirectDataObject.getChilds(), onewayDirectDataObject.getInfants());
         searchResultPage = flightPage.clickOnSearchBtn();
         Thread.sleep(onewayDirectDataObject.getWaitTime());
-        searchResultPage = searchResultPage.searchBySourceId();
+        searchResultPage = searchResultPage.searchBySourceId(onewayDirectDataObject.getsId());
         Thread.sleep(onewayDirectDataObject.getWaitTime());
         Thread.sleep(onewayDirectDataObject.getWaitTime());
         searchResultPage = new SearchResultPage(getDriver()).clickOnStopZero();
@@ -82,7 +82,7 @@ public class OnewayDirectTestCase extends BaseTest {
         paymentPage = new TermsAndConditionsPage(getDriver()).clickOnProceedToPayBtn().clickOnPayNowBtn();
         bookingSummaryPage = new PaymentPage(getDriver()).clickOnConfirmPayNowBtn();
         Thread.sleep(onewayDirectDataObject.getWaitTime());
-        Assert.assertEquals(bookingSummaryPage.getBookingStatusForSuccessBooking(),"Success");
+        Assert.assertEquals(bookingSummaryPage.getBookingStatusForSuccessBooking(),onewayDirectDataObject.getStatusOfBooking());
     }
 }
 
